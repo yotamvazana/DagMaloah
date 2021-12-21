@@ -1004,3 +1004,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.21-19.22.38:878][498]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
 [2021.12.21-19.22.38:878][498]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
 [2021.12.21-19.22.38:878][498]LoadErrors: Warning: ThirdPersonExampleMap_C /Temp/Diff/temp-8b94aeb15a4636489755b26a4e6880545707401e-ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap_C_0: class /Temp/Diff/temp-8b94aeb15a4636489755b26a4e6880545707401e-ThirdPersonExampleMap.ThirdPersonExampleMap_C has been deprecated.
+[2021.12.21-19.23.20:502][869]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.12.21-19.23.20:516][869]LogSavePackage: Moving '../../../../../../Unreal Projects/DagMaloah/DagMaloah/Saved/ThirdPersonExampleMap4756E4DE42CB9528919A14AED7BBE5EB.tmp' to '../../../../../../Unreal Projects/DagMaloah/DagMaloah/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2021.12.21-19.23.20:624][869]LogSavePackage: Moving '../../../../../../Unreal Projects/DagMaloah/DagMaloah/Saved/ThirdPersonExampleMap_BuiltDataCB0ABE8F4496FA28E8870588A5D9AA98.tmp' to '../../../../../../Unreal Projects/DagMaloah/DagMaloah/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.12.21-19.23.20:632][869]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.21-19.23.20:632][869]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.12.21-19.23.20:632][869]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
