@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Unreal Projects\\DagMaloah\\DagMaloah\\Source\\DagMaloah\\DagMaloah.Build.cs",
+		"C:\\Unreal Projects\\DagMaloah\\DagMaloah\\Source\\DagMaloah.Target.cs",
+		"C:\\Unreal Projects\\DagMaloah\\DagMaloah\\Source\\DagMaloahEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
