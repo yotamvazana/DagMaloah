@@ -895,3 +895,11 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.21-19.16.12:178][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
 [2021.12.21-19.16.12:180][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2021.12.21-19.17.26:167][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2021.12.21-19.19.05:307][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2021.12.21-19.19.26:712][805]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.21-19.19.26:739][805]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2021.12.21-19.19.26:758][805]LogSavePackage: Moving '../../../../../../Unreal Projects/DagMaloah/DagMaloah/Saved/ThirdPersonExampleMapC882D8D34C15AF3351E3F68389420DCF.tmp' to '../../../../../../Unreal Projects/DagMaloah/DagMaloah/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2021.12.21-19.19.26:862][805]LogSavePackage: Moving '../../../../../../Unreal Projects/DagMaloah/DagMaloah/Saved/ThirdPersonExampleMap_BuiltData982D76CA4435504F3D8882B9F0DE8805.tmp' to '../../../../../../Unreal Projects/DagMaloah/DagMaloah/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.12.21-19.19.26:875][805]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.21-19.19.26:875][805]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.12.21-19.19.26:875][805]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
