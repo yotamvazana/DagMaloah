@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "DagMaloah",
-			"Path": "C:\\Unreal Projects\\DagMaloah\\DagMaloah\\Source\\DagMaloah.Target.cs",
+			"Path": "D:\\Git Projects\\DagMaloah\\DagMaloah\\Source\\DagMaloah.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "DagMaloahEditor",
-			"Path": "C:\\Unreal Projects\\DagMaloah\\DagMaloah\\Source\\DagMaloahEditor.Target.cs",
+			"Path": "D:\\Git Projects\\DagMaloah\\DagMaloah\\Source\\DagMaloahEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
