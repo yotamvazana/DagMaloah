@@ -3,45 +3,56 @@
 
 #include "AIMovementHandler.h"
 
-FHitResult UAIMovementHandler::ShootRaycast(AController* raycastShooter, float distance) {
+FHitResult UAIMovementHandler::ShootRaycast(AController* raycastShooter) {
 
 	if (raycastShooter)
 	{
 		FVector rayLocation;
 		FRotator rayRotation;
 		raycastShooter->GetPlayerViewPoint(rayLocation, rayRotation);
-		return ShootRay(raycastShooter, rayLocation, rayRotation,distance);
+		return ShootRay(raycastShooter, rayLocation, rayRotation, _rayDistance);
 		}
 	UE_LOG(LogTemp, Warning, TEXT("UAIMovementHandler::ShootRaycast - AController is null!"))
 	return FHitResult();
 }
-FRotator UAIMovementHandler::GetEmptyDirection(AController* AI, float rayDistance) {
+FRotator UAIMovementHandler::GetEmptyDirection(AController* AI) {
 
 		FRotator rayRotation;
 		FVector rayLocation;
 		AI->GetPlayerViewPoint(rayLocation, rayRotation);
-	FRotator angleToRotateTo =	CheckSurrounding(AI, rayLocation, rayRotation, rayDistance, 0);
+		float startingValue = 0;
+	FRotator angleToRotateTo =	CheckSurrounding(AI, rayLocation, rayRotation, startingValue);
 	return angleToRotateTo;
 
 }
-FRotator UAIMovementHandler::CheckSurrounding(AController* raycastShooter, FVector startPos, FRotator startingRotaiton, float distance, float Angle)
+FRotator UAIMovementHandler::CheckSurrounding(AController* raycastShooter, FVector startPos, FRotator startingRotaiton,float &Angle)
 {
-	FRotator newRotaion = startingRotaiton;
+		
+	FRotator newRotaion =  FRotator(startingRotaiton);
 	newRotaion.Yaw += Angle;
-	FHitResult result = ShootRay(raycastShooter, startPos, newRotaion, distance);
+	FHitResult result = ShootRay(raycastShooter, startPos, newRotaion, _rayDistance);
 		if (result.bBlockingHit)
 		{
-			if (FMath::Abs(Angle) >= 360.0f)
+			//full circle
+			if (FMath::Abs(Angle) >= 360.0f) {
 				return startingRotaiton;
+			}
 
-			if (Angle <= 0)
+			
+			if (Angle <= 0.f)
 			{
-				Angle = FMath::Abs(Angle) + 10.0f;
+				// check left
+				Angle = FMath::Abs(Angle);
+				Angle += _angle;
 			}
 			else
-				Angle *= -1;
-
-			return CheckSurrounding(raycastShooter, startPos, newRotaion, distance, Angle);
+			{
+				// check right
+				Angle *= -1.f;
+				Angle -= _angle;
+			}
+		//	UE_LOG(LogTemp, Warning, TEXT("Hit! Next Angle Is %d"), Angle)
+			return CheckSurrounding(raycastShooter, startPos, newRotaion, Angle);
 		}
 
 

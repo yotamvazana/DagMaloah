@@ -17,12 +17,16 @@ class UStaticMesh;
 #define DagMaloah_Source_DagMaloah_AIDataAsset_h_15_SPARSE_DATA
 #define DagMaloah_Source_DagMaloah_AIDataAsset_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetRandomDistanceAngleCheck); \
+	DECLARE_FUNCTION(execGetRandomRayAngleCheck); \
 	DECLARE_FUNCTION(execGetRandomMovementSpeed); \
 	DECLARE_FUNCTION(execGetMesh);
 
 
 #define DagMaloah_Source_DagMaloah_AIDataAsset_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetRandomDistanceAngleCheck); \
+	DECLARE_FUNCTION(execGetRandomRayAngleCheck); \
 	DECLARE_FUNCTION(execGetRandomMovementSpeed); \
 	DECLARE_FUNCTION(execGetMesh);
 
@@ -74,8 +78,10 @@ public: \
 #define DagMaloah_Source_DagMaloah_AIDataAsset_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO___minMovementSpeed() { return STRUCT_OFFSET(UAIDataAsset, _minMovementSpeed); } \
 	FORCEINLINE static uint32 __PPO___maxMovementSpeed() { return STRUCT_OFFSET(UAIDataAsset, _maxMovementSpeed); } \
-	FORCEINLINE static uint32 __PPO___baseTurnRate() { return STRUCT_OFFSET(UAIDataAsset, _baseTurnRate); } \
-	FORCEINLINE static uint32 __PPO___baseLookUpAtRate() { return STRUCT_OFFSET(UAIDataAsset, _baseLookUpAtRate); } \
+	FORCEINLINE static uint32 __PPO___minTurningAngleRange() { return STRUCT_OFFSET(UAIDataAsset, _minTurningAngleRange); } \
+	FORCEINLINE static uint32 __PPO___maxTurningAngleRange() { return STRUCT_OFFSET(UAIDataAsset, _maxTurningAngleRange); } \
+	FORCEINLINE static uint32 __PPO___minRayDistanceRange() { return STRUCT_OFFSET(UAIDataAsset, _minRayDistanceRange); } \
+	FORCEINLINE static uint32 __PPO___maxRayDistanceRange() { return STRUCT_OFFSET(UAIDataAsset, _maxRayDistanceRange); } \
 	FORCEINLINE static uint32 __PPO___mesh() { return STRUCT_OFFSET(UAIDataAsset, _mesh); }
 
 

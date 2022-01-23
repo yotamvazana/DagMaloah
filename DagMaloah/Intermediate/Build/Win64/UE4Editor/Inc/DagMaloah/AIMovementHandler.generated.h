@@ -20,13 +20,17 @@ struct FHitResult;
 #define DagMaloah_Source_DagMaloah_AIMovementHandler_h_17_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetEmptyDirection); \
-	DECLARE_FUNCTION(execShootRaycast);
+	DECLARE_FUNCTION(execShootRaycast); \
+	DECLARE_FUNCTION(execSetRayDistance); \
+	DECLARE_FUNCTION(execSetAngle);
 
 
 #define DagMaloah_Source_DagMaloah_AIMovementHandler_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetEmptyDirection); \
-	DECLARE_FUNCTION(execShootRaycast);
+	DECLARE_FUNCTION(execShootRaycast); \
+	DECLARE_FUNCTION(execSetRayDistance); \
+	DECLARE_FUNCTION(execSetAngle);
 
 
 #define DagMaloah_Source_DagMaloah_AIMovementHandler_h_17_INCLASS_NO_PURE_DECLS \

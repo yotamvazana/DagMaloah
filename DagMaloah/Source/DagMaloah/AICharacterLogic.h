@@ -39,8 +39,7 @@ public:
 
 
 	FRotator GetYawRotation();
-	void TurnAtRate(float value);
-	void LookUpAtRate(float value);
+
 
 	UFUNCTION(BlueprintCallable)
 	void MoveRight(float value);

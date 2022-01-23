@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeDagMaloah_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x72D564E0,
+				0xC16C0A7E,
 				0x8D01E5A7,
 				METADATA_PARAMS(nullptr, 0)
 			};

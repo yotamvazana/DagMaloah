@@ -67,10 +67,10 @@ FRotator AAICharacterLogic::GetYawRotation()
 
 void AAICharacterLogic::TurnAtRate(float value)
 {
-	AddControllerYawInput(value * _data->GetBaseTurnRate() * GetWorld()-> GetDeltaSeconds());
+	//AddControllerYawInput(value * _data->GetBaseTurnRate() * GetWorld()-> GetDeltaSeconds());
 }
 
 void AAICharacterLogic::LookUpAtRate(float value)
 {
-	AddControllerPitchInput(value * _data->GetBaseLookUpAtRate() * GetWorld()-> GetDeltaSeconds());
+//	AddControllerPitchInput(value * _data->GetBaseLookUpAtRate() * GetWorld()-> GetDeltaSeconds());
 }

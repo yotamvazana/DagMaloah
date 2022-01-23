@@ -19,6 +19,20 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 	UPackage* Z_Construct_UPackage__Script_DagMaloah();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMesh_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(UAIDataAsset::execGetRandomDistanceAngleCheck)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(float*)Z_Param__Result=P_THIS->GetRandomDistanceAngleCheck();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(UAIDataAsset::execGetRandomRayAngleCheck)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(float*)Z_Param__Result=P_THIS->GetRandomRayAngleCheck();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UAIDataAsset::execGetRandomMovementSpeed)
 	{
 		P_FINISH;
@@ -38,7 +52,9 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 		UClass* Class = UAIDataAsset::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "GetMesh", &UAIDataAsset::execGetMesh },
+			{ "GetRandomDistanceAngleCheck", &UAIDataAsset::execGetRandomDistanceAngleCheck },
 			{ "GetRandomMovementSpeed", &UAIDataAsset::execGetRandomMovementSpeed },
+			{ "GetRandomRayAngleCheck", &UAIDataAsset::execGetRandomRayAngleCheck },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -75,6 +91,38 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UAIDataAsset_GetRandomDistanceAngleCheck_Statics
+	{
+		struct AIDataAsset_eventGetRandomDistanceAngleCheck_Parms
+		{
+			float ReturnValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UAIDataAsset_GetRandomDistanceAngleCheck_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIDataAsset_eventGetRandomDistanceAngleCheck_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UAIDataAsset_GetRandomDistanceAngleCheck_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UAIDataAsset_GetRandomDistanceAngleCheck_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAIDataAsset_GetRandomDistanceAngleCheck_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "AIDataAsset.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAIDataAsset_GetRandomDistanceAngleCheck_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAIDataAsset, nullptr, "GetRandomDistanceAngleCheck", nullptr, nullptr, sizeof(AIDataAsset_eventGetRandomDistanceAngleCheck_Parms), Z_Construct_UFunction_UAIDataAsset_GetRandomDistanceAngleCheck_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UAIDataAsset_GetRandomDistanceAngleCheck_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAIDataAsset_GetRandomDistanceAngleCheck_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UAIDataAsset_GetRandomDistanceAngleCheck_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UAIDataAsset_GetRandomDistanceAngleCheck()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UAIDataAsset_GetRandomDistanceAngleCheck_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_UAIDataAsset_GetRandomMovementSpeed_Statics
 	{
 		struct AIDataAsset_eventGetRandomMovementSpeed_Parms
@@ -107,6 +155,38 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UAIDataAsset_GetRandomRayAngleCheck_Statics
+	{
+		struct AIDataAsset_eventGetRandomRayAngleCheck_Parms
+		{
+			float ReturnValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UAIDataAsset_GetRandomRayAngleCheck_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIDataAsset_eventGetRandomRayAngleCheck_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UAIDataAsset_GetRandomRayAngleCheck_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UAIDataAsset_GetRandomRayAngleCheck_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAIDataAsset_GetRandomRayAngleCheck_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "AIDataAsset.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAIDataAsset_GetRandomRayAngleCheck_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAIDataAsset, nullptr, "GetRandomRayAngleCheck", nullptr, nullptr, sizeof(AIDataAsset_eventGetRandomRayAngleCheck_Parms), Z_Construct_UFunction_UAIDataAsset_GetRandomRayAngleCheck_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UAIDataAsset_GetRandomRayAngleCheck_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAIDataAsset_GetRandomRayAngleCheck_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UAIDataAsset_GetRandomRayAngleCheck_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UAIDataAsset_GetRandomRayAngleCheck()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UAIDataAsset_GetRandomRayAngleCheck_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_UAIDataAsset_NoRegister()
 	{
 		return UAIDataAsset::StaticClass();
@@ -127,13 +207,21 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__maxMovementSpeed;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__baseTurnRate_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__minTurningAngleRange_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__baseTurnRate;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__minTurningAngleRange;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__baseLookUpAtRate_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__maxTurningAngleRange_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__baseLookUpAtRate;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__maxTurningAngleRange;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__minRayDistanceRange_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__minRayDistanceRange;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__maxRayDistanceRange_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__maxRayDistanceRange;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__mesh_MetaData[];
 #endif
@@ -148,7 +236,9 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UAIDataAsset_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UAIDataAsset_GetMesh, "GetMesh" }, // 1828418123
+		{ &Z_Construct_UFunction_UAIDataAsset_GetRandomDistanceAngleCheck, "GetRandomDistanceAngleCheck" }, // 3396690025
 		{ &Z_Construct_UFunction_UAIDataAsset_GetRandomMovementSpeed, "GetRandomMovementSpeed" }, // 444665502
+		{ &Z_Construct_UFunction_UAIDataAsset_GetRandomRayAngleCheck, "GetRandomRayAngleCheck" }, // 902034722
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAIDataAsset_Statics::Class_MetaDataParams[] = {
@@ -173,19 +263,33 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAIDataAsset_Statics::NewProp__maxMovementSpeed = { "_maxMovementSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAIDataAsset, _maxMovementSpeed), METADATA_PARAMS(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__maxMovementSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__maxMovementSpeed_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAIDataAsset_Statics::NewProp__baseTurnRate_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minTurningAngleRange_MetaData[] = {
 		{ "Category", "AIDataAsset" },
 		{ "ModuleRelativePath", "AIDataAsset.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAIDataAsset_Statics::NewProp__baseTurnRate = { "_baseTurnRate", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAIDataAsset, _baseTurnRate), METADATA_PARAMS(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__baseTurnRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__baseTurnRate_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minTurningAngleRange = { "_minTurningAngleRange", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAIDataAsset, _minTurningAngleRange), METADATA_PARAMS(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minTurningAngleRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minTurningAngleRange_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAIDataAsset_Statics::NewProp__baseLookUpAtRate_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAIDataAsset_Statics::NewProp__maxTurningAngleRange_MetaData[] = {
 		{ "Category", "AIDataAsset" },
 		{ "ModuleRelativePath", "AIDataAsset.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAIDataAsset_Statics::NewProp__baseLookUpAtRate = { "_baseLookUpAtRate", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAIDataAsset, _baseLookUpAtRate), METADATA_PARAMS(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__baseLookUpAtRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__baseLookUpAtRate_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAIDataAsset_Statics::NewProp__maxTurningAngleRange = { "_maxTurningAngleRange", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAIDataAsset, _maxTurningAngleRange), METADATA_PARAMS(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__maxTurningAngleRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__maxTurningAngleRange_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minRayDistanceRange_MetaData[] = {
+		{ "Category", "AIDataAsset" },
+		{ "ModuleRelativePath", "AIDataAsset.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minRayDistanceRange = { "_minRayDistanceRange", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAIDataAsset, _minRayDistanceRange), METADATA_PARAMS(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minRayDistanceRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minRayDistanceRange_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAIDataAsset_Statics::NewProp__maxRayDistanceRange_MetaData[] = {
+		{ "Category", "AIDataAsset" },
+		{ "ModuleRelativePath", "AIDataAsset.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UAIDataAsset_Statics::NewProp__maxRayDistanceRange = { "_maxRayDistanceRange", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAIDataAsset, _maxRayDistanceRange), METADATA_PARAMS(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__maxRayDistanceRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__maxRayDistanceRange_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAIDataAsset_Statics::NewProp__mesh_MetaData[] = {
 		{ "Category", "AIDataAsset" },
@@ -196,8 +300,10 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UAIDataAsset_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minMovementSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAIDataAsset_Statics::NewProp__maxMovementSpeed,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAIDataAsset_Statics::NewProp__baseTurnRate,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAIDataAsset_Statics::NewProp__baseLookUpAtRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minTurningAngleRange,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAIDataAsset_Statics::NewProp__maxTurningAngleRange,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minRayDistanceRange,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAIDataAsset_Statics::NewProp__maxRayDistanceRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAIDataAsset_Statics::NewProp__mesh,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UAIDataAsset_Statics::StaticCppClassTypeInfo = {
@@ -227,7 +333,7 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UAIDataAsset, 1992811391);
+	IMPLEMENT_CLASS(UAIDataAsset, 2065231817);
 	template<> DAGMALOAH_API UClass* StaticClass<UAIDataAsset>()
 	{
 		return UAIDataAsset::StaticClass();

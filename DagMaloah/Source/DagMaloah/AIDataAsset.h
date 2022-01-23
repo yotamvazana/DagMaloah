@@ -14,12 +14,17 @@ class DAGMALOAH_API UAIDataAsset : public UDataAsset
 {
 	GENERATED_BODY()
 public:
-	float GetBaseTurnRate() { return _baseTurnRate; }
-	float GetBaseLookUpAtRate() { return _baseLookUpAtRate; }
+
 	UFUNCTION(BlueprintType)
 	UStaticMesh* GetMesh() { return _mesh; }
 	UFUNCTION(BlueprintCallable)
 	float GetRandomMovementSpeed() { return FMath::RandRange(_minMovementSpeed, _maxMovementSpeed); }
+
+	UFUNCTION(BlueprintCallable)
+		float GetRandomRayAngleCheck() { return FMath::RandRange(_minTurningAngleRange, _maxTurningAngleRange); }
+
+	UFUNCTION(BlueprintCallable)
+		float GetRandomDistanceAngleCheck() { return FMath::RandRange(_minRayDistanceRange, _maxRayDistanceRange); }
 private:
 	UPROPERTY(EditAnywhere)
 		float _minMovementSpeed;
@@ -27,9 +32,15 @@ private:
 		float _maxMovementSpeed;
 
 	UPROPERTY(EditAnywhere)
-		float _baseTurnRate;
+		float _minTurningAngleRange;
 	UPROPERTY(EditAnywhere)
-		float _baseLookUpAtRate;
+		float _maxTurningAngleRange;
+	UPROPERTY(EditAnywhere)
+		float _minRayDistanceRange;
+	UPROPERTY(EditAnywhere)
+		float _maxRayDistanceRange;
+
+
 
 	UPROPERTY(EditAnywhere)
 		UStaticMesh* _mesh;
