@@ -1,0 +1,21 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-DagMaloah-0037.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Program Files (x86)\Unity\Unity Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\DagMaloahEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"E:\Program Files (x86)\Unity\Unity Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\AIMovementHandler.cpp.obj"
+"E:\Program Files (x86)\Unity\Unity Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DagMaloah.cpp.obj"
+"E:\Program Files (x86)\Unity\Unity Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DagMaloahCharacter.cpp.obj"
+"E:\Program Files (x86)\Unity\Unity Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DagMaloahGameMode.cpp.obj"
+"E:\Program Files (x86)\Unity\Unity Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DollClass.cpp.obj"
+"E:\Program Files (x86)\Unity\Unity Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\AIMovementHandler.gen.cpp.obj"
+"E:\Program Files (x86)\Unity\Unity Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DagMaloah.init.gen.cpp.obj"
+"E:\Program Files (x86)\Unity\Unity Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DagMaloahCharacter.gen.cpp.obj"
+"E:\Program Files (x86)\Unity\Unity Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DagMaloahGameMode.gen.cpp.obj"
+"E:\Program Files (x86)\Unity\Unity Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DollClass.gen.cpp.obj"
+"E:\Program Files (x86)\Unity\Unity Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\Default.rc2.res"
+/OUT:"E:\Program Files (x86)\Unity\Unity Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\UE4Editor-DagMaloah-0037.lib"

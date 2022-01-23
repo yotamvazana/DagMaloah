@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeDagMaloah_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x9276A9EA,
-				0x5C5827FE,
+				0x72D564E0,
+				0x8D01E5A7,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
