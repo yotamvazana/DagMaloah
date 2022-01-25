@@ -28,18 +28,14 @@ void UMoveState::OnStateEnter()
 
 void UMoveState::OnState()
 {
-	// red light 
-	if (false)
-	{
-		GetCharacterLogic()->MoveToState(StateTypeEnum::Standing_State);
-		return;
-	}
-	
 
 	FHitResult result = _raycastShooted->ShootRaycast(GetController());
+
 	if (result.bBlockingHit)
 	{
 		// change direction..
+		FRotator emptyDirection = _raycastShooted->GetEmptyDirection(GetController());
+		RotateTowards(emptyDirection);
 	}
 	else
 	{

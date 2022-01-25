@@ -11,7 +11,7 @@
 #include "AICharacterLogic.generated.h"
 class UMoveState;
 class UBaseState;
-
+class UStandingState;
 
 	UENUM(BlueprintType, Category = "My Enum")
 		enum StateTypeEnum {

@@ -1,5 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+#include "StandingState.h"
 #include "MoveState.h"
 #include "AICharacterLogic.h"
 // Sets default values
@@ -21,6 +22,10 @@ void AAICharacterLogic::BeginPlay()
 }
 void AAICharacterLogic::InitMap()
 {
+	UStandingState* standingState = NewObject< UStandingState>();
+	standingState->SetCharacterLogic(this);
+	standingState->SetState(StateTypeEnum::Standing_State);
+	_stateMap.Add(StateTypeEnum::Standing_State, standingState);
 
 	UMoveState* moveState = NewObject < UMoveState>();
 	moveState->SetCharacterLogic(this);
@@ -29,12 +34,14 @@ void AAICharacterLogic::InitMap()
 }
 void AAICharacterLogic::DeleteMap() {
 	delete _stateMap.Find(StateTypeEnum::Move_Forward_State);
+	delete _stateMap.Find(StateTypeEnum::Standing_State);
 }
 // Called every frame
 void AAICharacterLogic::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	if (_currentState != nullptr)
+		_currentState->OnState();
 }
 
 // Called to bind functionality to input
