@@ -3,28 +3,35 @@
 
 #pragma once
 #include "CoreMinimal.h"
-#include "AICharacterLogic.h"
 #include "UObject/NoExportTypes.h"
 #include "BaseState.generated.h"
 /**
  * 
  */
+class AAICharacterLogic;
+enum StateTypeEnum;
+class UAIDataAsset;
+	UCLASS()
+		class DAGMALOAH_API UBaseState : public UObject
+	{
+		GENERATED_BODY()
+	private:
+		StateTypeEnum _myState;
+		AAICharacterLogic* _characterLogic;
+		AController* _controller;
+		UAIDataAsset* _AIDataAsset;
+	protected:
+		AAICharacterLogic* GetCharacterLogic() { return _characterLogic; }
+		AController* GetController() { return _controller; }
+		UAIDataAsset* GetDataAsset() { return _AIDataAsset; }
 
-
-UCLASS()
-class DAGMALOAH_API UBaseState : public UObject
-{
-	GENERATED_BODY()
-protected:
-	StateTypeEnum _myState;
-	AAICharacterLogic* _characterLogic;
-	AController* _controller;
-	UAIDataAsset* _AIDataAsset;
-public:
-	StateTypeEnum GetState() { return _myState; }
-	 void SetCharacterLogic(AAICharacterLogic* logic);
+	public:
+		void SetState(StateTypeEnum state) { _myState = state; }
+		StateTypeEnum GetState() { return _myState; }
+		void SetCharacterLogic(AAICharacterLogic* logic);
 		virtual	void OnState() {}
 		virtual void OnStateEnter() { }
 		virtual void OnStateExit() { }
-};
+	};
+
 

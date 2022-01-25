@@ -4,19 +4,21 @@
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "BaseState.h"
-#include "RaycastHandler.h"
 #include "MoveState.generated.h"
 
 /**
  * 
  */
-UCLASS()
-class DAGMALOAH_API UMoveState : public UBaseState
-{
-	GENERATED_BODY()
-		protected:
-			float speed;
-			URaycastHandler* _raycastShooted;
+enum StateTypeEnum;
+class URaycastHandler;
+
+	UCLASS()
+		class DAGMALOAH_API UMoveState : public UBaseState
+	{
+		GENERATED_BODY()
+	protected:
+		float speed;
+		URaycastHandler* _raycastShooted;
 		void MoveForward();
 		FRotator GetYawRotation();
 		void RotateTowards(FRotator rotation);
@@ -24,4 +26,5 @@ class DAGMALOAH_API UMoveState : public UBaseState
 		void OnStateEnter()override;
 		void OnState()override;
 
-};
+	};
+

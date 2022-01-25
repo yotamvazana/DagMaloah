@@ -1,8 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
+#include "MoveState.h"
 #include "AICharacterLogic.h"
-
 // Sets default values
 AAICharacterLogic::AAICharacterLogic()
 {
@@ -14,10 +13,23 @@ AAICharacterLogic::AAICharacterLogic()
 // Called when the game starts or when spawned
 void AAICharacterLogic::BeginPlay()
 {
+	InitMap();
 	Super::BeginPlay();
-	
-}
 
+
+
+}
+void AAICharacterLogic::InitMap()
+{
+
+	UMoveState* moveState = NewObject < UMoveState>();
+	moveState->SetCharacterLogic(this);
+	moveState->SetState(StateTypeEnum::Move_Forward_State);
+	_stateMap.Add(StateTypeEnum::Move_Forward_State, moveState);
+}
+void AAICharacterLogic::DeleteMap() {
+	delete _stateMap.Find(StateTypeEnum::Move_Forward_State);
+}
 // Called every frame
 void AAICharacterLogic::Tick(float DeltaTime)
 {
@@ -32,45 +44,16 @@ void AAICharacterLogic::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 
 }
 
-void AAICharacterLogic::MoveRight(float value)
-{
-	if (value != 0.0f && Controller)
-	{
-		const FVector direction = FRotationMatrix(GetYawRotation()).GetUnitAxis(EAxis::Y);
-		AddMovementInput(direction, value);
-	}
-}
-
-void AAICharacterLogic::MoveForward(float value)
-{
-	if (value !=0.0f && Controller)
-	{
-		const FVector direction = FRotationMatrix(GetYawRotation()).GetUnitAxis(EAxis::X);
-		AddMovementInput(direction, value*GetWorld()->DeltaTimeSeconds);
-		//UE_LOG(LogTemp, Warning, TEXT("Actor Was Moved!"))
-		
-	}
-}
-
-void AAICharacterLogic::RotateTowards(FRotator rotation)
-{
-	SetActorRotation(rotation);
-}
-
-FRotator AAICharacterLogic::GetYawRotation()
-{
-	// Recieving The Rotation On The Y Axis
-	const FRotator rotation = Controller->GetControlRotation();
-	const FRotator yawRotation(0, rotation.Yaw, 0);
-	return yawRotation;
-}
 AController* AAICharacterLogic::GetController() { return Controller; }
-//void AAICharacterLogic::TurnAtRate(float value)
-//{
-//	//AddControllerYawInput(value * _data->GetBaseTurnRate() * GetWorld()-> GetDeltaSeconds());
-//}
-//
-//void AAICharacterLogic::LookUpAtRate(float value)
-//{
-////	AddControllerPitchInput(value * _data->GetBaseLookUpAtRate() * GetWorld()-> GetDeltaSeconds());
-//}
+
+void AAICharacterLogic::MoveToState(TEnumAsByte<StateTypeEnum> state)
+{
+	
+	if (_currentState!= nullptr)
+			_currentState->OnStateExit();
+	
+	_currentState = *_stateMap.Find(state);
+
+	if (_currentState != nullptr)
+		_currentState->OnStateEnter();
+}

@@ -2,7 +2,7 @@
 
 
 #include "BaseState.h"
-
+#include "AICharacterLogic.h"
 void UBaseState::SetCharacterLogic(AAICharacterLogic* logic)
 {
 	_characterLogic = logic;

@@ -2,27 +2,28 @@
 
 
 #include "MoveState.h"
+#include "AICharacterLogic.h"
 
 
 void UMoveState::MoveForward()
 {
-	if (_controller)
+	if (GetController())
 	{
 		const FVector direction = FRotationMatrix(GetYawRotation()).GetUnitAxis(EAxis::X);
-		_characterLogic->AddMovementInput(direction, speed  * GetWorld()->DeltaTimeSeconds);
+		GetCharacterLogic()->AddMovementInput(direction, speed  * GetWorld()->DeltaTimeSeconds);
 		//UE_LOG(LogTemp, Warning, TEXT("Actor Was Moved!"))
 
 	}
 }
 void UMoveState::RotateTowards(FRotator rotation)
 {
-	_characterLogic->SetActorRotation(rotation);
+	GetCharacterLogic()->SetActorRotation(rotation);
 }
 
 void UMoveState::OnStateEnter()
 {
-	speed = _AIDataAsset->GetRandomMovementSpeed();
-	_raycastShooted = _characterLogic->GetRayCastHandler();
+	speed = GetDataAsset()->GetRandomMovementSpeed();
+	_raycastShooted = GetCharacterLogic()->GetRayCastHandler();
 }
 
 void UMoveState::OnState()
@@ -30,12 +31,12 @@ void UMoveState::OnState()
 	// red light 
 	if (false)
 	{
-		_characterLogic->MoveToState(StateTypeEnum::Standing_State);
+		GetCharacterLogic()->MoveToState(StateTypeEnum::Standing_State);
 		return;
 	}
 	
 
-	FHitResult result = _raycastShooted->ShootRaycast(_controller);
+	FHitResult result = _raycastShooted->ShootRaycast(GetController());
 	if (result.bBlockingHit)
 	{
 		// change direction..
@@ -51,7 +52,7 @@ void UMoveState::OnState()
 FRotator UMoveState::GetYawRotation()
 {
 	// Recieving The Rotation On The Y Axis
-	const FRotator rotation = _controller->GetControlRotation();
+	const FRotator rotation = GetController()->GetControlRotation();
 	const FRotator yawRotation(0, rotation.Yaw, 0);
 	return yawRotation;
 }

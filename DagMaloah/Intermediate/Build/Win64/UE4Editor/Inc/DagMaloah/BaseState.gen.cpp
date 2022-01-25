@@ -40,7 +40,6 @@ void EmptyLinkFunctionForGeneratedCodeBaseState() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBaseState_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "BaseState.h" },
 		{ "ModuleRelativePath", "BaseState.h" },
 	};
@@ -72,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBaseState, 882091692);
+	IMPLEMENT_CLASS(UBaseState, 814983128);
 	template<> DAGMALOAH_API UClass* StaticClass<UBaseState>()
 	{
 		return UBaseState::StaticClass();

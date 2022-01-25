@@ -40,7 +40,6 @@ void EmptyLinkFunctionForGeneratedCodeMoveState() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UMoveState_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "MoveState.h" },
 		{ "ModuleRelativePath", "MoveState.h" },
 	};
@@ -72,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeMoveState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMoveState, 3950362649);
+	IMPLEMENT_CLASS(UMoveState, 278216549);
 	template<> DAGMALOAH_API UClass* StaticClass<UMoveState>()
 	{
 		return UMoveState::StaticClass();
