@@ -19,4 +19,6 @@ E:\Program Files (x86)\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\I
 E:\Program Files (x86)\Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 E:\Program Files (x86)\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 E:\Program Files (x86)\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+E:\Program Files (x86)\Unity\Unity Projects\DagMaloah\DagMaloah\Source\DagMaloah\RaycastHandler.h
+E:\Program Files (x86)\Unity\Unity Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Inc\DagMaloah\RaycastHandler.generated.h
 E:\Program Files (x86)\Unity\Unity Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Inc\DagMaloah\AICharacterLogic.generated.h

@@ -6,7 +6,15 @@
 #include "AIDataAsset.h"
 #include "AIMovementHandler.h"
 #include "GameFramework/Character.h"
+#include "RaycastHandler.h"
 #include "AICharacterLogic.generated.h"
+
+UENUM(BlueprintType, Category = "My Enum")
+enum StateTypeEnum {
+	Standing_State  UMETA(DisplayName = "State Type: Standing"),
+	Move_Forward_State UMETA(DisplayName = "State Type: Moving Forward"),
+
+};
 
 UCLASS()
 class DAGMALOAH_API AAICharacterLogic : public ACharacter
@@ -25,7 +33,7 @@ protected:
 	UPROPERTY(EditAnywhere)
 		UAIDataAsset* _data;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		float _movementSpeed;
+		URaycastHandler* _rayCastHandler;
 	
 
 public:	
@@ -39,6 +47,9 @@ public:
 
 
 	FRotator GetYawRotation();
+	AController* GetController();
+	UAIDataAsset* GetAIDataAsset() { return _data; }
+	URaycastHandler* GetRayCastHandler() { return _rayCastHandler; }
 
 
 	UFUNCTION(BlueprintCallable)
@@ -49,5 +60,6 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void RotateTowards(FRotator rotation);
 	UFUNCTION(BlueprintCallable)
-	void SetMovementSpeed(float speed) { _movementSpeed = speed; }
+		void MoveToState(TEnumAsByte<StateTypeEnum> state) { }
 };
+

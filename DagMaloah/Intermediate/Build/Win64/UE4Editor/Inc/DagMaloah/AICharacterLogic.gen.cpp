@@ -13,20 +13,79 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeAICharacterLogic() {}
 // Cross Module References
+	DAGMALOAH_API UEnum* Z_Construct_UEnum_DagMaloah_StateTypeEnum();
+	UPackage* Z_Construct_UPackage__Script_DagMaloah();
 	DAGMALOAH_API UClass* Z_Construct_UClass_AAICharacterLogic_NoRegister();
 	DAGMALOAH_API UClass* Z_Construct_UClass_AAICharacterLogic();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
-	UPackage* Z_Construct_UPackage__Script_DagMaloah();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
 	DAGMALOAH_API UClass* Z_Construct_UClass_UAIMovementHandler_NoRegister();
 	DAGMALOAH_API UClass* Z_Construct_UClass_UAIDataAsset_NoRegister();
+	DAGMALOAH_API UClass* Z_Construct_UClass_URaycastHandler_NoRegister();
 // End Cross Module References
-	DEFINE_FUNCTION(AAICharacterLogic::execSetMovementSpeed)
+	static UEnum* StateTypeEnum_StaticEnum()
 	{
-		P_GET_PROPERTY(FFloatProperty,Z_Param_speed);
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_DagMaloah_StateTypeEnum, Z_Construct_UPackage__Script_DagMaloah(), TEXT("StateTypeEnum"));
+		}
+		return Singleton;
+	}
+	template<> DAGMALOAH_API UEnum* StaticEnum<StateTypeEnum>()
+	{
+		return StateTypeEnum_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_StateTypeEnum(StateTypeEnum_StaticEnum, TEXT("/Script/DagMaloah"), TEXT("StateTypeEnum"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_DagMaloah_StateTypeEnum_Hash() { return 1788912888U; }
+	UEnum* Z_Construct_UEnum_DagMaloah_StateTypeEnum()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_DagMaloah();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("StateTypeEnum"), 0, Get_Z_Construct_UEnum_DagMaloah_StateTypeEnum_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "Standing_State", (int64)Standing_State },
+				{ "Move_Forward_State", (int64)Move_Forward_State },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "BlueprintType", "true" },
+				{ "Category", "My Enum" },
+				{ "ModuleRelativePath", "AICharacterLogic.h" },
+				{ "Move_Forward_State.DisplayName", "State Type: Moving Forward" },
+				{ "Move_Forward_State.Name", "Move_Forward_State" },
+				{ "Standing_State.DisplayName", "State Type: Standing" },
+				{ "Standing_State.Name", "Standing_State" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_DagMaloah,
+				nullptr,
+				"StateTypeEnum",
+				"StateTypeEnum",
+				Enumerators,
+				UE_ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				EEnumFlags::None,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::Regular,
+				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
+	DEFINE_FUNCTION(AAICharacterLogic::execMoveToState)
+	{
+		P_GET_PROPERTY(FByteProperty,Z_Param_state);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		P_THIS->SetMovementSpeed(Z_Param_speed);
+		P_THIS->MoveToState(StateTypeEnum(Z_Param_state));
 		P_NATIVE_END;
 	}
 	DEFINE_FUNCTION(AAICharacterLogic::execRotateTowards)
@@ -59,8 +118,8 @@ void EmptyLinkFunctionForGeneratedCodeAICharacterLogic() {}
 		static const FNameNativePtrPair Funcs[] = {
 			{ "MoveForward", &AAICharacterLogic::execMoveForward },
 			{ "MoveRight", &AAICharacterLogic::execMoveRight },
+			{ "MoveToState", &AAICharacterLogic::execMoveToState },
 			{ "RotateTowards", &AAICharacterLogic::execRotateTowards },
-			{ "SetMovementSpeed", &AAICharacterLogic::execSetMovementSpeed },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -128,6 +187,38 @@ void EmptyLinkFunctionForGeneratedCodeAICharacterLogic() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AAICharacterLogic_MoveToState_Statics
+	{
+		struct AICharacterLogic_eventMoveToState_Parms
+		{
+			TEnumAsByte<StateTypeEnum> state;
+		};
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_state;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_AAICharacterLogic_MoveToState_Statics::NewProp_state = { "state", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AICharacterLogic_eventMoveToState_Parms, state), Z_Construct_UEnum_DagMaloah_StateTypeEnum, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AAICharacterLogic_MoveToState_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAICharacterLogic_MoveToState_Statics::NewProp_state,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAICharacterLogic_MoveToState_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "AICharacterLogic.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAICharacterLogic_MoveToState_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAICharacterLogic, nullptr, "MoveToState", nullptr, nullptr, sizeof(AICharacterLogic_eventMoveToState_Parms), Z_Construct_UFunction_AAICharacterLogic_MoveToState_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AAICharacterLogic_MoveToState_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAICharacterLogic_MoveToState_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AAICharacterLogic_MoveToState_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAICharacterLogic_MoveToState()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAICharacterLogic_MoveToState_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AAICharacterLogic_RotateTowards_Statics
 	{
 		struct AICharacterLogic_eventRotateTowards_Parms
@@ -160,38 +251,6 @@ void EmptyLinkFunctionForGeneratedCodeAICharacterLogic() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_AAICharacterLogic_SetMovementSpeed_Statics
-	{
-		struct AICharacterLogic_eventSetMovementSpeed_Parms
-		{
-			float speed;
-		};
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_speed;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AAICharacterLogic_SetMovementSpeed_Statics::NewProp_speed = { "speed", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AICharacterLogic_eventSetMovementSpeed_Parms, speed), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AAICharacterLogic_SetMovementSpeed_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AAICharacterLogic_SetMovementSpeed_Statics::NewProp_speed,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAICharacterLogic_SetMovementSpeed_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "AICharacterLogic.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAICharacterLogic_SetMovementSpeed_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAICharacterLogic, nullptr, "SetMovementSpeed", nullptr, nullptr, sizeof(AICharacterLogic_eventSetMovementSpeed_Parms), Z_Construct_UFunction_AAICharacterLogic_SetMovementSpeed_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AAICharacterLogic_SetMovementSpeed_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAICharacterLogic_SetMovementSpeed_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AAICharacterLogic_SetMovementSpeed_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AAICharacterLogic_SetMovementSpeed()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAICharacterLogic_SetMovementSpeed_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	UClass* Z_Construct_UClass_AAICharacterLogic_NoRegister()
 	{
 		return AAICharacterLogic::StaticClass();
@@ -212,9 +271,9 @@ void EmptyLinkFunctionForGeneratedCodeAICharacterLogic() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp__data;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__movementSpeed_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__rayCastHandler_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__movementSpeed;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp__rayCastHandler;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -226,8 +285,8 @@ void EmptyLinkFunctionForGeneratedCodeAICharacterLogic() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_AAICharacterLogic_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AAICharacterLogic_MoveForward, "MoveForward" }, // 1866064932
 		{ &Z_Construct_UFunction_AAICharacterLogic_MoveRight, "MoveRight" }, // 3597172459
+		{ &Z_Construct_UFunction_AAICharacterLogic_MoveToState, "MoveToState" }, // 2015465756
 		{ &Z_Construct_UFunction_AAICharacterLogic_RotateTowards, "RotateTowards" }, // 3607805735
-		{ &Z_Construct_UFunction_AAICharacterLogic_SetMovementSpeed, "SetMovementSpeed" }, // 488370588
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAICharacterLogic_Statics::Class_MetaDataParams[] = {
@@ -251,16 +310,16 @@ void EmptyLinkFunctionForGeneratedCodeAICharacterLogic() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAICharacterLogic_Statics::NewProp__data = { "_data", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAICharacterLogic, _data), Z_Construct_UClass_UAIDataAsset_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAICharacterLogic_Statics::NewProp__data_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAICharacterLogic_Statics::NewProp__data_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAICharacterLogic_Statics::NewProp__movementSpeed_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAICharacterLogic_Statics::NewProp__rayCastHandler_MetaData[] = {
 		{ "Category", "AICharacterLogic" },
 		{ "ModuleRelativePath", "AICharacterLogic.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAICharacterLogic_Statics::NewProp__movementSpeed = { "_movementSpeed", nullptr, (EPropertyFlags)0x0020080000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAICharacterLogic, _movementSpeed), METADATA_PARAMS(Z_Construct_UClass_AAICharacterLogic_Statics::NewProp__movementSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAICharacterLogic_Statics::NewProp__movementSpeed_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AAICharacterLogic_Statics::NewProp__rayCastHandler = { "_rayCastHandler", nullptr, (EPropertyFlags)0x0020080000020015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AAICharacterLogic, _rayCastHandler), Z_Construct_UClass_URaycastHandler_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AAICharacterLogic_Statics::NewProp__rayCastHandler_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AAICharacterLogic_Statics::NewProp__rayCastHandler_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAICharacterLogic_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAICharacterLogic_Statics::NewProp__movementHandler,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAICharacterLogic_Statics::NewProp__data,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAICharacterLogic_Statics::NewProp__movementSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAICharacterLogic_Statics::NewProp__rayCastHandler,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AAICharacterLogic_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AAICharacterLogic>::IsAbstract,
@@ -289,7 +348,7 @@ void EmptyLinkFunctionForGeneratedCodeAICharacterLogic() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAICharacterLogic, 762518682);
+	IMPLEMENT_CLASS(AAICharacterLogic, 1295258099);
 	template<> DAGMALOAH_API UClass* StaticClass<AAICharacterLogic>()
 	{
 		return AAICharacterLogic::StaticClass();

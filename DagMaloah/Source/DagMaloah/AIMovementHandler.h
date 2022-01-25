@@ -34,3 +34,4 @@ FRotator CheckSurrounding(AController* raycastShooter, FVector startPos, FRotato
 FHitResult ShootRay(AController* raycastShooter, FVector rayLocation, FRotator rayRotation, float distance);
 
 };
+

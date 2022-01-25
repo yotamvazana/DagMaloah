@@ -64,13 +64,13 @@ FRotator AAICharacterLogic::GetYawRotation()
 	const FRotator yawRotation(0, rotation.Yaw, 0);
 	return yawRotation;
 }
-
-void AAICharacterLogic::TurnAtRate(float value)
-{
-	//AddControllerYawInput(value * _data->GetBaseTurnRate() * GetWorld()-> GetDeltaSeconds());
-}
-
-void AAICharacterLogic::LookUpAtRate(float value)
-{
-//	AddControllerPitchInput(value * _data->GetBaseLookUpAtRate() * GetWorld()-> GetDeltaSeconds());
-}
+AController* AAICharacterLogic::GetController() { return Controller; }
+//void AAICharacterLogic::TurnAtRate(float value)
+//{
+//	//AddControllerYawInput(value * _data->GetBaseTurnRate() * GetWorld()-> GetDeltaSeconds());
+//}
+//
+//void AAICharacterLogic::LookUpAtRate(float value)
+//{
+////	AddControllerPitchInput(value * _data->GetBaseLookUpAtRate() * GetWorld()-> GetDeltaSeconds());
+//}

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\DagMaloah.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A7D23D3E-2493-4B3C-8C7D-F58F7DDEB660}</UniqueIdentifier>
+      <UniqueIdentifier>{27AD1A97-4DBC-4CA4-B062-56A9697833F1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DagMaloah.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A2B4ED6C-1FEB-48CE-9718-6285E1A81487}</UniqueIdentifier>
+      <UniqueIdentifier>{302A9E47-601F-43C0-9F0A-EBAEA3F34936}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\DagMaloah">
-      <UniqueIdentifier>{CA71F6F0-7BA4-46BC-84D1-80FE48451864}</UniqueIdentifier>
+      <UniqueIdentifier>{7D231B00-4565-4CB7-956B-ED79965BEB08}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\DagMaloah\AICharacterLogic.cpp">
       <Filter>Source\DagMaloah</Filter>
@@ -48,6 +48,12 @@
       <Filter>Source\DagMaloah</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\DagMaloah\AIMovementHandler.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\BaseState.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\BaseState.h">
       <Filter>Source\DagMaloah</Filter>
     </ClInclude>
     <None Include="..\..\Source\DagMaloah\DagMaloah.Build.cs">
@@ -75,6 +81,18 @@
       <Filter>Source\DagMaloah</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\DagMaloah\DollClass.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\MoveState.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\MoveState.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\RaycastHandler.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\RaycastHandler.h">
       <Filter>Source\DagMaloah</Filter>
     </ClInclude>
   </ItemGroup>
