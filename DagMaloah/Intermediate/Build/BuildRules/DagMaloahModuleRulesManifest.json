@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Git Projects\\DagMaloah\\DagMaloah\\Source\\DagMaloah\\DagMaloah.Build.cs",
-		"D:\\Git Projects\\DagMaloah\\DagMaloah\\Source\\DagMaloah.Target.cs",
-		"D:\\Git Projects\\DagMaloah\\DagMaloah\\Source\\DagMaloahEditor.Target.cs"
+		"E:\\Program Files (x86)\\Unity\\Unity Projects\\DagMaloah\\DagMaloah\\Source\\DagMaloah\\DagMaloah.Build.cs",
+		"E:\\Program Files (x86)\\Unity\\Unity Projects\\DagMaloah\\DagMaloah\\Source\\DagMaloah.Target.cs",
+		"E:\\Program Files (x86)\\Unity\\Unity Projects\\DagMaloah\\DagMaloah\\Source\\DagMaloahEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }
