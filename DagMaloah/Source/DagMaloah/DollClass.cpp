@@ -6,7 +6,7 @@
 // Sets default values
 ADollClass::ADollClass()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 }
@@ -68,6 +68,6 @@ bool ADollClass::RayTestFromDoll(AActor* actorToCheck)
 void ADollClass::TriggerLightChange(bool isRed)
 {
 	LightChange.Broadcast(isRed);
+	_lightState = isRed;
 	GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, "Brodcast");
 }
-
