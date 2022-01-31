@@ -6,7 +6,7 @@
 // Sets default values
 ADollClass::ADollClass()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 }
@@ -15,7 +15,6 @@ ADollClass::ADollClass()
 void ADollClass::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -46,7 +45,7 @@ bool ADollClass::RayTestFromDoll(AActor* actorToCheck)
 		bool actorHit = GetWorld()->LineTraceSingleByChannel(hit, start, end, ECC_Pawn, FCollisionQueryParams(), FCollisionResponseParams());
 		DrawDebugLine(GetWorld(), start, end, FColor::Red, false, 0.1, 0, 5);
 		if (actorHit && hit.GetActor()) {
-			GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, hit.GetActor()->GetFName().ToString());
+			//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, hit.GetActor()->GetFName().ToString());
 			if (hit.GetActor() == actorToCheck)
 			{
 				return true;
@@ -66,3 +65,9 @@ bool ADollClass::RayTestFromDoll(AActor* actorToCheck)
 
 }
 
+void ADollClass::TriggerLightChange(bool isRed)
+{
+	LightChange.Broadcast(isRed);
+	_lightState = isRed;
+	GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, "Brodcast");
+}

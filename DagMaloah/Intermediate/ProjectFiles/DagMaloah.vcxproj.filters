@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\DagMaloah.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1D005860-4917-42BE-A705-6BB32A611442}</UniqueIdentifier>
+      <UniqueIdentifier>{BB347771-6021-4425-82A9-EE910E7E0802}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DagMaloah.Target.cs">
       <Filter>Source</Filter>
@@ -12,12 +12,15 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{16AC0375-E1AB-4B20-8B54-54E21A90235B}</UniqueIdentifier>
+      <UniqueIdentifier>{C967A569-2AB9-4545-8BED-706FFDD0FE34}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorSettings.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
@@ -30,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\DagMaloah">
-      <UniqueIdentifier>{6C88EBE1-B411-4485-8EB1-7AD274C19962}</UniqueIdentifier>
+      <UniqueIdentifier>{97B7C1EA-56D0-4479-8AE1-26F073890781}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\DagMaloah\AICharacterLogic.cpp">
       <Filter>Source\DagMaloah</Filter>

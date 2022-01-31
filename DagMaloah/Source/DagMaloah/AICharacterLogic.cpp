@@ -1,8 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+#include "AICharacterLogic.h"
 #include "StandingState.h"
 #include "MoveState.h"
-#include "AICharacterLogic.h"
 // Sets default values
 AAICharacterLogic::AAICharacterLogic()
 {

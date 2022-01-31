@@ -14,18 +14,33 @@ class AActor;
 #endif
 #define DAGMALOAH_DollClass_generated_h
 
-#define DagMaloah_Source_DagMaloah_DollClass_h_16_SPARSE_DATA
-#define DagMaloah_Source_DagMaloah_DollClass_h_16_RPC_WRAPPERS \
+#define DagMaloah_Source_DagMaloah_DollClass_h_12_DELEGATE \
+struct _Script_DagMaloah_eventOnGreenLight_Parms \
+{ \
+	bool isRed; \
+}; \
+static inline void FOnGreenLight_DelegateWrapper(const FMulticastScriptDelegate& OnGreenLight, bool isRed) \
+{ \
+	_Script_DagMaloah_eventOnGreenLight_Parms Parms; \
+	Parms.isRed=isRed ? true : false; \
+	OnGreenLight.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define DagMaloah_Source_DagMaloah_DollClass_h_17_SPARSE_DATA
+#define DagMaloah_Source_DagMaloah_DollClass_h_17_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execTriggerLightChange); \
 	DECLARE_FUNCTION(execRayTestFromDoll);
 
 
-#define DagMaloah_Source_DagMaloah_DollClass_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define DagMaloah_Source_DagMaloah_DollClass_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execTriggerLightChange); \
 	DECLARE_FUNCTION(execRayTestFromDoll);
 
 
-#define DagMaloah_Source_DagMaloah_DollClass_h_16_INCLASS_NO_PURE_DECLS \
+#define DagMaloah_Source_DagMaloah_DollClass_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesADollClass(); \
 	friend struct Z_Construct_UClass_ADollClass_Statics; \
@@ -34,7 +49,7 @@ public: \
 	DECLARE_SERIALIZER(ADollClass)
 
 
-#define DagMaloah_Source_DagMaloah_DollClass_h_16_INCLASS \
+#define DagMaloah_Source_DagMaloah_DollClass_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesADollClass(); \
 	friend struct Z_Construct_UClass_ADollClass_Statics; \
@@ -43,7 +58,7 @@ public: \
 	DECLARE_SERIALIZER(ADollClass)
 
 
-#define DagMaloah_Source_DagMaloah_DollClass_h_16_STANDARD_CONSTRUCTORS \
+#define DagMaloah_Source_DagMaloah_DollClass_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ADollClass(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ADollClass) \
@@ -56,7 +71,7 @@ private: \
 public:
 
 
-#define DagMaloah_Source_DagMaloah_DollClass_h_16_ENHANCED_CONSTRUCTORS \
+#define DagMaloah_Source_DagMaloah_DollClass_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ADollClass(ADollClass&&); \
@@ -67,28 +82,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ADollClass)
 
 
-#define DagMaloah_Source_DagMaloah_DollClass_h_16_PRIVATE_PROPERTY_OFFSET
-#define DagMaloah_Source_DagMaloah_DollClass_h_13_PROLOG
-#define DagMaloah_Source_DagMaloah_DollClass_h_16_GENERATED_BODY_LEGACY \
+#define DagMaloah_Source_DagMaloah_DollClass_h_17_PRIVATE_PROPERTY_OFFSET
+#define DagMaloah_Source_DagMaloah_DollClass_h_14_PROLOG
+#define DagMaloah_Source_DagMaloah_DollClass_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DagMaloah_Source_DagMaloah_DollClass_h_16_PRIVATE_PROPERTY_OFFSET \
-	DagMaloah_Source_DagMaloah_DollClass_h_16_SPARSE_DATA \
-	DagMaloah_Source_DagMaloah_DollClass_h_16_RPC_WRAPPERS \
-	DagMaloah_Source_DagMaloah_DollClass_h_16_INCLASS \
-	DagMaloah_Source_DagMaloah_DollClass_h_16_STANDARD_CONSTRUCTORS \
+	DagMaloah_Source_DagMaloah_DollClass_h_17_PRIVATE_PROPERTY_OFFSET \
+	DagMaloah_Source_DagMaloah_DollClass_h_17_SPARSE_DATA \
+	DagMaloah_Source_DagMaloah_DollClass_h_17_RPC_WRAPPERS \
+	DagMaloah_Source_DagMaloah_DollClass_h_17_INCLASS \
+	DagMaloah_Source_DagMaloah_DollClass_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define DagMaloah_Source_DagMaloah_DollClass_h_16_GENERATED_BODY \
+#define DagMaloah_Source_DagMaloah_DollClass_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DagMaloah_Source_DagMaloah_DollClass_h_16_PRIVATE_PROPERTY_OFFSET \
-	DagMaloah_Source_DagMaloah_DollClass_h_16_SPARSE_DATA \
-	DagMaloah_Source_DagMaloah_DollClass_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	DagMaloah_Source_DagMaloah_DollClass_h_16_INCLASS_NO_PURE_DECLS \
-	DagMaloah_Source_DagMaloah_DollClass_h_16_ENHANCED_CONSTRUCTORS \
+	DagMaloah_Source_DagMaloah_DollClass_h_17_PRIVATE_PROPERTY_OFFSET \
+	DagMaloah_Source_DagMaloah_DollClass_h_17_SPARSE_DATA \
+	DagMaloah_Source_DagMaloah_DollClass_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	DagMaloah_Source_DagMaloah_DollClass_h_17_INCLASS_NO_PURE_DECLS \
+	DagMaloah_Source_DagMaloah_DollClass_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

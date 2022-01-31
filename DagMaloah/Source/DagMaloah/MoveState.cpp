@@ -24,11 +24,21 @@ void UMoveState::OnStateEnter()
 {
 	speed = GetDataAsset()->GetRandomMovementSpeed();
 	_raycastShooted = GetCharacterLogic()->GetRayCastHandler();
+	ADollClass* doll = GetCharacterLogic()->GetDollRef();
+	AActor* actor = Cast<AActor>(GetController());
+	if (doll->RayTestFromDoll(actor) && doll->GetIsRedLight())
+	{
+		MoveForward();
+		GetCharacterLogic()->MoveToState(StateTypeEnum::Standing_State);
+	}
 }
 
 void UMoveState::OnState()
 {
 
+	if (GetCharacterLogic()->GetDollRef()->GetIsRedLight())
+			GetCharacterLogic()->MoveToState(StateTypeEnum::Standing_State);
+	
 	FHitResult result = _raycastShooted->ShootRaycast(GetController());
 
 	if (result.bBlockingHit)
