@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\DagMaloah.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BFAC6CED-3A7E-4F81-9289-5608B209C625}</UniqueIdentifier>
+      <UniqueIdentifier>{DC455B84-B52B-4E64-BB1E-BBE93CEB4FCF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DagMaloah.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D6FC06F4-62C5-43A4-9AF5-88CCA67755C0}</UniqueIdentifier>
+      <UniqueIdentifier>{C95294D9-7A30-484F-BB25-0A89A0FA17BC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\DagMaloah">
-      <UniqueIdentifier>{3B290B94-230A-4996-9E27-3CD475A182CA}</UniqueIdentifier>
+      <UniqueIdentifier>{2159B93D-0FB7-4246-9F4B-5369B379239F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DagMaloah\DagMaloah.Build.cs">
       <Filter>Source\DagMaloah</Filter>
@@ -57,6 +57,18 @@
       <Filter>Source\DagMaloah</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\DagMaloah\DollClass.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\MyTestCharacter.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\MyTestCharacter.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\TestCharacter.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\TestCharacter.h">
       <Filter>Source\DagMaloah</Filter>
     </ClInclude>
   </ItemGroup>

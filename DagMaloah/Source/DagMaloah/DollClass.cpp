@@ -15,7 +15,6 @@ ADollClass::ADollClass()
 void ADollClass::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -46,7 +45,7 @@ bool ADollClass::RayTestFromDoll(AActor* actorToCheck)
 		bool actorHit = GetWorld()->LineTraceSingleByChannel(hit, start, end, ECC_Pawn, FCollisionQueryParams(), FCollisionResponseParams());
 		DrawDebugLine(GetWorld(), start, end, FColor::Red, false, 0.1, 0, 5);
 		if (actorHit && hit.GetActor()) {
-			GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, hit.GetActor()->GetFName().ToString());
+			//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, hit.GetActor()->GetFName().ToString());
 			if (hit.GetActor() == actorToCheck)
 			{
 				return true;
@@ -64,5 +63,11 @@ bool ADollClass::RayTestFromDoll(AActor* actorToCheck)
 	}
 	return false;
 
+}
+
+void ADollClass::TriggerLightChange(bool isRed)
+{
+	LightChange.Broadcast(isRed);
+	GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, "Brodcast");
 }
 
