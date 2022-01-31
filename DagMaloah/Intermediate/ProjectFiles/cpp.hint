@@ -1,8 +1,4 @@
 // Hint files help the Visual Studio IDE interpret Visual C++ identifiers
 // such as names of functions and macros.
 // For more information see https://go.microsoft.com/fwlink/?linkid=865984
-#define UPROPERTY(__VA_ARGS__)
-// Hint files help the Visual Studio IDE interpret Visual C++ identifiers
-// such as names of functions and macros.
-// For more information see https://go.microsoft.com/fwlink/?linkid=865984
-#define UPROPERTY(__VA_ARGS__)
+#define DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(DelegateName, Param1Type, Param1Name) BODY_MACRO_COMBINE(CURRENT_FILE_ID,_,__LINE__,_DELEGATE) FUNC_DECLARE_DYNAMIC_MULTICAST_DELEGATE( FWeakObjectPtr, DelegateName, DelegateName##_DelegateWrapper, FUNC_CONCAT( Param1Type InParam1 ), FUNC_CONCAT( *this, InParam1 ), void, Param1Type )

@@ -25,8 +25,8 @@ void EmptyLinkFunctionForGeneratedCodeDagMaloah_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x3FF6FA84,
-				0xBC418FCE,
+				0x8B31BF86,
+				0x1DC348E7,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
