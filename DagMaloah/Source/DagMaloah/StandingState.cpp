@@ -2,9 +2,14 @@
 
 
 #include "StandingState.h"
-
+#include "AICharacterLogic.h"
+#include "DollClass.h"
 void UStandingState::OnStateEnter() {
 
+	if (GetCharacterLogic()->GetDollRef()->RayTestFromDoll(GetController()))
+	{
+		GetCharacterLogic()->MoveToState(StateTypeEnum::Move_Forward_State);
+	}
 }
 
 void UStandingState::OnStateExit()

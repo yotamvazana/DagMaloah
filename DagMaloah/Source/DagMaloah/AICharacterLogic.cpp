@@ -16,7 +16,7 @@ void AAICharacterLogic::BeginPlay()
 {
 	InitMap();
 	Super::BeginPlay();
-
+	
 
 
 }

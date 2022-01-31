@@ -12,6 +12,7 @@
 class UMoveState;
 class UBaseState;
 class UStandingState;
+class ADollClass;
 
 	UENUM(BlueprintType, Category = "My Enum")
 		enum StateTypeEnum {
@@ -41,7 +42,7 @@ class UStandingState;
 	private:
 		TMap< TEnumAsByte<StateTypeEnum>, UBaseState* > _stateMap;
 		UBaseState* _currentState;
-
+		ADollClass* _dollReference;
 		void InitMap();
 		void DeleteMap();
 	public:
@@ -57,8 +58,8 @@ class UStandingState;
 		AController* GetController();
 		UAIDataAsset* GetAIDataAsset() { return _data; }
 		URaycastHandler* GetRayCastHandler() { return _rayCastHandler; }
-
-
+		void SetDollReference(ADollClass* dollRef) { _dollReference = dollRef; }
+		ADollClass* GetDollRef() { return _dollReference; }
 
 		UFUNCTION(BlueprintCallable)
 			void MoveToState(TEnumAsByte<StateTypeEnum> state);

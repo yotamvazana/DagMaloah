@@ -3,7 +3,7 @@
 
 #include "MoveState.h"
 #include "AICharacterLogic.h"
-
+#include "DollClass.h"
 
 void UMoveState::MoveForward()
 {
