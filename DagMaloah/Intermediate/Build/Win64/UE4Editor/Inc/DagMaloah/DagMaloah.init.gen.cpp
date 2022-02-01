@@ -11,18 +11,22 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeDagMaloah_init() {}
+	DAGMALOAH_API UFunction* Z_Construct_UDelegateFunction_DagMaloah_OnGreenLight__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_DagMaloah()
 	{
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_DagMaloah_OnGreenLight__DelegateSignature,
+			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/DagMaloah",
-				nullptr,
-				0,
+				SingletonFuncArray,
+				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xE31FD1A7,
-				0xF6179B3B,
+				0x8B31BF86,
+				0x1DC348E7,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

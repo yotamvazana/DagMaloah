@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\DagMaloah.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{78BFBD53-EC0D-48AE-92F3-744843D959C0}</UniqueIdentifier>
+      <UniqueIdentifier>{DC455B84-B52B-4E64-BB1E-BBE93CEB4FCF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DagMaloah.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{E8F588EE-7998-44D4-A8C6-BE95747C5661}</UniqueIdentifier>
+      <UniqueIdentifier>{C95294D9-7A30-484F-BB25-0A89A0FA17BC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\DagMaloah">
-      <UniqueIdentifier>{F3AEC739-0C4A-46A5-AEA1-AA3884AAEB60}</UniqueIdentifier>
+      <UniqueIdentifier>{2159B93D-0FB7-4246-9F4B-5369B379239F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DagMaloah\DagMaloah.Build.cs">
       <Filter>Source\DagMaloah</Filter>
@@ -51,6 +51,24 @@
       <Filter>Source\DagMaloah</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\DagMaloah\DagMaloahGameMode.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\DollClass.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\DollClass.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\MyTestCharacter.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\MyTestCharacter.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\TestCharacter.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\TestCharacter.h">
       <Filter>Source\DagMaloah</Filter>
     </ClInclude>
   </ItemGroup>
