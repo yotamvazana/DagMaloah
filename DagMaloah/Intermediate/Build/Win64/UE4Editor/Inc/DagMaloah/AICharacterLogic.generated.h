@@ -9,6 +9,7 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class ADollClass;
+class UAIDataAsset;
 #ifdef DAGMALOAH_AICharacterLogic_generated_h
 #error "AICharacterLogic.generated.h already included, missing '#pragma once' in AICharacterLogic.h"
 #endif
@@ -18,13 +19,15 @@ class ADollClass;
 #define DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execMoveToState); \
-	DECLARE_FUNCTION(execSetDollReference);
+	DECLARE_FUNCTION(execSetDollReference); \
+	DECLARE_FUNCTION(execSetDataAsset);
 
 
 #define DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execMoveToState); \
-	DECLARE_FUNCTION(execSetDollReference);
+	DECLARE_FUNCTION(execSetDollReference); \
+	DECLARE_FUNCTION(execSetDataAsset);
 
 
 #define DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_EVENT_PARMS

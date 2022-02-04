@@ -25,7 +25,7 @@ void EmptyLinkFunctionForGeneratedCodeDagMaloah_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xB25DDB4B,
+				0x20DFB9E1,
 				0xE8151848,
 				METADATA_PARAMS(nullptr, 0)
 			};

@@ -64,6 +64,8 @@ public:
     UAIDataAsset* GetAIDataAsset() { return _data; }
     RaycastHandler* GetRayCastHandler() { return _rayCastHandler; }
     UFUNCTION(BlueprintCallable)
+        void SetDataAsset(UAIDataAsset* data) { _data = data; }
+    UFUNCTION(BlueprintCallable)
         void SetDollReference(ADollClass* dollRef) { _dollReference = dollRef; }
 
     FVector GetWinDestination();
@@ -79,6 +81,7 @@ public:
 
     //-----------------------------------------------------------------------------------------------
     // UE4 functions
+    virtual void BeginDestroy() override;
     virtual void BeginPlay() override;
     virtual void Tick(float DeltaTime) override;
     virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;

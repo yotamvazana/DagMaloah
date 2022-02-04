@@ -1,9 +1,9 @@
-D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\Definitions.DagMaloah.h
-D:\Git Projects\DagMaloah\DagMaloah\Source\DagMaloah\WinState.h
-D:\Git Projects\DagMaloah\DagMaloah\Source\DagMaloah\BaseState.h
-D:\Git Projects\DagMaloah\DagMaloah\Source\DagMaloah\AICharacterLogic.h
-D:\Git Projects\DagMaloah\DagMaloah\Source\DagMaloah\AIDataAsset.h
-D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Inc\DagMaloah\AIDataAsset.generated.h
+C:\Program Files (x86)\Epic Games\Unreal Engine\V27.2eal Engine\V27.2\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\Definitions.DagMaloah.h
+C:\Program Files (x86)\Epic Games\Unreal Engine\V27.2eal Engine\V27.2\DagMaloah\DagMaloah\Source\DagMaloah\WinState.h
+C:\Program Files (x86)\Epic Games\Unreal Engine\V27.2eal Engine\V27.2\DagMaloah\DagMaloah\Source\DagMaloah\BaseState.h
+C:\Program Files (x86)\Epic Games\Unreal Engine\V27.2eal Engine\V27.2\DagMaloah\DagMaloah\Source\DagMaloah\AICharacterLogic.h
+C:\Program Files (x86)\Epic Games\Unreal Engine\V27.2eal Engine\V27.2\DagMaloah\DagMaloah\Source\DagMaloah\AIDataAsset.h
+C:\Program Files (x86)\Epic Games\Unreal Engine\V27.2eal Engine\V27.2\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Inc\DagMaloah\AIDataAsset.generated.h
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\map
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xtree
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xmemory
@@ -12,12 +12,12 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cwchar
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cstdio
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\isa_availability.h
-D:\Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-D:\Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
-D:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
-D:\Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-D:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-D:\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-D:\Git Projects\DagMaloah\DagMaloah\Source\DagMaloah\RaycastHandler.h
-D:\Games\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
-D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Inc\DagMaloah\AICharacterLogic.generated.h
+E:\Program Files (x86)\Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+E:\Program Files (x86)\Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+E:\Program Files (x86)\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+E:\Program Files (x86)\Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+E:\Program Files (x86)\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+E:\Program Files (x86)\Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Program Files (x86)\Epic Games\Unreal Engine\V27.2eal Engine\V27.2\DagMaloah\DagMaloah\Source\DagMaloah\RaycastHandler.h
+E:\Program Files (x86)\Games\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+C:\Program Files (x86)\Epic Games\Unreal Engine\V27.2eal Engine\V27.2\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Inc\DagMaloah\AICharacterLogic.generated.h

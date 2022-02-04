@@ -18,11 +18,15 @@ AAICharacterLogic::AAICharacterLogic()
 // Called when the game starts or when spawned
 void AAICharacterLogic::BeginPlay()
 {
+	Super::BeginPlay();
 	DestroyMapElements();
 	InitAiParameters();
-	Super::BeginPlay();
 
 
+}
+void AAICharacterLogic::BeginDestroy() {
+	DestroyMapElements();	
+	Super::BeginDestroy();
 }
 
 void AAICharacterLogic::DestroyMapElements()
@@ -30,28 +34,32 @@ void AAICharacterLogic::DestroyMapElements()
 	for (auto It = _stateMap.CreateConstIterator(); It; ++It) {
 		delete It.Value();
 	}
-	_stateMap.Reset();
 	delete _rayCastHandler;
+
+	_rayCastHandler = nullptr;
+	_currentState = nullptr;
+	_stateMap.Reset();
 }
 
 
 void AAICharacterLogic::InitAiParameters()
 {
 
-	if (_stateMap.Num() == 0)
+	_stateMap.Add(StateTypeEnum::Standing_State, new StandingState(this));
+	_stateMap.Add(StateTypeEnum::Move_Forward_State, new MoveState(this));
+	_stateMap.Add(StateTypeEnum::Decision_State, new  DecisionState(this));
+	_stateMap.Add(StateTypeEnum::Death_State, new  DeathState(this));
+	_stateMap.Add(StateTypeEnum::Winning_State, new  WinState(this));
+
+	if (_data == nullptr)
 	{
-
-		_stateMap.Add(StateTypeEnum::Standing_State, new StandingState(this));
-		_stateMap.Add(StateTypeEnum::Move_Forward_State, new MoveState(this));
-		_stateMap.Add(StateTypeEnum::Decision_State, new  DecisionState(this));
-		_stateMap.Add(StateTypeEnum::Death_State, new  DeathState(this));
-		_stateMap.Add(StateTypeEnum::Winning_State, new  WinState(this));
-
-
-		_rayCastHandler = new RaycastHandler();
-		_rayCastHandler->SetRayDistance(_data->GetRandomRayDistanceCheck());
-		_rayCastHandler->SetAngle(_data->GetRandomRayAngleCheck());
+		UE_LOG(LogTemp, Warning, TEXT("Data Is Null!"))
+			return;
 	}
+	_rayCastHandler = new RaycastHandler();
+	_rayCastHandler->SetRayDistance(_data->GetRandomRayDistanceCheck());
+	_rayCastHandler->SetAngle(_data->GetRandomRayAngleCheck());
+
 	SetAlive(true);
 	_currentState = nullptr;
 }
