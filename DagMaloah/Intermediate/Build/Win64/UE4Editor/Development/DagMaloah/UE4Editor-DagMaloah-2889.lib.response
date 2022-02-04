@@ -1,0 +1,25 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-DagMaloah-2889.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\DagMaloahEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DagMaloah.cpp.obj"
+"D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DagMaloahCharacter.cpp.obj"
+"D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DagMaloahGameMode.cpp.obj"
+"D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DifficultyManager.cpp.obj"
+"D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DollClass.cpp.obj"
+"D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\MyTestCharacter.cpp.obj"
+"D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\TestCharacter.cpp.obj"
+"D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DagMaloah.init.gen.cpp.obj"
+"D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DagMaloahCharacter.gen.cpp.obj"
+"D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DagMaloahGameMode.gen.cpp.obj"
+"D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DifficultyManager.gen.cpp.obj"
+"D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\DollClass.gen.cpp.obj"
+"D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\MyTestCharacter.gen.cpp.obj"
+"D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\TestCharacter.gen.cpp.obj"
+"D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\Default.rc2.res"
+/OUT:"D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\UE4Editor-DagMaloah-2889.lib"

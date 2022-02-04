@@ -1,0 +1,3 @@
+D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\Definitions.DagMaloah.h
+D:\Git Projects\DagMaloah\DagMaloah\Source\DagMaloah\DifficultyManager.h
+D:\Git Projects\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Inc\DagMaloah\DifficultyManager.generated.h

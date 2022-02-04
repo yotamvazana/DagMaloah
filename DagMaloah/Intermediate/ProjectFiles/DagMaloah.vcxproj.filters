@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\DagMaloah.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DC455B84-B52B-4E64-BB1E-BBE93CEB4FCF}</UniqueIdentifier>
+      <UniqueIdentifier>{8B915D6C-48BB-48F1-A1C6-BCC4588B0217}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DagMaloah.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C95294D9-7A30-484F-BB25-0A89A0FA17BC}</UniqueIdentifier>
+      <UniqueIdentifier>{8B985514-AC34-4FB1-89C6-A149276ADF90}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\DagMaloah">
-      <UniqueIdentifier>{2159B93D-0FB7-4246-9F4B-5369B379239F}</UniqueIdentifier>
+      <UniqueIdentifier>{9CCA8C55-7679-4A1F-A6A0-67DD3C90B667}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DagMaloah\DagMaloah.Build.cs">
       <Filter>Source\DagMaloah</Filter>
@@ -51,6 +51,12 @@
       <Filter>Source\DagMaloah</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\DagMaloah\DagMaloahGameMode.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\DifficultyManager.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\DifficultyManager.h">
       <Filter>Source\DagMaloah</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\DagMaloah\DollClass.cpp">
