@@ -68,6 +68,7 @@ bool ADollClass::RayTestFromDoll(AActor* actorToCheck)
 void ADollClass::TriggerLightChange(bool isRed)
 {
 	LightChange.Broadcast(isRed);
+	_lightState = isRed;
 	GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, "Brodcast");
 }
 

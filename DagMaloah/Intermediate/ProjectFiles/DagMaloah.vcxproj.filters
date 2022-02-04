@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\DagMaloah.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8B915D6C-48BB-48F1-A1C6-BCC4588B0217}</UniqueIdentifier>
+      <UniqueIdentifier>{E1E6D44D-A027-49F2-968B-67FA76F5683B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DagMaloah.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8B985514-AC34-4FB1-89C6-A149276ADF90}</UniqueIdentifier>
+      <UniqueIdentifier>{9383FA84-294C-4836-87C6-59A2CAEBDFF2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,26 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\DagMaloah">
-      <UniqueIdentifier>{9CCA8C55-7679-4A1F-A6A0-67DD3C90B667}</UniqueIdentifier>
+      <UniqueIdentifier>{0D1B62EF-567E-4714-991D-75253A358B32}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\DagMaloah\AICharacterLogic.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\AICharacterLogic.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\AIDataAsset.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\AIDataAsset.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\BaseState.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\BaseState.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
     <None Include="..\..\Source\DagMaloah\DagMaloah.Build.cs">
       <Filter>Source\DagMaloah</Filter>
     </None>
@@ -53,6 +71,18 @@
     <ClInclude Include="..\..\Source\DagMaloah\DagMaloahGameMode.h">
       <Filter>Source\DagMaloah</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\DeathState.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\DeathState.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\DecisionState.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\DecisionState.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\DagMaloah\DifficultyManager.cpp">
       <Filter>Source\DagMaloah</Filter>
     </ClCompile>
@@ -65,16 +95,46 @@
     <ClInclude Include="..\..\Source\DagMaloah\DollClass.h">
       <Filter>Source\DagMaloah</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\MoveState.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\MoveState.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\MyDataAsset.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\MyDataAsset.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\DagMaloah\MyTestCharacter.cpp">
       <Filter>Source\DagMaloah</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\DagMaloah\MyTestCharacter.h">
       <Filter>Source\DagMaloah</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\RaycastHandler.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\RaycastHandler.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\StandingState.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\StandingState.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\DagMaloah\TestCharacter.cpp">
       <Filter>Source\DagMaloah</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\DagMaloah\TestCharacter.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\WinState.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\WinState.h">
       <Filter>Source\DagMaloah</Filter>
     </ClInclude>
   </ItemGroup>

@@ -20,10 +20,13 @@ class DAGMALOAH_API ADollClass : public ACharacter
 public:
 	// Sets default values for this character's properties
 	ADollClass();
-    
-
+	FTransform GetDollTransform() { return GetTransform(); }
+	bool GetIsRedLight() { return _lightState; }
 	UPROPERTY(VisibleAnywhere,BlueprintAssignable, Category = "Events")
 	FOnGreenLight LightChange;
+
+private:
+	bool _lightState;
 
 protected:
 	// Called when the game starts or when spawned
