@@ -17027,3 +17027,2681 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.02.05-20.29.09:910][412]Display: HotReload successful (15 functions remapped  0 scriptstructs remapped)
 [2022.02.05-20.29.10:043][412]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0172 seconds. Added 3823 classes and 923 folders.
 [2022.02.05-20.29.10:052][412]Display: HotReload took  3.0s.
+[2022.02.05-20.30.04:942][596]LogUObjectHash: Compacting FUObjectHashTables data took   5.15ms
+[2022.02.05-20.30.05:092][596]LogSavePackage: Moving 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah/DagMaloah/Saved/Game_Level9980E54441864A2A81261C82E714545F.tmp' to 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah/DagMaloah/Content/ThirdPersonCPP/Maps/Game_Level.umap'
+[2022.02.05-20.30.05:129][596]AssetCheck: New page: Asset Save: Game_Level
+[2022.02.05-20.30.05:129][596]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/Game_Level.Game_Level
+[2022.02.05-20.30.17:429][412]LogSlate: Window 'Source Control Login' being destroyed
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/2D/Paper2D/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/FX/Niagara/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.23:882][809]SourceControl: fatal: E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah'
+[2022.02.05-20.30.24:111][809]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'E:/Program Files (x86)/Games/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content/Materials/M_DefaultDevice.uasset'. Attempt result was '../../Plugins/Runtime/Steam/SteamVR/Content/Materials/M_DefaultDevice', but the path contains illegal characters '.'
+[2022.02.05-20.30.24:864][809]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2022.02.05-20.30.25:013][809]LogSavePackage: Moving 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah/DagMaloah/Saved/Game_Level38583F2941956F4299C445B376E68CD7.tmp' to 'C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah/DagMaloah/Content/ThirdPersonCPP/Maps/Game_Level.umap'
+[2022.02.05-20.30.25:032][809]LogFileHelpers: Saving map 'Game_Level' took 0.212
+[2022.02.05-20.30.33:047][809]LogSlate: Window 'Submit Files' being destroyed
+[2022.02.05-20.30.35:387][809]LogSourceControl: commit successful: [FinalePlease 991cf9c] GAME LEVEL
+[2022.02.05-20.30.35:464][809]SourceControl: [FinalePlease 991cf9c] GAME LEVEL
+[2022.02.05-20.30.35:464][809]SourceControl:  1 file changed, 1 insertion(+), 1 deletion(-)
+[2022.02.05-20.30.35:470][809]SourceControl: Commited [FinalePlease 991cf9c] GAME LEVEL.
+[2022.02.05-20.30.35:521][810]AssetCheck: New page: Asset Save: Game_Level
+[2022.02.05-20.30.35:521][810]LogContentValidation: Display: Validating World /Game/ThirdPersonCPP/Maps/Game_Level.Game_Level
+[2022.02.05-20.31.24:473][263]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.05-20.31.24:495][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.05-20.31.24:495][263]PIE: New page: PIE session: Game_Level (6 Feb 2022, 0:31:24)
+[2022.02.05-20.31.24:495][263]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_Game_Level
+[2022.02.05-20.31.24:517][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022171s)
+[2022.02.05-20.31.24:518][263]LogAIModule: Creating AISystem for world Game_Level
+[2022.02.05-20.31.24:519][263]LogPlayLevel: PIE: World Init took: (0.001492s)
+[2022.02.05-20.31.24:519][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/Game_Level.Game_Level to /Game/ThirdPersonCPP/Maps/UEDPIE_0_Game_Level.Game_Level (0.023835s)
+[2022.02.05-20.31.24:548][263]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2022.02.05-20.31.24:552][263]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.02.05-20.31.24:552][263]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.05-20.31.24:552][263]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.05-20.31.24:552][263]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.05-20.31.24:552][263]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.05-20.31.24:552][263]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.05-20.31.24:552][263]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.05-20.31.24:552][263]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.05-20.31.24:552][263]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.05-20.31.24:553][263]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.05-20.31.24:553][263]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.05-20.31.24:553][263]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.05-20.31.24:553][263]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.05-20.31.24:559][263]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.05-20.31.24:559][263]LogAudioMixer: Display: 1: FrontRight
+[2022.02.05-20.31.24:571][263]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2022.02.05-20.31.24:571][263]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.05-20.31.24:571][263]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.05-20.31.24:572][263]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.05-20.31.24:572][263]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.05-20.31.24:572][263]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.05-20.31.24:572][263]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.05-20.31.24:573][263]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.05-20.31.24:573][263]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.05-20.31.24:573][263]LogInit: FAudioDevice initialized.
+[2022.02.05-20.31.24:573][263]LogAudio: Display: Audio Device (ID: 18) registered with world 'Game_Level'.
+[2022.02.05-20.31.24:580][263]LogLoad: Game class is 'DagMaloahGameMode'
+[2022.02.05-20.31.24:613][263]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2022.02.05-20.31.24:613][263]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2022.02.05-20.31.24:613][263]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2022.02.05-20.31.24:614][263]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[1] invalid
+[2022.02.05-20.31.24:614][263]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2022.02.05-20.31.24:614][263]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[2] invalid
+[2022.02.05-20.31.24:614][263]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Game_Level.Game_Level up for play (max tick rate 0) at 2022.02.05-22.31.24
+[2022.02.05-20.31.24:624][263]LogWorld: Bringing up level for play took: 0.043249
+[2022.02.05-20.31.24:624][263]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2022.02.05-20.31.24:627][263]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
+[2022.02.05-20.31.24:628][263]LogBlueprintUserMessages: [MyAICharacterLogicBP2] Easy
+[2022.02.05-20.31.24:628][263]LogBlueprintUserMessages: [MyAICharacterLogicBP3] Easy
+[2022.02.05-20.31.24:628][263]LogBlueprintUserMessages: [MyAICharacterLogicBP_2] Easy
+[2022.02.05-20.31.24:628][263]LogBlueprintUserMessages: [MyAICharacterLogicBP4] Easy
+[2022.02.05-20.31.24:628][263]LogBlueprintUserMessages: [MyAICharacterLogicBP5] Easy
+[2022.02.05-20.31.24:628][263]LogBlueprintUserMessages: [MyAICharacterLogicBP6] Easy
+[2022.02.05-20.31.24:628][263]LogBlueprintUserMessages: [MyAICharacterLogicBP7] Easy
+[2022.02.05-20.31.24:628][263]LogBlueprintUserMessages: [MyAICharacterLogicBP8] Easy
+[2022.02.05-20.31.24:628][263]LogBlueprintUserMessages: [MyAICharacterLogicBP9] Easy
+[2022.02.05-20.31.24:629][263]LogBlueprintUserMessages: [MyAICharacterLogicBP10] Easy
+[2022.02.05-20.31.24:629][263]LogBlueprintUserMessages: [MyAICharacterLogicBP11] Easy
+[2022.02.05-20.31.24:629][263]LogBlueprintUserMessages: [MyAICharacterLogicBP12] Easy
+[2022.02.05-20.31.24:629][263]LogBlueprintUserMessages: [MyAICharacterLogicBP13] Easy
+[2022.02.05-20.31.24:629][263]LogBlueprintUserMessages: [MyAICharacterLogicBP14] Easy
+[2022.02.05-20.31.24:629][263]LogBlueprintUserMessages: [MyAICharacterLogicBP15] Easy
+[2022.02.05-20.31.24:629][263]LogBlueprintUserMessages: [MyAICharacterLogicBP16] Easy
+[2022.02.05-20.31.24:629][263]LogBlueprintUserMessages: [MyAICharacterLogicBP17] Easy
+[2022.02.05-20.31.24:629][263]LogBlueprintUserMessages: [MyAICharacterLogicBP18] Easy
+[2022.02.05-20.31.24:629][263]LogBlueprintUserMessages: [MyAICharacterLogicBP19] Easy
+[2022.02.05-20.31.24:629][263]LogBlueprintUserMessages: [MyAICharacterLogicBP20] Easy
+[2022.02.05-20.31.24:629][263]LogBlueprintUserMessages: [MyAICharacterLogicBP21] Easy
+[2022.02.05-20.31.24:629][263]LogBlueprintUserMessages: [MyAICharacterLogicBP22] Easy
+[2022.02.05-20.31.24:629][263]LogBlueprintUserMessages: [MyAICharacterLogicBP23] Easy
+[2022.02.05-20.31.24:630][263]LogBlueprintUserMessages: [MyAICharacterLogicBP24] Easy
+[2022.02.05-20.31.24:630][263]LogBlueprintUserMessages: [MyAICharacterLogicBP25] Easy
+[2022.02.05-20.31.24:630][263]LogBlueprintUserMessages: [MyAICharacterLogicBP26] Easy
+[2022.02.05-20.31.24:630][263]LogBlueprintUserMessages: [MyAICharacterLogicBP27] Easy
+[2022.02.05-20.31.24:630][263]LogBlueprintUserMessages: [MyAICharacterLogicBP28] Easy
+[2022.02.05-20.31.24:630][263]LogBlueprintUserMessages: [MyAICharacterLogicBP29] Easy
+[2022.02.05-20.31.24:630][263]LogBlueprintUserMessages: [MyAICharacterLogicBP30] Easy
+[2022.02.05-20.31.24:630][263]LogBlueprintUserMessages: [MyAICharacterLogicBP31] Easy
+[2022.02.05-20.31.24:630][263]LogBlueprintUserMessages: [MyAICharacterLogicBP32] Easy
+[2022.02.05-20.31.24:630][263]LogBlueprintUserMessages: [MyAICharacterLogicBP33] Easy
+[2022.02.05-20.31.24:630][263]LogBlueprintUserMessages: [MyAICharacterLogicBP34] Easy
+[2022.02.05-20.31.24:630][263]LogBlueprintUserMessages: [MyAICharacterLogicBP35] Easy
+[2022.02.05-20.31.24:630][263]LogBlueprintUserMessages: [MyAICharacterLogicBP36] Easy
+[2022.02.05-20.31.24:630][263]LogBlueprintUserMessages: [MyAICharacterLogicBP37] Easy
+[2022.02.05-20.31.24:631][263]LogBlueprintUserMessages: [MyAICharacterLogicBP38] Easy
+[2022.02.05-20.31.24:631][263]LogBlueprintUserMessages: [MyAICharacterLogicBP39] Easy
+[2022.02.05-20.31.24:631][263]LogBlueprintUserMessages: [MyAICharacterLogicBP40] Easy
+[2022.02.05-20.31.24:631][263]LogBlueprintUserMessages: [MyAICharacterLogicBP41] Easy
+[2022.02.05-20.31.24:631][263]LogBlueprintUserMessages: [MyAICharacterLogicBP42] Easy
+[2022.02.05-20.31.24:631][263]LogBlueprintUserMessages: [MyAICharacterLogicBP43] Easy
+[2022.02.05-20.31.24:631][263]LogBlueprintUserMessages: [MyAICharacterLogicBP44] Easy
+[2022.02.05-20.31.24:631][263]LogBlueprintUserMessages: [MyAICharacterLogicBP45] Easy
+[2022.02.05-20.31.24:631][263]LogBlueprintUserMessages: [MyAICharacterLogicBP46] Easy
+[2022.02.05-20.31.24:631][263]LogBlueprintUserMessages: [MyAICharacterLogicBP47] Easy
+[2022.02.05-20.31.24:631][263]LogBlueprintUserMessages: [MyAICharacterLogicBP48] Easy
+[2022.02.05-20.31.24:631][263]LogBlueprintUserMessages: [MyAICharacterLogicBP49] Easy
+[2022.02.05-20.31.24:631][263]LogBlueprintUserMessages: [MyAICharacterLogicBP50] Easy
+[2022.02.05-20.31.24:632][263]LogBlueprintUserMessages: [MyAICharacterLogicBP51] Easy
+[2022.02.05-20.31.24:632][263]LogBlueprintUserMessages: [MyAICharacterLogicBP52] Easy
+[2022.02.05-20.31.24:632][263]LogBlueprintUserMessages: [MyAICharacterLogicBP53] Easy
+[2022.02.05-20.31.24:632][263]LogBlueprintUserMessages: [MyAICharacterLogicBP54] Easy
+[2022.02.05-20.31.24:632][263]LogBlueprintUserMessages: [MyAICharacterLogicBP55] Easy
+[2022.02.05-20.31.24:632][263]LogBlueprintUserMessages: [MyAICharacterLogicBP56] Easy
+[2022.02.05-20.31.24:632][263]LogBlueprintUserMessages: [MyAICharacterLogicBP57] Easy
+[2022.02.05-20.31.24:632][263]LogBlueprintUserMessages: [MyAICharacterLogicBP58] Easy
+[2022.02.05-20.31.24:632][263]LogBlueprintUserMessages: [MyAICharacterLogicBP59] Easy
+[2022.02.05-20.31.24:632][263]LogBlueprintUserMessages: [MyAICharacterLogicBP60] Easy
+[2022.02.05-20.31.24:632][263]PIE: Server logged in
+[2022.02.05-20.31.24:633][263]PIE: Play in editor total start time 0.147 seconds.
+[2022.02.05-20.31.26:771][388]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	LevelDifficulty_C /Engine/Transient.UnrealEdEngine_0:GameInstance_16.LevelDifficulty_C_0
+	Function /Game/UI/LevelDifficulty.LevelDifficulty_C:ExecuteUbergraph_LevelDifficulty:0030
+[2022.02.05-20.31.26:771][388]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue". Blueprint:  LevelDifficulty Function:  Execute Ubergraph Level Difficulty Graph:  EventGraph Node:  Set bShowMouseCursor
+[2022.02.05-20.31.26:771][388]LogBlueprintUserMessages: [MyAICharacterLogicBP2] Easy
+[2022.02.05-20.31.26:771][388]LogBlueprintUserMessages: [MyAICharacterLogicBP3] Easy
+[2022.02.05-20.31.26:771][388]LogBlueprintUserMessages: [MyAICharacterLogicBP_2] Easy
+[2022.02.05-20.31.26:771][388]LogBlueprintUserMessages: [MyAICharacterLogicBP4] Easy
+[2022.02.05-20.31.26:771][388]LogBlueprintUserMessages: [MyAICharacterLogicBP5] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP6] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP7] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP8] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP9] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP10] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP11] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP12] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP13] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP14] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP15] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP16] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP17] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP18] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP19] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP20] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP21] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP22] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP23] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP24] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP25] Easy
+[2022.02.05-20.31.26:772][388]LogBlueprintUserMessages: [MyAICharacterLogicBP26] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP27] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP28] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP29] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP30] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP31] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP32] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP33] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP34] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP35] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP36] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP37] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP38] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP39] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP40] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP41] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP42] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP43] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP44] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP45] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP46] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP47] Easy
+[2022.02.05-20.31.26:773][388]LogBlueprintUserMessages: [MyAICharacterLogicBP48] Easy
+[2022.02.05-20.31.26:774][388]LogBlueprintUserMessages: [MyAICharacterLogicBP49] Easy
+[2022.02.05-20.31.26:774][388]LogBlueprintUserMessages: [MyAICharacterLogicBP50] Easy
+[2022.02.05-20.31.26:774][388]LogBlueprintUserMessages: [MyAICharacterLogicBP51] Easy
+[2022.02.05-20.31.26:774][388]LogBlueprintUserMessages: [MyAICharacterLogicBP52] Easy
+[2022.02.05-20.31.26:774][388]LogBlueprintUserMessages: [MyAICharacterLogicBP53] Easy
+[2022.02.05-20.31.26:774][388]LogBlueprintUserMessages: [MyAICharacterLogicBP54] Easy
+[2022.02.05-20.31.26:774][388]LogBlueprintUserMessages: [MyAICharacterLogicBP55] Easy
+[2022.02.05-20.31.26:774][388]LogBlueprintUserMessages: [MyAICharacterLogicBP56] Easy
+[2022.02.05-20.31.26:774][388]LogBlueprintUserMessages: [MyAICharacterLogicBP57] Easy
+[2022.02.05-20.31.26:774][388]LogBlueprintUserMessages: [MyAICharacterLogicBP58] Easy
+[2022.02.05-20.31.26:774][388]LogBlueprintUserMessages: [MyAICharacterLogicBP59] Easy
+[2022.02.05-20.31.26:775][388]LogBlueprintUserMessages: [MyAICharacterLogicBP60] Easy
+[2022.02.05-20.31.26:775][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.05-20.31.26:775][388]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_Game_Level
+[2022.02.05-20.31.26:775][388]LogWorld: UWorld::CleanupWorld for Game_Level, bSessionEnded=true, bCleanupResources=true
+[2022.02.05-20.31.26:781][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.05-20.31.26:793][388]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.05-20.31.26:800][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.05-20.31.26:827][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.05-20.31.26:828][388]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.05-20.31.26:829][388]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.05-20.31.26:838][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2022.02.05-20.31.26:974][389]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2022.02.05-20.31.32:729][792]LogSlate: Window 'Message Log' being destroyed
+[2022.02.05-20.31.44:090][617]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2022.02.05-20.31.44:155][617]LogAssetEditorSubsystem: Opening Asset editor for World /Game/ThirdPersonCPP/Maps/MainMenu.MainMenu
+[2022.02.05-20.31.44:155][617]Cmd: MAP LOAD FILE="C:/Program Files (x86)/Epic Games/Unreal Engine/V27.2eal Engine/V27.2/DagMaloah/DagMaloah/Content/ThirdPersonCPP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.05-20.31.44:155][617]LightingResults: New page: Lighting Build
+[2022.02.05-20.31.44:155][617]LoadErrors: New page: Loading map: MainMenu.umap
+[2022.02.05-20.31.44:168][617]LogWorld: UWorld::CleanupWorld for Game_Level, bSessionEnded=true, bCleanupResources=true
+[2022.02.05-20.31.44:168][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.05-20.31.44:168][617]MapCheck: New page: Map Check
+[2022.02.05-20.31.44:168][617]LightingResults: New page: Lighting Build
+[2022.02.05-20.31.44:199][617]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.05-20.31.44:205][617]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2022.02.05-20.31.44:206][617]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2022.02.05-20.31.44:232][617]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.05-20.31.44:232][617]LogAIModule: Creating AISystem for world MainMenu
+[2022.02.05-20.31.44:263][617]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2022.02.05-20.31.44:275][617]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.05-20.31.44:275][617]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.18ms to complete.
+[2022.02.05-20.31.44:275][617]LogFileHelpers: Loading map 'MainMenu' took 0.120
+[2022.02.05-20.31.52:123][808]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.05-20.31.52:140][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.05-20.31.52:140][808]PIE: New page: PIE session: MainMenu (6 Feb 2022, 0:31:52)
+[2022.02.05-20.31.52:140][808]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenu
+[2022.02.05-20.31.52:141][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001064s)
+[2022.02.05-20.31.52:142][808]LogAIModule: Creating AISystem for world MainMenu
+[2022.02.05-20.31.52:142][808]LogPlayLevel: PIE: World Init took: (0.001087s)
+[2022.02.05-20.31.52:142][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/MainMenu.MainMenu to /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.002284s)
+[2022.02.05-20.31.52:174][808]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2022.02.05-20.31.52:175][808]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.02.05-20.31.52:176][808]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.05-20.31.52:176][808]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.05-20.31.52:176][808]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.05-20.31.52:176][808]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.05-20.31.52:176][808]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.05-20.31.52:176][808]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.05-20.31.52:176][808]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.05-20.31.52:176][808]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.05-20.31.52:176][808]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.05-20.31.52:176][808]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.05-20.31.52:176][808]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.05-20.31.52:176][808]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.05-20.31.52:182][808]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.05-20.31.52:182][808]LogAudioMixer: Display: 1: FrontRight
+[2022.02.05-20.31.52:195][808]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2022.02.05-20.31.52:195][808]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.05-20.31.52:195][808]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.05-20.31.52:195][808]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.05-20.31.52:195][808]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.05-20.31.52:195][808]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.05-20.31.52:195][808]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.05-20.31.52:196][808]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.05-20.31.52:196][808]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.05-20.31.52:196][808]LogInit: FAudioDevice initialized.
+[2022.02.05-20.31.52:197][808]LogAudio: Display: Audio Device (ID: 19) registered with world 'MainMenu'.
+[2022.02.05-20.31.52:209][808]LogLoad: Game class is 'DagMaloahGameMode'
+[2022.02.05-20.31.52:210][808]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2022.02.05-22.31.52
+[2022.02.05-20.31.52:210][808]LogWorld: Bringing up level for play took: 0.000428
+[2022.02.05-20.31.52:210][808]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2022.02.05-20.31.52:214][808]PIE: Server logged in
+[2022.02.05-20.31.52:216][808]PIE: Play in editor total start time 0.084 seconds.
+[2022.02.05-20.32.00:135][443]LogNet: Browse: /Game/ThirdPersonCPP/Maps/Game_Level
+[2022.02.05-20.32.00:135][443]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/Game_Level
+[2022.02.05-20.32.00:135][443]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_MainMenu
+[2022.02.05-20.32.00:136][443]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2022.02.05-20.32.00:136][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.05-20.32.00:163][443]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.05-20.32.00:166][443]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2022.02.05-20.32.00:201][443]LogAudio: Display: Audio Device (ID: 19) registered with world 'Game_Level'.
+[2022.02.05-20.32.00:202][443]LogAIModule: Creating AISystem for world Game_Level
+[2022.02.05-20.32.00:202][443]LogLoad: Game class is 'DagMaloahGameMode'
+[2022.02.05-20.32.00:233][443]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2022.02.05-20.32.00:233][443]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2022.02.05-20.32.00:233][443]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2022.02.05-20.32.00:233][443]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[1] invalid
+[2022.02.05-20.32.00:233][443]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2022.02.05-20.32.00:233][443]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[2] invalid
+[2022.02.05-20.32.00:237][443]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2022.02.05-20.32.00:237][443]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2022.02.05-20.32.00:237][443]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2022.02.05-20.32.00:237][443]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[1] invalid
+[2022.02.05-20.32.00:237][443]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2022.02.05-20.32.00:237][443]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[2] invalid
+[2022.02.05-20.32.00:237][443]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2022.02.05-20.32.00:237][443]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2022.02.05-20.32.00:237][443]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2022.02.05-20.32.00:237][443]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[1] invalid
+[2022.02.05-20.32.00:237][443]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2022.02.05-20.32.00:237][443]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[2] invalid
+[2022.02.05-20.32.00:238][443]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_Game_Level.Game_Level up for play (max tick rate 0) at 2022.02.05-22.32.00
+[2022.02.05-20.32.00:248][443]LogWorld: Bringing up level for play took: 0.045482
+[2022.02.05-20.32.00:250][443]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
+[2022.02.05-20.32.00:250][443]LogBlueprintUserMessages: [MyAICharacterLogicBP2] Easy
+[2022.02.05-20.32.00:250][443]LogBlueprintUserMessages: [MyAICharacterLogicBP3] Easy
+[2022.02.05-20.32.00:250][443]LogBlueprintUserMessages: [MyAICharacterLogicBP_2] Easy
+[2022.02.05-20.32.00:251][443]LogBlueprintUserMessages: [MyAICharacterLogicBP4] Easy
+[2022.02.05-20.32.00:251][443]LogBlueprintUserMessages: [MyAICharacterLogicBP5] Easy
+[2022.02.05-20.32.00:251][443]LogBlueprintUserMessages: [MyAICharacterLogicBP6] Easy
+[2022.02.05-20.32.00:251][443]LogBlueprintUserMessages: [MyAICharacterLogicBP7] Easy
+[2022.02.05-20.32.00:251][443]LogBlueprintUserMessages: [MyAICharacterLogicBP8] Easy
+[2022.02.05-20.32.00:251][443]LogBlueprintUserMessages: [MyAICharacterLogicBP9] Easy
+[2022.02.05-20.32.00:251][443]LogBlueprintUserMessages: [MyAICharacterLogicBP10] Easy
+[2022.02.05-20.32.00:251][443]LogBlueprintUserMessages: [MyAICharacterLogicBP11] Easy
+[2022.02.05-20.32.00:251][443]LogBlueprintUserMessages: [MyAICharacterLogicBP12] Easy
+[2022.02.05-20.32.00:251][443]LogBlueprintUserMessages: [MyAICharacterLogicBP13] Easy
+[2022.02.05-20.32.00:251][443]LogBlueprintUserMessages: [MyAICharacterLogicBP14] Easy
+[2022.02.05-20.32.00:251][443]LogBlueprintUserMessages: [MyAICharacterLogicBP15] Easy
+[2022.02.05-20.32.00:251][443]LogBlueprintUserMessages: [MyAICharacterLogicBP16] Easy
+[2022.02.05-20.32.00:251][443]LogBlueprintUserMessages: [MyAICharacterLogicBP17] Easy
+[2022.02.05-20.32.00:252][443]LogBlueprintUserMessages: [MyAICharacterLogicBP18] Easy
+[2022.02.05-20.32.00:252][443]LogBlueprintUserMessages: [MyAICharacterLogicBP19] Easy
+[2022.02.05-20.32.00:252][443]LogBlueprintUserMessages: [MyAICharacterLogicBP20] Easy
+[2022.02.05-20.32.00:252][443]LogBlueprintUserMessages: [MyAICharacterLogicBP21] Easy
+[2022.02.05-20.32.00:252][443]LogBlueprintUserMessages: [MyAICharacterLogicBP22] Easy
+[2022.02.05-20.32.00:252][443]LogBlueprintUserMessages: [MyAICharacterLogicBP23] Easy
+[2022.02.05-20.32.00:252][443]LogBlueprintUserMessages: [MyAICharacterLogicBP24] Easy
+[2022.02.05-20.32.00:252][443]LogBlueprintUserMessages: [MyAICharacterLogicBP25] Easy
+[2022.02.05-20.32.00:252][443]LogBlueprintUserMessages: [MyAICharacterLogicBP26] Easy
+[2022.02.05-20.32.00:252][443]LogBlueprintUserMessages: [MyAICharacterLogicBP27] Easy
+[2022.02.05-20.32.00:252][443]LogBlueprintUserMessages: [MyAICharacterLogicBP28] Easy
+[2022.02.05-20.32.00:252][443]LogBlueprintUserMessages: [MyAICharacterLogicBP29] Easy
+[2022.02.05-20.32.00:252][443]LogBlueprintUserMessages: [MyAICharacterLogicBP30] Easy
+[2022.02.05-20.32.00:252][443]LogBlueprintUserMessages: [MyAICharacterLogicBP31] Easy
+[2022.02.05-20.32.00:252][443]LogBlueprintUserMessages: [MyAICharacterLogicBP32] Easy
+[2022.02.05-20.32.00:253][443]LogBlueprintUserMessages: [MyAICharacterLogicBP33] Easy
+[2022.02.05-20.32.00:253][443]LogBlueprintUserMessages: [MyAICharacterLogicBP34] Easy
+[2022.02.05-20.32.00:253][443]LogBlueprintUserMessages: [MyAICharacterLogicBP35] Easy
+[2022.02.05-20.32.00:253][443]LogBlueprintUserMessages: [MyAICharacterLogicBP36] Easy
+[2022.02.05-20.32.00:253][443]LogBlueprintUserMessages: [MyAICharacterLogicBP37] Easy
+[2022.02.05-20.32.00:253][443]LogBlueprintUserMessages: [MyAICharacterLogicBP38] Easy
+[2022.02.05-20.32.00:253][443]LogBlueprintUserMessages: [MyAICharacterLogicBP39] Easy
+[2022.02.05-20.32.00:253][443]LogBlueprintUserMessages: [MyAICharacterLogicBP40] Easy
+[2022.02.05-20.32.00:253][443]LogBlueprintUserMessages: [MyAICharacterLogicBP41] Easy
+[2022.02.05-20.32.00:253][443]LogBlueprintUserMessages: [MyAICharacterLogicBP42] Easy
+[2022.02.05-20.32.00:253][443]LogBlueprintUserMessages: [MyAICharacterLogicBP43] Easy
+[2022.02.05-20.32.00:253][443]LogBlueprintUserMessages: [MyAICharacterLogicBP44] Easy
+[2022.02.05-20.32.00:253][443]LogBlueprintUserMessages: [MyAICharacterLogicBP45] Easy
+[2022.02.05-20.32.00:253][443]LogBlueprintUserMessages: [MyAICharacterLogicBP46] Easy
+[2022.02.05-20.32.00:254][443]LogBlueprintUserMessages: [MyAICharacterLogicBP47] Easy
+[2022.02.05-20.32.00:254][443]LogBlueprintUserMessages: [MyAICharacterLogicBP48] Easy
+[2022.02.05-20.32.00:254][443]LogBlueprintUserMessages: [MyAICharacterLogicBP49] Easy
+[2022.02.05-20.32.00:254][443]LogBlueprintUserMessages: [MyAICharacterLogicBP50] Easy
+[2022.02.05-20.32.00:254][443]LogBlueprintUserMessages: [MyAICharacterLogicBP51] Easy
+[2022.02.05-20.32.00:254][443]LogBlueprintUserMessages: [MyAICharacterLogicBP52] Easy
+[2022.02.05-20.32.00:254][443]LogBlueprintUserMessages: [MyAICharacterLogicBP53] Easy
+[2022.02.05-20.32.00:254][443]LogBlueprintUserMessages: [MyAICharacterLogicBP54] Easy
+[2022.02.05-20.32.00:254][443]LogBlueprintUserMessages: [MyAICharacterLogicBP55] Easy
+[2022.02.05-20.32.00:254][443]LogBlueprintUserMessages: [MyAICharacterLogicBP56] Easy
+[2022.02.05-20.32.00:254][443]LogBlueprintUserMessages: [MyAICharacterLogicBP57] Easy
+[2022.02.05-20.32.00:254][443]LogBlueprintUserMessages: [MyAICharacterLogicBP58] Easy
+[2022.02.05-20.32.00:254][443]LogBlueprintUserMessages: [MyAICharacterLogicBP59] Easy
+[2022.02.05-20.32.00:254][443]LogBlueprintUserMessages: [MyAICharacterLogicBP60] Easy
+[2022.02.05-20.32.00:255][443]LogLoad: Took 0.120026 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/Game_Level)
+[2022.02.05-20.32.03:553][632]LogBlueprintUserMessages: [MyAICharacterLogicBP10] Medium
+[2022.02.05-20.32.03:553][632]LogBlueprintUserMessages: [MyAICharacterLogicBP11] Medium
+[2022.02.05-20.32.03:553][632]LogBlueprintUserMessages: [MyAICharacterLogicBP12] Medium
+[2022.02.05-20.32.03:553][632]LogBlueprintUserMessages: [MyAICharacterLogicBP13] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP14] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP15] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP16] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP17] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP18] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP19] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP2] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP20] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP21] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP22] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP23] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP24] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP25] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP26] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP27] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP28] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP29] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP3] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP30] Medium
+[2022.02.05-20.32.03:554][632]LogBlueprintUserMessages: [MyAICharacterLogicBP31] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP32] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP33] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP34] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP35] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP36] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP37] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP38] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP39] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP4] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP40] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP41] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP42] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP43] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP44] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP45] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP46] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP47] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP48] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP49] Medium
+[2022.02.05-20.32.03:555][632]LogBlueprintUserMessages: [MyAICharacterLogicBP5] Medium
+[2022.02.05-20.32.03:556][632]LogBlueprintUserMessages: [MyAICharacterLogicBP50] Medium
+[2022.02.05-20.32.03:556][632]LogBlueprintUserMessages: [MyAICharacterLogicBP51] Medium
+[2022.02.05-20.32.03:556][632]LogBlueprintUserMessages: [MyAICharacterLogicBP52] Medium
+[2022.02.05-20.32.03:556][632]LogBlueprintUserMessages: [MyAICharacterLogicBP53] Medium
+[2022.02.05-20.32.03:556][632]LogBlueprintUserMessages: [MyAICharacterLogicBP54] Medium
+[2022.02.05-20.32.03:556][632]LogBlueprintUserMessages: [MyAICharacterLogicBP55] Medium
+[2022.02.05-20.32.03:556][632]LogBlueprintUserMessages: [MyAICharacterLogicBP56] Medium
+[2022.02.05-20.32.03:556][632]LogBlueprintUserMessages: [MyAICharacterLogicBP57] Medium
+[2022.02.05-20.32.03:556][632]LogBlueprintUserMessages: [MyAICharacterLogicBP58] Medium
+[2022.02.05-20.32.03:556][632]LogBlueprintUserMessages: [MyAICharacterLogicBP59] Medium
+[2022.02.05-20.32.03:556][632]LogBlueprintUserMessages: [MyAICharacterLogicBP6] Medium
+[2022.02.05-20.32.03:556][632]LogBlueprintUserMessages: [MyAICharacterLogicBP60] Medium
+[2022.02.05-20.32.03:556][632]LogBlueprintUserMessages: [MyAICharacterLogicBP7] Medium
+[2022.02.05-20.32.03:556][632]LogBlueprintUserMessages: [MyAICharacterLogicBP8] Medium
+[2022.02.05-20.32.03:556][632]LogBlueprintUserMessages: [MyAICharacterLogicBP9] Medium
+[2022.02.05-20.32.03:556][632]LogBlueprintUserMessages: [MyAICharacterLogicBP_2] Medium
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State -713461503
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:567][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.07:568][861]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.09:077][941]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:096][942]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:114][943]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:132][944]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:150][945]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:168][946]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:186][947]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:204][948]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:222][949]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:241][950]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:259][951]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:259][951]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:277][952]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:278][952]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:298][953]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:315][954]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:333][955]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:351][956]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:369][957]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:387][958]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:405][959]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:423][960]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:442][961]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:442][961]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:460][962]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:460][962]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:480][963]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:497][964]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:516][965]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:534][966]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:552][967]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:570][968]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:588][969]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:606][970]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:625][971]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:643][972]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:663][973]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:681][974]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:698][975]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:716][976]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:788][980]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:807][981]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:826][982]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:845][983]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:863][984]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:882][985]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:901][986]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:919][987]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:938][988]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.09:956][989]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:075][ 47]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:094][ 48]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:112][ 49]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:131][ 50]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:150][ 51]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:168][ 52]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:186][ 53]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:204][ 54]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:223][ 55]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:240][ 56]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:258][ 57]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:277][ 58]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:295][ 59]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:314][ 60]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:332][ 61]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:350][ 62]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:368][ 63]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:386][ 64]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State -1851559935
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: LotteryChance : 72
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Chance To Die : 1
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State -713453568
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: LotteryChance : 43
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Chance To Die : 2
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: LotteryChance : 8
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Chance To Die : 22
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: LotteryChance : 83
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Chance To Die : 12
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: LotteryChance : 20
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Chance To Die : 23
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: LotteryChance : 54
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Chance To Die : 46
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:387][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: LotteryChance : 37
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Chance To Die : 20
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: LotteryChance : 17
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Chance To Die : 38
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: LotteryChance : 85
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Chance To Die : 42
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: LotteryChance : 85
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Chance To Die : 16
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: LotteryChance : 37
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Chance To Die : 16
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: LotteryChance : 51
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Chance To Die : 19
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: LotteryChance : 100
+[2022.02.05-20.32.11:388][ 64]LogTemp: Warning: Chance To Die : 26
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: LotteryChance : 48
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Chance To Die : 5
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: LotteryChance : 19
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Chance To Die : 43
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: LotteryChance : 56
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Chance To Die : 32
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: LotteryChance : 78
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Chance To Die : 31
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: LotteryChance : 73
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Chance To Die : 32
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: LotteryChance : 44
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Chance To Die : 37
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: LotteryChance : 96
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Chance To Die : 2
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:389][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: LotteryChance : 77
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Chance To Die : 14
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: LotteryChance : 73
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Chance To Die : 26
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: LotteryChance : 13
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Chance To Die : 50
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: LotteryChance : 73
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Chance To Die : 1
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: LotteryChance : 44
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Chance To Die : 42
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: LotteryChance : 60
+[2022.02.05-20.32.11:390][ 64]LogTemp: Warning: Chance To Die : 17
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: LotteryChance : 93
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Chance To Die : 33
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: LotteryChance : 45
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Chance To Die : 23
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: LotteryChance : 88
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Chance To Die : 11
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: LotteryChance : 62
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Chance To Die : 23
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: LotteryChance : 88
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Chance To Die : 38
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:391][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: LotteryChance : 6
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Chance To Die : 14
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: LotteryChance : 70
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Chance To Die : 31
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: LotteryChance : 34
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Chance To Die : 31
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: LotteryChance : 54
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Chance To Die : 4
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: LotteryChance : 54
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Chance To Die : 27
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: LotteryChance : 82
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Chance To Die : 35
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.11:392][ 64]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.11:416][ 65]LogTemp: Warning: LotteryChance : 65
+[2022.02.05-20.32.11:417][ 65]LogTemp: Warning: Chance To Die : 45
+[2022.02.05-20.32.11:417][ 65]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:417][ 65]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:417][ 65]LogTemp: Warning: Changing State -1852116479
+[2022.02.05-20.32.11:417][ 65]LogTemp: Warning: Changing State -1852116480
+[2022.02.05-20.32.11:417][ 65]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.11:417][ 65]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:435][ 66]LogTemp: Warning: LotteryChance : 24
+[2022.02.05-20.32.11:435][ 66]LogTemp: Warning: Chance To Die : 34
+[2022.02.05-20.32.11:435][ 66]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.11:435][ 66]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.11:435][ 66]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.11:436][ 66]LogTemp: Warning: LotteryChance : 0
+[2022.02.05-20.32.11:436][ 66]LogTemp: Warning: Chance To Die : 27
+[2022.02.05-20.32.11:436][ 66]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.11:436][ 66]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.11:436][ 66]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.11:436][ 66]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:454][ 67]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:472][ 68]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:490][ 69]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:509][ 70]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:526][ 71]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:547][ 72]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:565][ 73]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:582][ 74]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:600][ 75]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:618][ 76]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:635][ 77]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:653][ 78]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:671][ 79]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:688][ 80]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:707][ 81]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:725][ 82]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:725][ 82]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:742][ 83]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:742][ 83]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:759][ 84]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:776][ 85]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:794][ 86]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:811][ 87]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:829][ 88]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:846][ 89]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:866][ 90]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:884][ 91]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:902][ 92]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:920][ 93]LogTemp: Warning: LotteryChance : 26
+[2022.02.05-20.32.11:920][ 93]LogTemp: Warning: Chance To Die : 1
+[2022.02.05-20.32.11:920][ 93]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:920][ 93]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:920][ 93]LogTemp: Warning: Changing State -1850059263
+[2022.02.05-20.32.11:920][ 93]LogTemp: Warning: Changing State -1850059264
+[2022.02.05-20.32.11:920][ 93]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.11:920][ 93]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:937][ 94]LogTemp: Warning: LotteryChance : 97
+[2022.02.05-20.32.11:937][ 94]LogTemp: Warning: Chance To Die : 50
+[2022.02.05-20.32.11:937][ 94]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:937][ 94]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:937][ 94]LogTemp: Warning: Changing State -1850059263
+[2022.02.05-20.32.11:937][ 94]LogTemp: Warning: Changing State -1850059264
+[2022.02.05-20.32.11:937][ 94]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.11:937][ 94]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.11:955][ 95]LogTemp: Warning: LotteryChance : 57
+[2022.02.05-20.32.11:955][ 95]LogTemp: Warning: Chance To Die : 2
+[2022.02.05-20.32.11:955][ 95]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:955][ 95]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:955][ 95]LogTemp: Warning: Changing State -1850059263
+[2022.02.05-20.32.11:955][ 95]LogTemp: Warning: Changing State -1850059264
+[2022.02.05-20.32.11:955][ 95]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.11:973][ 96]LogTemp: Warning: LotteryChance : 94
+[2022.02.05-20.32.11:973][ 96]LogTemp: Warning: Chance To Die : 47
+[2022.02.05-20.32.11:973][ 96]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:974][ 96]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:974][ 96]LogTemp: Warning: Changing State -1850059263
+[2022.02.05-20.32.11:974][ 96]LogTemp: Warning: Changing State -1850059264
+[2022.02.05-20.32.11:974][ 96]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.11:991][ 97]LogTemp: Warning: LotteryChance : 0
+[2022.02.05-20.32.11:991][ 97]LogTemp: Warning: Chance To Die : 28
+[2022.02.05-20.32.11:991][ 97]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.11:991][ 97]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.11:991][ 97]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.11:991][ 97]LogTemp: Warning: LotteryChance : 31
+[2022.02.05-20.32.11:991][ 97]LogTemp: Warning: Chance To Die : 5
+[2022.02.05-20.32.11:991][ 97]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.11:991][ 97]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.11:991][ 97]LogTemp: Warning: Changing State -1850490623
+[2022.02.05-20.32.11:991][ 97]LogTemp: Warning: Changing State -1850490624
+[2022.02.05-20.32.11:991][ 97]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:009][ 98]LogTemp: Warning: LotteryChance : 100
+[2022.02.05-20.32.12:009][ 98]LogTemp: Warning: Chance To Die : 2
+[2022.02.05-20.32.12:009][ 98]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.12:009][ 98]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.12:009][ 98]LogTemp: Warning: Changing State -1850490623
+[2022.02.05-20.32.12:009][ 98]LogTemp: Warning: Changing State -1850490624
+[2022.02.05-20.32.12:009][ 98]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:026][ 99]LogTemp: Warning: LotteryChance : 45
+[2022.02.05-20.32.12:026][ 99]LogTemp: Warning: Chance To Die : 39
+[2022.02.05-20.32.12:026][ 99]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.12:027][ 99]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.12:027][ 99]LogTemp: Warning: Changing State -1850490623
+[2022.02.05-20.32.12:027][ 99]LogTemp: Warning: Changing State -1850490624
+[2022.02.05-20.32.12:027][ 99]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:044][100]LogTemp: Warning: LotteryChance : 3
+[2022.02.05-20.32.12:044][100]LogTemp: Warning: Chance To Die : 9
+[2022.02.05-20.32.12:044][100]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.12:044][100]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.12:044][100]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:186][108]LogTemp: Warning: LotteryChance : 46
+[2022.02.05-20.32.12:186][108]LogTemp: Warning: Chance To Die : 16
+[2022.02.05-20.32.12:186][108]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.12:186][108]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.12:186][108]LogTemp: Warning: Changing State -2006420991
+[2022.02.05-20.32.12:186][108]LogTemp: Warning: Changing State -2006420992
+[2022.02.05-20.32.12:186][108]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:206][109]LogTemp: Warning: LotteryChance : 34
+[2022.02.05-20.32.12:206][109]LogTemp: Warning: Chance To Die : 13
+[2022.02.05-20.32.12:206][109]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.12:206][109]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.12:206][109]LogTemp: Warning: Changing State -2006420991
+[2022.02.05-20.32.12:206][109]LogTemp: Warning: Changing State -2006420992
+[2022.02.05-20.32.12:206][109]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:226][110]LogTemp: Warning: LotteryChance : 64
+[2022.02.05-20.32.12:226][110]LogTemp: Warning: Chance To Die : 0
+[2022.02.05-20.32.12:226][110]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.12:226][110]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.12:226][110]LogTemp: Warning: Changing State -2006420991
+[2022.02.05-20.32.12:226][110]LogTemp: Warning: Changing State -2006420992
+[2022.02.05-20.32.12:226][110]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:245][111]LogTemp: Warning: LotteryChance : 4
+[2022.02.05-20.32.12:246][111]LogTemp: Warning: Chance To Die : 47
+[2022.02.05-20.32.12:246][111]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.12:246][111]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.12:246][111]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:286][113]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:306][114]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:325][115]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:344][116]LogTemp: Warning: LotteryChance : 47
+[2022.02.05-20.32.12:344][116]LogTemp: Warning: Chance To Die : 1
+[2022.02.05-20.32.12:344][116]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.12:344][116]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.12:344][116]LogTemp: Warning: Changing State 506034433
+[2022.02.05-20.32.12:344][116]LogTemp: Warning: Changing State 506034432
+[2022.02.05-20.32.12:344][116]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:344][116]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:363][117]LogTemp: Warning: LotteryChance : 7
+[2022.02.05-20.32.12:363][117]LogTemp: Warning: Chance To Die : 24
+[2022.02.05-20.32.12:363][117]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.12:364][117]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.12:364][117]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:364][117]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:383][118]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:402][119]LogTemp: Warning: LotteryChance : 73
+[2022.02.05-20.32.12:402][119]LogTemp: Warning: Chance To Die : 13
+[2022.02.05-20.32.12:402][119]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.12:402][119]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.12:402][119]LogTemp: Warning: Changing State -1851144191
+[2022.02.05-20.32.12:402][119]LogTemp: Warning: Changing State -1851144192
+[2022.02.05-20.32.12:402][119]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:402][119]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:423][120]LogTemp: Warning: LotteryChance : 30
+[2022.02.05-20.32.12:423][120]LogTemp: Warning: Chance To Die : 33
+[2022.02.05-20.32.12:423][120]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.12:423][120]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.12:423][120]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:423][120]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:442][121]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:461][122]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:479][123]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:498][124]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:516][125]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:533][126]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:553][127]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:571][128]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:590][129]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:608][130]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:625][131]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:644][132]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:662][133]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:680][134]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:700][135]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:719][136]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.12:758][138]LogTemp: Warning: LotteryChance : 61
+[2022.02.05-20.32.12:758][138]LogTemp: Warning: Chance To Die : 9
+[2022.02.05-20.32.12:758][138]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.12:758][138]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.12:758][138]LogTemp: Warning: Changing State -2006431743
+[2022.02.05-20.32.12:758][138]LogTemp: Warning: Changing State -2006431744
+[2022.02.05-20.32.12:758][138]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:776][139]LogTemp: Warning: LotteryChance : 58
+[2022.02.05-20.32.12:776][139]LogTemp: Warning: Chance To Die : 38
+[2022.02.05-20.32.12:776][139]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.12:776][139]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.12:776][139]LogTemp: Warning: Changing State -2006431743
+[2022.02.05-20.32.12:776][139]LogTemp: Warning: Changing State -2006431744
+[2022.02.05-20.32.12:776][139]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:794][140]LogTemp: Warning: LotteryChance : 81
+[2022.02.05-20.32.12:794][140]LogTemp: Warning: Chance To Die : 46
+[2022.02.05-20.32.12:794][140]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.12:794][140]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.12:794][140]LogTemp: Warning: Changing State -2006431743
+[2022.02.05-20.32.12:794][140]LogTemp: Warning: Changing State -2006431744
+[2022.02.05-20.32.12:794][140]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:812][141]LogTemp: Warning: LotteryChance : 40
+[2022.02.05-20.32.12:812][141]LogTemp: Warning: Chance To Die : 35
+[2022.02.05-20.32.12:812][141]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.12:812][141]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.12:812][141]LogTemp: Warning: Changing State -2006431743
+[2022.02.05-20.32.12:812][141]LogTemp: Warning: Changing State -2006431744
+[2022.02.05-20.32.12:812][141]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:830][142]LogTemp: Warning: LotteryChance : 2
+[2022.02.05-20.32.12:830][142]LogTemp: Warning: Chance To Die : 42
+[2022.02.05-20.32.12:830][142]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.12:830][142]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.12:830][142]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:966][149]LogTemp: Warning: LotteryChance : 73
+[2022.02.05-20.32.12:966][149]LogTemp: Warning: Chance To Die : 42
+[2022.02.05-20.32.12:966][149]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.12:966][149]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.12:966][149]LogTemp: Warning: Changing State 593774593
+[2022.02.05-20.32.12:966][149]LogTemp: Warning: Changing State 593774592
+[2022.02.05-20.32.12:966][149]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:986][150]LogTemp: Warning: LotteryChance : 42
+[2022.02.05-20.32.12:986][150]LogTemp: Warning: Chance To Die : 10
+[2022.02.05-20.32.12:986][150]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.12:986][150]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.12:986][150]LogTemp: Warning: Changing State -1584052223
+[2022.02.05-20.32.12:986][150]LogTemp: Warning: Changing State -1584052224
+[2022.02.05-20.32.12:986][150]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.12:986][150]LogTemp: Warning: LotteryChance : 45
+[2022.02.05-20.32.12:986][150]LogTemp: Warning: Chance To Die : 25
+[2022.02.05-20.32.12:986][150]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.12:986][150]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.12:986][150]LogTemp: Warning: Changing State 593774593
+[2022.02.05-20.32.12:986][150]LogTemp: Warning: Changing State 593774592
+[2022.02.05-20.32.12:986][150]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:005][151]LogTemp: Warning: LotteryChance : 39
+[2022.02.05-20.32.13:005][151]LogTemp: Warning: Chance To Die : 16
+[2022.02.05-20.32.13:005][151]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:005][151]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:005][151]LogTemp: Warning: Changing State -1584052223
+[2022.02.05-20.32.13:005][151]LogTemp: Warning: Changing State -1584052224
+[2022.02.05-20.32.13:005][151]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:006][151]LogTemp: Warning: LotteryChance : 13
+[2022.02.05-20.32.13:006][151]LogTemp: Warning: Chance To Die : 13
+[2022.02.05-20.32.13:006][151]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.13:006][151]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:006][151]LogTemp: Warning: Changing State -1586284287
+[2022.02.05-20.32.13:006][151]LogTemp: Warning: Changing State -1586284288
+[2022.02.05-20.32.13:006][151]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:006][151]LogTemp: Warning: LotteryChance : 36
+[2022.02.05-20.32.13:006][151]LogTemp: Warning: Chance To Die : 31
+[2022.02.05-20.32.13:006][151]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:006][151]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:006][151]LogTemp: Warning: Changing State 593774593
+[2022.02.05-20.32.13:006][151]LogTemp: Warning: Changing State 593774592
+[2022.02.05-20.32.13:006][151]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:024][152]LogTemp: Warning: LotteryChance : 81
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: Chance To Die : 24
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: Changing State -1584052223
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: Changing State -1584052224
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: LotteryChance : 43
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: Chance To Die : 44
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: LotteryChance : 79
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: Chance To Die : 0
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: Changing State 593774593
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: Changing State 593774592
+[2022.02.05-20.32.13:025][152]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:045][153]LogTemp: Warning: LotteryChance : 35
+[2022.02.05-20.32.13:045][153]LogTemp: Warning: Chance To Die : 33
+[2022.02.05-20.32.13:045][153]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:045][153]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:045][153]LogTemp: Warning: Changing State -1584052223
+[2022.02.05-20.32.13:045][153]LogTemp: Warning: Changing State -1584052224
+[2022.02.05-20.32.13:046][153]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:046][153]LogTemp: Warning: LotteryChance : 91
+[2022.02.05-20.32.13:046][153]LogTemp: Warning: Chance To Die : 4
+[2022.02.05-20.32.13:046][153]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:046][153]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:046][153]LogTemp: Warning: Changing State 593774593
+[2022.02.05-20.32.13:046][153]LogTemp: Warning: Changing State 593774592
+[2022.02.05-20.32.13:046][153]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:063][154]LogTemp: Warning: LotteryChance : 56
+[2022.02.05-20.32.13:063][154]LogTemp: Warning: Chance To Die : 26
+[2022.02.05-20.32.13:063][154]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:063][154]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:064][154]LogTemp: Warning: Changing State -1584052223
+[2022.02.05-20.32.13:064][154]LogTemp: Warning: Changing State -1584052224
+[2022.02.05-20.32.13:064][154]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:064][154]LogTemp: Warning: LotteryChance : 90
+[2022.02.05-20.32.13:064][154]LogTemp: Warning: Chance To Die : 25
+[2022.02.05-20.32.13:064][154]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:064][154]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:064][154]LogTemp: Warning: Changing State 593774593
+[2022.02.05-20.32.13:064][154]LogTemp: Warning: Changing State 593774592
+[2022.02.05-20.32.13:064][154]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:082][155]LogTemp: Warning: LotteryChance : 64
+[2022.02.05-20.32.13:082][155]LogTemp: Warning: Chance To Die : 44
+[2022.02.05-20.32.13:082][155]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:082][155]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:082][155]LogTemp: Warning: Changing State -1584052223
+[2022.02.05-20.32.13:082][155]LogTemp: Warning: Changing State -1584052224
+[2022.02.05-20.32.13:082][155]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:082][155]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:082][155]LogTemp: Warning: LotteryChance : 14
+[2022.02.05-20.32.13:082][155]LogTemp: Warning: Chance To Die : 42
+[2022.02.05-20.32.13:082][155]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.13:082][155]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.13:082][155]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:100][156]LogTemp: Warning: LotteryChance : 69
+[2022.02.05-20.32.13:100][156]LogTemp: Warning: Chance To Die : 10
+[2022.02.05-20.32.13:100][156]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:100][156]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:100][156]LogTemp: Warning: Changing State -1584052223
+[2022.02.05-20.32.13:100][156]LogTemp: Warning: Changing State -1584052224
+[2022.02.05-20.32.13:100][156]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:100][156]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:119][157]LogTemp: Warning: LotteryChance : 62
+[2022.02.05-20.32.13:119][157]LogTemp: Warning: Chance To Die : 46
+[2022.02.05-20.32.13:119][157]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:119][157]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:119][157]LogTemp: Warning: Changing State -1584052223
+[2022.02.05-20.32.13:119][157]LogTemp: Warning: Changing State -1584052224
+[2022.02.05-20.32.13:119][157]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:119][157]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:137][158]LogTemp: Warning: LotteryChance : 55
+[2022.02.05-20.32.13:137][158]LogTemp: Warning: Chance To Die : 7
+[2022.02.05-20.32.13:137][158]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:137][158]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:137][158]LogTemp: Warning: Changing State -1584052223
+[2022.02.05-20.32.13:137][158]LogTemp: Warning: Changing State -1584052224
+[2022.02.05-20.32.13:137][158]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:137][158]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:156][159]LogTemp: Warning: LotteryChance : 49
+[2022.02.05-20.32.13:156][159]LogTemp: Warning: Chance To Die : 40
+[2022.02.05-20.32.13:156][159]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:156][159]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:156][159]LogTemp: Warning: Changing State -1851517439
+[2022.02.05-20.32.13:156][159]LogTemp: Warning: Changing State -1851517440
+[2022.02.05-20.32.13:156][159]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:156][159]LogTemp: Warning: LotteryChance : 41
+[2022.02.05-20.32.13:156][159]LogTemp: Warning: Chance To Die : 9
+[2022.02.05-20.32.13:156][159]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:156][159]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:156][159]LogTemp: Warning: Changing State -1584052223
+[2022.02.05-20.32.13:156][159]LogTemp: Warning: Changing State -1584052224
+[2022.02.05-20.32.13:156][159]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:156][159]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:176][160]LogTemp: Warning: LotteryChance : 83
+[2022.02.05-20.32.13:176][160]LogTemp: Warning: Chance To Die : 37
+[2022.02.05-20.32.13:176][160]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:176][160]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:176][160]LogTemp: Warning: Changing State -1851517439
+[2022.02.05-20.32.13:176][160]LogTemp: Warning: Changing State -1851517440
+[2022.02.05-20.32.13:176][160]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:176][160]LogTemp: Warning: LotteryChance : 9
+[2022.02.05-20.32.13:176][160]LogTemp: Warning: Chance To Die : 43
+[2022.02.05-20.32.13:176][160]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.13:176][160]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.13:176][160]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:176][160]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:195][161]LogTemp: Warning: LotteryChance : 57
+[2022.02.05-20.32.13:195][161]LogTemp: Warning: Chance To Die : 24
+[2022.02.05-20.32.13:195][161]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:195][161]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:195][161]LogTemp: Warning: Changing State -1851517439
+[2022.02.05-20.32.13:195][161]LogTemp: Warning: Changing State -1851517440
+[2022.02.05-20.32.13:195][161]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:195][161]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:215][162]LogTemp: Warning: LotteryChance : 41
+[2022.02.05-20.32.13:215][162]LogTemp: Warning: Chance To Die : 38
+[2022.02.05-20.32.13:215][162]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:215][162]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:215][162]LogTemp: Warning: Changing State -1851517439
+[2022.02.05-20.32.13:215][162]LogTemp: Warning: Changing State -1851517440
+[2022.02.05-20.32.13:215][162]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:215][162]LogTemp: Warning: LotteryChance : 42
+[2022.02.05-20.32.13:215][162]LogTemp: Warning: Chance To Die : 50
+[2022.02.05-20.32.13:215][162]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.13:215][162]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.13:215][162]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:215][162]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:235][163]LogTemp: Warning: LotteryChance : 68
+[2022.02.05-20.32.13:235][163]LogTemp: Warning: Chance To Die : 33
+[2022.02.05-20.32.13:235][163]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:235][163]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:235][163]LogTemp: Warning: Changing State -1851517439
+[2022.02.05-20.32.13:235][163]LogTemp: Warning: Changing State -1851517440
+[2022.02.05-20.32.13:235][163]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:235][163]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:255][164]LogTemp: Warning: LotteryChance : 52
+[2022.02.05-20.32.13:255][164]LogTemp: Warning: Chance To Die : 48
+[2022.02.05-20.32.13:255][164]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:255][164]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:255][164]LogTemp: Warning: Changing State -1851517439
+[2022.02.05-20.32.13:255][164]LogTemp: Warning: Changing State -1851517440
+[2022.02.05-20.32.13:255][164]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:255][164]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:274][165]LogTemp: Warning: LotteryChance : 38
+[2022.02.05-20.32.13:274][165]LogTemp: Warning: Chance To Die : 0
+[2022.02.05-20.32.13:274][165]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:274][165]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:274][165]LogTemp: Warning: Changing State -1851517439
+[2022.02.05-20.32.13:274][165]LogTemp: Warning: Changing State -1851517440
+[2022.02.05-20.32.13:274][165]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:274][165]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:293][166]LogTemp: Warning: LotteryChance : 2
+[2022.02.05-20.32.13:293][166]LogTemp: Warning: Chance To Die : 1
+[2022.02.05-20.32.13:293][166]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:293][166]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:293][166]LogTemp: Warning: Changing State -1851517439
+[2022.02.05-20.32.13:293][166]LogTemp: Warning: Changing State -1851517440
+[2022.02.05-20.32.13:293][166]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:293][166]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:311][167]LogTemp: Warning: LotteryChance : 15
+[2022.02.05-20.32.13:311][167]LogTemp: Warning: Chance To Die : 21
+[2022.02.05-20.32.13:311][167]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.13:311][167]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.13:311][167]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:311][167]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:330][168]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:352][169]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:370][170]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:389][171]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:408][172]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:426][173]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:445][174]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:464][175]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:464][175]LogTemp: Warning: LotteryChance : 99
+[2022.02.05-20.32.13:464][175]LogTemp: Warning: Chance To Die : 18
+[2022.02.05-20.32.13:464][175]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:464][175]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:464][175]LogTemp: Warning: Changing State -2101570047
+[2022.02.05-20.32.13:464][175]LogTemp: Warning: Changing State -2101570048
+[2022.02.05-20.32.13:464][175]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:484][176]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:484][176]LogTemp: Warning: LotteryChance : 99
+[2022.02.05-20.32.13:484][176]LogTemp: Warning: Chance To Die : 48
+[2022.02.05-20.32.13:484][176]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:484][176]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:484][176]LogTemp: Warning: Changing State -2101570047
+[2022.02.05-20.32.13:484][176]LogTemp: Warning: Changing State -2101570048
+[2022.02.05-20.32.13:484][176]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:504][177]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:504][177]LogTemp: Warning: LotteryChance : 55
+[2022.02.05-20.32.13:504][177]LogTemp: Warning: Chance To Die : 50
+[2022.02.05-20.32.13:504][177]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.13:504][177]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.13:504][177]LogTemp: Warning: Changing State -2101570047
+[2022.02.05-20.32.13:504][177]LogTemp: Warning: Changing State -2101570048
+[2022.02.05-20.32.13:504][177]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:524][178]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:524][178]LogTemp: Warning: LotteryChance : 20
+[2022.02.05-20.32.13:524][178]LogTemp: Warning: Chance To Die : 23
+[2022.02.05-20.32.13:524][178]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.13:524][178]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.13:524][178]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:547][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:548][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:548][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:548][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:548][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:548][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:548][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:548][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:548][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:548][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:548][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:548][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:548][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:548][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:548][179]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.13:567][180]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:586][181]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:605][182]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:624][183]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:643][184]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:662][185]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:681][186]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:700][187]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:719][188]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:739][189]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:757][190]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.13:777][191]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:229][214]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:249][215]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:270][216]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:292][217]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:312][218]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:332][219]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:353][220]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:373][221]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:702][237]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:721][238]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:740][239]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:760][240]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:779][241]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:798][242]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:818][243]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:838][244]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:859][245]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:879][246]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:899][247]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:977][251]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.14:997][252]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:017][253]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:036][254]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:056][255]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:056][255]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:076][256]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:076][256]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:095][257]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:095][257]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:115][258]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:115][258]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:134][259]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:134][259]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:153][260]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:153][260]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:172][261]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:193][262]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:193][262]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:212][263]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:212][263]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:231][264]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:231][264]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:251][265]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:251][265]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:270][266]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:270][266]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:289][267]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:289][267]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:309][268]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:309][268]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:327][269]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:328][269]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:347][270]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:347][270]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:366][271]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:366][271]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:385][272]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:385][272]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:405][273]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:405][273]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:424][274]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:424][274]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:443][275]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:443][275]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:444][275]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:462][276]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:462][276]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:462][276]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:482][277]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:482][277]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:482][277]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:501][278]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:501][278]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:501][278]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:521][279]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:521][279]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:521][279]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:540][280]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:540][280]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:540][280]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:559][281]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:560][281]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:560][281]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:578][282]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:578][282]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:597][283]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:597][283]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:617][284]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:618][284]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:618][284]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:637][285]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:637][285]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:638][285]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:656][286]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:657][286]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:675][287]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:694][288]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:713][289]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:732][290]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:752][291]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:770][292]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:788][293]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:807][294]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:827][295]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:847][296]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:866][297]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.15:986][303]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:006][304]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:026][305]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:045][306]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:065][307]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:086][308]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:105][309]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:124][310]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:143][311]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:180][313]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:198][314]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:220][315]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:240][316]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:260][317]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:279][318]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:300][319]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:319][320]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:337][321]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:356][322]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:809][346]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:826][347]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:845][348]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:864][349]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:864][349]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:883][350]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:883][350]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:902][351]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:902][351]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:921][352]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:921][352]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:940][353]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:959][354]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:959][354]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: LotteryChance : 45
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: Chance To Die : 1
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: Changing State -1851559936
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: LotteryChance : 74
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: Chance To Die : 32
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: LotteryChance : 93
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: Chance To Die : 41
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:981][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: LotteryChance : 55
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Chance To Die : 34
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: LotteryChance : 61
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Chance To Die : 43
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: LotteryChance : 73
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Chance To Die : 17
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: LotteryChance : 24
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Chance To Die : 21
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: LotteryChance : 97
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Chance To Die : 18
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: LotteryChance : 32
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Chance To Die : 33
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: LotteryChance : 7
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Chance To Die : 6
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: LotteryChance : 83
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Chance To Die : 16
+[2022.02.05-20.32.16:982][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: LotteryChance : 74
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Chance To Die : 32
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: LotteryChance : 13
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Chance To Die : 13
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: LotteryChance : 56
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Chance To Die : 47
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: LotteryChance : 24
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Chance To Die : 17
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: LotteryChance : 70
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Chance To Die : 41
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: LotteryChance : 19
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Chance To Die : 28
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: LotteryChance : 6
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Chance To Die : 18
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:983][355]LogTemp: Warning: LotteryChance : 60
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Chance To Die : 21
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: LotteryChance : 58
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Chance To Die : 50
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: LotteryChance : 76
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Chance To Die : 3
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: LotteryChance : 7
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Chance To Die : 32
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: LotteryChance : 94
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Chance To Die : 37
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: LotteryChance : 43
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Chance To Die : 40
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: LotteryChance : 45
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Chance To Die : 47
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.16:984][355]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: LotteryChance : 34
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Chance To Die : 15
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: LotteryChance : 55
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Chance To Die : 22
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: LotteryChance : 13
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Chance To Die : 15
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: LotteryChance : 93
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Chance To Die : 38
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: LotteryChance : 12
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Chance To Die : 48
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: LotteryChance : 52
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Chance To Die : 32
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: LotteryChance : 58
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Chance To Die : 11
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: LotteryChance : 2
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Chance To Die : 45
+[2022.02.05-20.32.16:985][355]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.16:986][355]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.16:986][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.16:986][355]LogTemp: Warning: LotteryChance : 49
+[2022.02.05-20.32.16:986][355]LogTemp: Warning: Chance To Die : 50
+[2022.02.05-20.32.16:986][355]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.16:986][355]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.16:986][355]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.17:007][356]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:007][356]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:007][356]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:026][357]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:026][357]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:026][357]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:046][358]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:046][358]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:046][358]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:067][359]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:068][359]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:068][359]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:086][360]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:087][360]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:087][360]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:105][361]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:105][361]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:105][361]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:123][362]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:123][362]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:123][362]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:143][363]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:143][363]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:143][363]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:162][364]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:162][364]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:162][364]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:180][365]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:180][365]LogTemp: Warning: LotteryChance : 81
+[2022.02.05-20.32.17:180][365]LogTemp: Warning: Chance To Die : 32
+[2022.02.05-20.32.17:180][365]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:180][365]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:180][365]LogTemp: Warning: Changing State -1850050303
+[2022.02.05-20.32.17:180][365]LogTemp: Warning: Changing State -1850050304
+[2022.02.05-20.32.17:180][365]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:198][366]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:198][366]LogTemp: Warning: LotteryChance : 62
+[2022.02.05-20.32.17:198][366]LogTemp: Warning: Chance To Die : 42
+[2022.02.05-20.32.17:198][366]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:198][366]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:198][366]LogTemp: Warning: Changing State -1850050303
+[2022.02.05-20.32.17:198][366]LogTemp: Warning: Changing State -1850050304
+[2022.02.05-20.32.17:198][366]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:219][367]LogTemp: Warning: LotteryChance : 77
+[2022.02.05-20.32.17:219][367]LogTemp: Warning: Chance To Die : 46
+[2022.02.05-20.32.17:219][367]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:219][367]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:219][367]LogTemp: Warning: Changing State -1758713087
+[2022.02.05-20.32.17:219][367]LogTemp: Warning: Changing State -1758713088
+[2022.02.05-20.32.17:219][367]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:219][367]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:219][367]LogTemp: Warning: LotteryChance : 21
+[2022.02.05-20.32.17:219][367]LogTemp: Warning: Chance To Die : 5
+[2022.02.05-20.32.17:219][367]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:219][367]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:219][367]LogTemp: Warning: Changing State -1850050303
+[2022.02.05-20.32.17:219][367]LogTemp: Warning: Changing State -1850050304
+[2022.02.05-20.32.17:219][367]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:237][368]LogTemp: Warning: LotteryChance : 79
+[2022.02.05-20.32.17:237][368]LogTemp: Warning: Chance To Die : 47
+[2022.02.05-20.32.17:237][368]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:237][368]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:237][368]LogTemp: Warning: Changing State -1758713087
+[2022.02.05-20.32.17:238][368]LogTemp: Warning: Changing State -1758713088
+[2022.02.05-20.32.17:238][368]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:238][368]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:238][368]LogTemp: Warning: LotteryChance : 1
+[2022.02.05-20.32.17:238][368]LogTemp: Warning: Chance To Die : 16
+[2022.02.05-20.32.17:238][368]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.17:238][368]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.17:238][368]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:256][369]LogTemp: Warning: LotteryChance : 97
+[2022.02.05-20.32.17:256][369]LogTemp: Warning: Chance To Die : 4
+[2022.02.05-20.32.17:256][369]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:256][369]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:256][369]LogTemp: Warning: Changing State -1758713087
+[2022.02.05-20.32.17:256][369]LogTemp: Warning: Changing State -1758713088
+[2022.02.05-20.32.17:256][369]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:256][369]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:275][370]LogTemp: Warning: LotteryChance : 88
+[2022.02.05-20.32.17:275][370]LogTemp: Warning: Chance To Die : 37
+[2022.02.05-20.32.17:275][370]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:275][370]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:275][370]LogTemp: Warning: Changing State -1758713087
+[2022.02.05-20.32.17:275][370]LogTemp: Warning: Changing State -1758713088
+[2022.02.05-20.32.17:275][370]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:275][370]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:275][370]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:293][371]LogTemp: Warning: LotteryChance : 53
+[2022.02.05-20.32.17:293][371]LogTemp: Warning: Chance To Die : 0
+[2022.02.05-20.32.17:293][371]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:293][371]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:293][371]LogTemp: Warning: Changing State -1758713087
+[2022.02.05-20.32.17:293][371]LogTemp: Warning: Changing State -1758713088
+[2022.02.05-20.32.17:293][371]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:294][371]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:294][371]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:312][372]LogTemp: Warning: LotteryChance : 96
+[2022.02.05-20.32.17:312][372]LogTemp: Warning: Chance To Die : 30
+[2022.02.05-20.32.17:312][372]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:312][372]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:312][372]LogTemp: Warning: Changing State -1758713087
+[2022.02.05-20.32.17:312][372]LogTemp: Warning: Changing State -1758713088
+[2022.02.05-20.32.17:312][372]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:312][372]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:312][372]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:330][373]LogTemp: Warning: LotteryChance : 15
+[2022.02.05-20.32.17:330][373]LogTemp: Warning: Chance To Die : 26
+[2022.02.05-20.32.17:330][373]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.17:330][373]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.17:330][373]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:330][373]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:330][373]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:349][374]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:349][374]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:367][375]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:367][375]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:386][376]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:386][376]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:405][377]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:405][377]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:423][378]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:423][378]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:440][379]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:440][379]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:457][380]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:458][380]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:475][381]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:476][381]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:493][382]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:493][382]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:513][383]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:513][383]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:531][384]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:531][384]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:549][385]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:549][385]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:567][386]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:567][386]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:585][387]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:585][387]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:602][388]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:603][388]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:621][389]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:621][389]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:639][390]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:639][390]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:657][391]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:657][391]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:675][392]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:675][392]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:694][393]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:694][393]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:713][394]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:713][394]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:731][395]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:731][395]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:753][396]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:753][396]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:771][397]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:771][397]LogTemp: Warning: LotteryChance : 61
+[2022.02.05-20.32.17:771][397]LogTemp: Warning: Chance To Die : 47
+[2022.02.05-20.32.17:771][397]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:772][397]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:772][397]LogTemp: Warning: Changing State -1850685439
+[2022.02.05-20.32.17:772][397]LogTemp: Warning: Changing State -1850685440
+[2022.02.05-20.32.17:772][397]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:772][397]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:790][398]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:790][398]LogTemp: Warning: LotteryChance : 94
+[2022.02.05-20.32.17:790][398]LogTemp: Warning: Chance To Die : 38
+[2022.02.05-20.32.17:790][398]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:790][398]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:790][398]LogTemp: Warning: Changing State -1850685439
+[2022.02.05-20.32.17:790][398]LogTemp: Warning: Changing State -1850685440
+[2022.02.05-20.32.17:790][398]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:790][398]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:809][399]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:809][399]LogTemp: Warning: LotteryChance : 46
+[2022.02.05-20.32.17:809][399]LogTemp: Warning: Chance To Die : 32
+[2022.02.05-20.32.17:809][399]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:809][399]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:809][399]LogTemp: Warning: Changing State -1850685439
+[2022.02.05-20.32.17:809][399]LogTemp: Warning: Changing State -1850685440
+[2022.02.05-20.32.17:809][399]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:809][399]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:829][400]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:829][400]LogTemp: Warning: LotteryChance : 49
+[2022.02.05-20.32.17:829][400]LogTemp: Warning: Chance To Die : 18
+[2022.02.05-20.32.17:829][400]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:829][400]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:829][400]LogTemp: Warning: Changing State -1850685439
+[2022.02.05-20.32.17:829][400]LogTemp: Warning: Changing State -1850685440
+[2022.02.05-20.32.17:829][400]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:829][400]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:849][401]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:849][401]LogTemp: Warning: LotteryChance : 71
+[2022.02.05-20.32.17:849][401]LogTemp: Warning: Chance To Die : 29
+[2022.02.05-20.32.17:849][401]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:849][401]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:849][401]LogTemp: Warning: Changing State -1850685439
+[2022.02.05-20.32.17:849][401]LogTemp: Warning: Changing State -1850685440
+[2022.02.05-20.32.17:849][401]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:849][401]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:868][402]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:868][402]LogTemp: Warning: LotteryChance : 16
+[2022.02.05-20.32.17:868][402]LogTemp: Warning: Chance To Die : 0
+[2022.02.05-20.32.17:868][402]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:868][402]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:868][402]LogTemp: Warning: Changing State -1850685439
+[2022.02.05-20.32.17:868][402]LogTemp: Warning: Changing State -1850685440
+[2022.02.05-20.32.17:868][402]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:868][402]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:887][403]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:887][403]LogTemp: Warning: LotteryChance : 94
+[2022.02.05-20.32.17:887][403]LogTemp: Warning: Chance To Die : 48
+[2022.02.05-20.32.17:887][403]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:887][403]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:887][403]LogTemp: Warning: Changing State -1850685439
+[2022.02.05-20.32.17:887][403]LogTemp: Warning: Changing State -1850685440
+[2022.02.05-20.32.17:887][403]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:887][403]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:906][404]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:906][404]LogTemp: Warning: LotteryChance : 64
+[2022.02.05-20.32.17:906][404]LogTemp: Warning: Chance To Die : 16
+[2022.02.05-20.32.17:906][404]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:906][404]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:906][404]LogTemp: Warning: Changing State -1850685439
+[2022.02.05-20.32.17:906][404]LogTemp: Warning: Changing State -1850685440
+[2022.02.05-20.32.17:906][404]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:906][404]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:925][405]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:925][405]LogTemp: Warning: LotteryChance : 94
+[2022.02.05-20.32.17:925][405]LogTemp: Warning: Chance To Die : 40
+[2022.02.05-20.32.17:925][405]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:925][405]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:925][405]LogTemp: Warning: Changing State -1850685439
+[2022.02.05-20.32.17:925][405]LogTemp: Warning: Changing State -1850685440
+[2022.02.05-20.32.17:925][405]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:925][405]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:945][406]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:945][406]LogTemp: Warning: LotteryChance : 69
+[2022.02.05-20.32.17:945][406]LogTemp: Warning: Chance To Die : 15
+[2022.02.05-20.32.17:945][406]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:945][406]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:945][406]LogTemp: Warning: Changing State -1850685439
+[2022.02.05-20.32.17:945][406]LogTemp: Warning: Changing State -1850685440
+[2022.02.05-20.32.17:945][406]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:945][406]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:963][407]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:963][407]LogTemp: Warning: LotteryChance : 91
+[2022.02.05-20.32.17:963][407]LogTemp: Warning: Chance To Die : 6
+[2022.02.05-20.32.17:963][407]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:963][407]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:963][407]LogTemp: Warning: Changing State -1850685439
+[2022.02.05-20.32.17:963][407]LogTemp: Warning: Changing State -1850685440
+[2022.02.05-20.32.17:963][407]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:963][407]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:982][408]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.17:982][408]LogTemp: Warning: LotteryChance : 66
+[2022.02.05-20.32.17:982][408]LogTemp: Warning: Chance To Die : 4
+[2022.02.05-20.32.17:982][408]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.17:982][408]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.17:982][408]LogTemp: Warning: Changing State -1850685439
+[2022.02.05-20.32.17:982][408]LogTemp: Warning: Changing State -1850685440
+[2022.02.05-20.32.17:982][408]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.17:982][408]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:000][409]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:000][409]LogTemp: Warning: LotteryChance : 18
+[2022.02.05-20.32.18:001][409]LogTemp: Warning: Chance To Die : 1
+[2022.02.05-20.32.18:001][409]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.18:001][409]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.18:001][409]LogTemp: Warning: Changing State -1850685439
+[2022.02.05-20.32.18:001][409]LogTemp: Warning: Changing State -1850685440
+[2022.02.05-20.32.18:001][409]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.18:001][409]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:020][410]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:020][410]LogTemp: Warning: LotteryChance : 45
+[2022.02.05-20.32.18:020][410]LogTemp: Warning: Chance To Die : 13
+[2022.02.05-20.32.18:020][410]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.18:020][410]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.18:020][410]LogTemp: Warning: Changing State -1850685439
+[2022.02.05-20.32.18:020][410]LogTemp: Warning: Changing State -1850685440
+[2022.02.05-20.32.18:020][410]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.18:020][410]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:038][411]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:038][411]LogTemp: Warning: LotteryChance : 94
+[2022.02.05-20.32.18:038][411]LogTemp: Warning: Chance To Die : 22
+[2022.02.05-20.32.18:038][411]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.18:038][411]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.18:038][411]LogTemp: Warning: Changing State -1850685439
+[2022.02.05-20.32.18:038][411]LogTemp: Warning: Changing State -1850685440
+[2022.02.05-20.32.18:038][411]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.18:038][411]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:057][412]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:057][412]LogTemp: Warning: LotteryChance : 42
+[2022.02.05-20.32.18:057][412]LogTemp: Warning: Chance To Die : 12
+[2022.02.05-20.32.18:057][412]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.18:057][412]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.18:057][412]LogTemp: Warning: Changing State -1850685439
+[2022.02.05-20.32.18:057][412]LogTemp: Warning: Changing State -1850685440
+[2022.02.05-20.32.18:057][412]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.18:057][412]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:079][413]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:079][413]LogTemp: Warning: LotteryChance : 17
+[2022.02.05-20.32.18:079][413]LogTemp: Warning: Chance To Die : 43
+[2022.02.05-20.32.18:079][413]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.18:079][413]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.18:079][413]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.18:079][413]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:098][414]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:098][414]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:117][415]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:117][415]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:137][416]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:137][416]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:155][417]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:156][417]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:174][418]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:174][418]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:192][419]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:192][419]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:211][420]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:211][420]LogTemp: Warning: LotteryChance : 62
+[2022.02.05-20.32.18:211][420]LogTemp: Warning: Chance To Die : 33
+[2022.02.05-20.32.18:211][420]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.18:211][420]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.18:211][420]LogTemp: Warning: Changing State 786765313
+[2022.02.05-20.32.18:211][420]LogTemp: Warning: Changing State 786765312
+[2022.02.05-20.32.18:211][420]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.18:211][420]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:228][421]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:228][421]LogTemp: Warning: LotteryChance : 23
+[2022.02.05-20.32.18:228][421]LogTemp: Warning: Chance To Die : 19
+[2022.02.05-20.32.18:228][421]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.18:228][421]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.18:228][421]LogTemp: Warning: Changing State 786765313
+[2022.02.05-20.32.18:228][421]LogTemp: Warning: Changing State 786765312
+[2022.02.05-20.32.18:228][421]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.18:228][421]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:248][422]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:248][422]LogTemp: Warning: LotteryChance : 92
+[2022.02.05-20.32.18:248][422]LogTemp: Warning: Chance To Die : 37
+[2022.02.05-20.32.18:248][422]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.18:248][422]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.18:248][422]LogTemp: Warning: Changing State 786765313
+[2022.02.05-20.32.18:248][422]LogTemp: Warning: Changing State 786765312
+[2022.02.05-20.32.18:248][422]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.18:248][422]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:267][423]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:267][423]LogTemp: Warning: LotteryChance : 40
+[2022.02.05-20.32.18:267][423]LogTemp: Warning: Chance To Die : 41
+[2022.02.05-20.32.18:267][423]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.18:267][423]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.18:267][423]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.18:267][423]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:286][424]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:286][424]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:304][425]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:304][425]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:322][426]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:322][426]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:339][427]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:339][427]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:357][428]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:357][428]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:375][429]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:375][429]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:392][430]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:392][430]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:410][431]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:410][431]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:427][432]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:427][432]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:445][433]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:462][434]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:480][435]LogTemp: Warning: LotteryChance : 62
+[2022.02.05-20.32.18:480][435]LogTemp: Warning: Chance To Die : 2
+[2022.02.05-20.32.18:480][435]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.18:480][435]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.18:480][435]LogTemp: Warning: Changing State -1851522815
+[2022.02.05-20.32.18:480][435]LogTemp: Warning: Changing State -1851522816
+[2022.02.05-20.32.18:480][435]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.18:480][435]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:497][436]LogTemp: Warning: LotteryChance : 90
+[2022.02.05-20.32.18:497][436]LogTemp: Warning: Chance To Die : 41
+[2022.02.05-20.32.18:497][436]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.18:497][436]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.18:497][436]LogTemp: Warning: Changing State -1851522815
+[2022.02.05-20.32.18:497][436]LogTemp: Warning: Changing State -1851522816
+[2022.02.05-20.32.18:497][436]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.18:497][436]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:516][437]LogTemp: Warning: LotteryChance : 0
+[2022.02.05-20.32.18:516][437]LogTemp: Warning: Chance To Die : 24
+[2022.02.05-20.32.18:516][437]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.18:516][437]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.18:516][437]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.18:516][437]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:534][438]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:552][439]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:569][440]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:587][441]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:605][442]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:624][443]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:644][444]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:662][445]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:680][446]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:698][447]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:716][448]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:735][449]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:755][450]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:774][451]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:792][452]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:810][453]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:828][454]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:846][455]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:865][456]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:883][457]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:901][458]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:920][459]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:937][460]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:956][461]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:973][462]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.18:991][463]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:010][464]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:027][465]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:045][466]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:062][467]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:081][468]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:098][469]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:116][470]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:134][471]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:151][472]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:169][473]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:191][474]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:209][475]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:228][476]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:249][477]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:267][478]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:288][479]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:307][480]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:325][481]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:344][482]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:361][483]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:379][484]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:396][485]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:414][486]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:431][487]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:449][488]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:466][489]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:483][490]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:501][491]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:519][492]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:536][493]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:555][494]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:573][495]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:591][496]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:610][497]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:627][498]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:645][499]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:662][500]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.19:718][503]LogTemp: Warning: LotteryChance : 5
+[2022.02.05-20.32.19:718][503]LogTemp: Warning: Chance To Die : 29
+[2022.02.05-20.32.19:718][503]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.19:718][503]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.19:718][503]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:684][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:685][557]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.20:755][561]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:773][562]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:791][563]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:809][564]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:809][564]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:826][565]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:826][565]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:844][566]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:845][566]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:862][567]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:863][567]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:881][568]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:881][568]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:898][569]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:898][569]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:916][570]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:916][570]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:934][571]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:934][571]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:953][572]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:953][572]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:971][573]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:971][573]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:989][574]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.20:989][574]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:006][575]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:007][575]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:025][576]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:025][576]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:044][577]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:044][577]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:062][578]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:062][578]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:082][579]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:100][580]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:119][581]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:136][582]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:478][601]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:496][602]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:514][603]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:532][604]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:550][605]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:568][606]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:568][606]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:586][607]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:587][607]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:605][608]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:605][608]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:623][609]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:623][609]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:641][610]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:641][610]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:659][611]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:659][611]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:677][612]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:678][612]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:695][613]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:695][613]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:713][614]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:713][614]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:731][615]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:731][615]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:749][616]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:749][616]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:767][617]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:767][617]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:788][618]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:788][618]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:807][619]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:807][619]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:825][620]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:826][620]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:844][621]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:844][621]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:863][622]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:863][622]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:882][623]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:882][623]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:901][624]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:901][624]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:919][625]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:919][625]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:937][626]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:956][627]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:972][628]LogCharacterMovement: MyAICharacterLogicBP32 is stuck and failed to move! Velocity: X=0.00 Y=497.93 Z=0.00 Location: X=-2.16 Y=-2565.05 Z=220.44 Normal: X=0.83 Y=-0.56 Z=-0.00 PenetrationDepth:2.718 Actor:MyAICharacterLogicBP30 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2022.02.05-20.32.21:974][628]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.21:992][629]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:010][630]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:029][631]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:357][649]LogCharacterMovement: MyAICharacterLogicBP21 is stuck and failed to move! Velocity: X=-11.81 Y=149.53 Z=0.00 Location: X=472.28 Y=-2780.26 Z=220.47 Normal: X=0.97 Y=-0.24 Z=0.04 PenetrationDepth:0.241 Actor:MyAICharacterLogicBP55 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2022.02.05-20.32.22:611][663]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:630][664]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:648][665]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:666][666]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:685][667]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:706][668]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:724][669]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:742][670]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:760][671]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:778][672]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:795][673]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:813][674]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:831][675]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:849][676]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:866][677]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:884][678]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.22:902][679]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.23:155][693]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.23:174][694]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.23:192][695]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.23:209][696]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.23:226][697]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.23:245][698]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.23:263][699]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.23:282][700]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.23:301][701]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.23:319][702]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.23:338][703]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.23:356][704]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.23:375][705]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: LotteryChance : 100
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Chance To Die : 33
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Changing State -1851559936
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: LotteryChance : 77
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Chance To Die : 19
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: LotteryChance : 3
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Chance To Die : 15
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: LotteryChance : 18
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Chance To Die : 35
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: LotteryChance : 99
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Chance To Die : 23
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: LotteryChance : 41
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Chance To Die : 13
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:217][752]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: LotteryChance : 70
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Chance To Die : 32
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: LotteryChance : 8
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Chance To Die : 43
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: LotteryChance : 60
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Chance To Die : 7
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: LotteryChance : 65
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Chance To Die : 37
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: LotteryChance : 81
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Chance To Die : 40
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: LotteryChance : 1
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Chance To Die : 15
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: LotteryChance : 79
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Chance To Die : 34
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.24:218][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: LotteryChance : 30
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Chance To Die : 23
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: LotteryChance : 11
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Chance To Die : 39
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: LotteryChance : 18
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Chance To Die : 33
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: LotteryChance : 97
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Chance To Die : 26
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: LotteryChance : 69
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Chance To Die : 10
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: LotteryChance : 66
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Chance To Die : 22
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Changing State 1
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: LotteryChance : 36
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Chance To Die : 30
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: LotteryChance : 98
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Chance To Die : 43
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:219][752]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:220][752]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.24:220][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:220][752]LogTemp: Warning: LotteryChance : 13
+[2022.02.05-20.32.24:220][752]LogTemp: Warning: Chance To Die : 22
+[2022.02.05-20.32.24:220][752]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.24:220][752]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.24:220][752]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.24:278][755]LogTemp: Warning: LotteryChance : 66
+[2022.02.05-20.32.24:278][755]LogTemp: Warning: Chance To Die : 41
+[2022.02.05-20.32.24:278][755]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:278][755]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:278][755]LogTemp: Warning: Changing State -2101568255
+[2022.02.05-20.32.24:278][755]LogTemp: Warning: Changing State -2101568256
+[2022.02.05-20.32.24:278][755]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.24:296][756]LogTemp: Warning: LotteryChance : 49
+[2022.02.05-20.32.24:296][756]LogTemp: Warning: Chance To Die : 45
+[2022.02.05-20.32.24:296][756]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:296][756]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:296][756]LogTemp: Warning: Changing State -2101568255
+[2022.02.05-20.32.24:296][756]LogTemp: Warning: Changing State -2101568256
+[2022.02.05-20.32.24:296][756]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.24:315][757]LogTemp: Warning: LotteryChance : 93
+[2022.02.05-20.32.24:315][757]LogTemp: Warning: Chance To Die : 35
+[2022.02.05-20.32.24:315][757]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:315][757]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:315][757]LogTemp: Warning: Changing State -1852979199
+[2022.02.05-20.32.24:315][757]LogTemp: Warning: Changing State -1852979200
+[2022.02.05-20.32.24:315][757]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.24:315][757]LogTemp: Warning: LotteryChance : 63
+[2022.02.05-20.32.24:315][757]LogTemp: Warning: Chance To Die : 11
+[2022.02.05-20.32.24:315][757]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:315][757]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:315][757]LogTemp: Warning: Changing State -2101568255
+[2022.02.05-20.32.24:315][757]LogTemp: Warning: Changing State -2101568256
+[2022.02.05-20.32.24:315][757]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.24:332][758]LogTemp: Warning: LotteryChance : 81
+[2022.02.05-20.32.24:333][758]LogTemp: Warning: Chance To Die : 8
+[2022.02.05-20.32.24:333][758]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:333][758]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:333][758]LogTemp: Warning: Changing State -1852979199
+[2022.02.05-20.32.24:333][758]LogTemp: Warning: Changing State -1852979200
+[2022.02.05-20.32.24:333][758]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.24:333][758]LogTemp: Warning: LotteryChance : 95
+[2022.02.05-20.32.24:333][758]LogTemp: Warning: Chance To Die : 1
+[2022.02.05-20.32.24:333][758]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:333][758]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:333][758]LogTemp: Warning: Changing State -2101568255
+[2022.02.05-20.32.24:333][758]LogTemp: Warning: Changing State -2101568256
+[2022.02.05-20.32.24:333][758]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.24:351][759]LogTemp: Warning: LotteryChance : 92
+[2022.02.05-20.32.24:351][759]LogTemp: Warning: Chance To Die : 13
+[2022.02.05-20.32.24:351][759]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:351][759]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:351][759]LogTemp: Warning: Changing State -1852979199
+[2022.02.05-20.32.24:351][759]LogTemp: Warning: Changing State -1852979200
+[2022.02.05-20.32.24:351][759]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.24:351][759]LogTemp: Warning: LotteryChance : 32
+[2022.02.05-20.32.24:351][759]LogTemp: Warning: Chance To Die : 7
+[2022.02.05-20.32.24:351][759]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:351][759]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:351][759]LogTemp: Warning: Changing State -2101568255
+[2022.02.05-20.32.24:351][759]LogTemp: Warning: Changing State -2101568256
+[2022.02.05-20.32.24:351][759]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.24:368][760]LogTemp: Warning: LotteryChance : 43
+[2022.02.05-20.32.24:368][760]LogTemp: Warning: Chance To Die : 3
+[2022.02.05-20.32.24:368][760]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:368][760]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:368][760]LogTemp: Warning: Changing State -1852979199
+[2022.02.05-20.32.24:368][760]LogTemp: Warning: Changing State -1852979200
+[2022.02.05-20.32.24:368][760]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.24:369][760]LogTemp: Warning: LotteryChance : 96
+[2022.02.05-20.32.24:369][760]LogTemp: Warning: Chance To Die : 33
+[2022.02.05-20.32.24:369][760]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:369][760]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:369][760]LogTemp: Warning: Changing State -2101568255
+[2022.02.05-20.32.24:369][760]LogTemp: Warning: Changing State -2101568256
+[2022.02.05-20.32.24:369][760]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.24:386][761]LogTemp: Warning: LotteryChance : 73
+[2022.02.05-20.32.24:386][761]LogTemp: Warning: Chance To Die : 12
+[2022.02.05-20.32.24:386][761]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:386][761]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:386][761]LogTemp: Warning: Changing State -1852979199
+[2022.02.05-20.32.24:386][761]LogTemp: Warning: Changing State -1852979200
+[2022.02.05-20.32.24:386][761]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.24:386][761]LogTemp: Warning: LotteryChance : 90
+[2022.02.05-20.32.24:386][761]LogTemp: Warning: Chance To Die : 8
+[2022.02.05-20.32.24:386][761]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:386][761]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:386][761]LogTemp: Warning: Changing State -2101568255
+[2022.02.05-20.32.24:387][761]LogTemp: Warning: Changing State -2101568256
+[2022.02.05-20.32.24:387][761]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.24:404][762]LogTemp: Warning: LotteryChance : 37
+[2022.02.05-20.32.24:404][762]LogTemp: Warning: Chance To Die : 40
+[2022.02.05-20.32.24:404][762]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.24:404][762]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.24:404][762]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.24:404][762]LogTemp: Warning: LotteryChance : 55
+[2022.02.05-20.32.24:404][762]LogTemp: Warning: Chance To Die : 26
+[2022.02.05-20.32.24:404][762]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:404][762]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:405][762]LogTemp: Warning: Changing State -2101568255
+[2022.02.05-20.32.24:405][762]LogTemp: Warning: Changing State -2101568256
+[2022.02.05-20.32.24:405][762]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.24:422][763]LogTemp: Warning: LotteryChance : 76
+[2022.02.05-20.32.24:422][763]LogTemp: Warning: Chance To Die : 4
+[2022.02.05-20.32.24:422][763]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.24:422][763]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.24:422][763]LogTemp: Warning: Changing State -2101568255
+[2022.02.05-20.32.24:422][763]LogTemp: Warning: Changing State -2101568256
+[2022.02.05-20.32.24:422][763]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.24:440][764]LogTemp: Warning: LotteryChance : 11
+[2022.02.05-20.32.24:440][764]LogTemp: Warning: Chance To Die : 48
+[2022.02.05-20.32.24:440][764]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.24:440][764]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.24:440][764]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.24:532][769]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.24:549][770]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.24:567][771]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.24:585][772]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.24:602][773]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.24:620][774]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.24:639][775]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.24:656][776]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.24:676][777]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.24:694][778]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.24:712][779]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.24:729][780]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.24:748][781]LogTemp: Warning: AI Blocked!
+[2022.02.05-20.32.24:805][784]LogTemp: Warning: LotteryChance : 14
+[2022.02.05-20.32.24:805][784]LogTemp: Warning: Chance To Die : 21
+[2022.02.05-20.32.24:805][784]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.24:805][784]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.24:805][784]LogTemp: Warning: Changing State 2
+[2022.02.05-20.32.26:478][880]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.26:478][880]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.26:478][880]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.26:478][880]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.26:478][880]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.26:478][880]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.26:478][880]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.26:478][880]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.26:479][880]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.26:479][880]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.26:479][880]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.26:479][880]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.26:479][880]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.26:479][880]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.26:479][880]LogTemp: Warning: Changing State 224634113
+[2022.02.05-20.32.28:807][  7]LogTemp: Warning: LotteryChance : 61
+[2022.02.05-20.32.28:807][  7]LogTemp: Warning: Chance To Die : 19
+[2022.02.05-20.32.28:807][  7]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.28:807][  7]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.28:807][  7]LogTemp: Warning: Changing State -1851559936
+[2022.02.05-20.32.28:807][  7]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.28:807][  7]LogTemp: Warning: LotteryChance : 85
+[2022.02.05-20.32.28:807][  7]LogTemp: Warning: Chance To Die : 45
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: LotteryChance : 67
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Chance To Die : 37
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: LotteryChance : 32
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Chance To Die : 44
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: LotteryChance : 20
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Chance To Die : 26
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Result : 0
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: AI Died!
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: LotteryChance : 89
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Chance To Die : 8
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: LotteryChance : 44
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Chance To Die : 3
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: LotteryChance : 99
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Chance To Die : 46
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: LotteryChance : 21
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Chance To Die : 9
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.28:808][  7]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: LotteryChance : 16
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Chance To Die : 6
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: LotteryChance : 30
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Chance To Die : 0
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: LotteryChance : 59
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Chance To Die : 37
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: LotteryChance : 65
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Chance To Die : 33
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: LotteryChance : 86
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Chance To Die : 6
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: LotteryChance : 76
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Chance To Die : 23
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Result : 1
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: AI Survived!
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Changing State 0
+[2022.02.05-20.32.28:809][  7]LogTemp: Warning: Changing State 224634114
+[2022.02.05-20.32.29:416][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.05-20.32.29:423][ 41]LogWorld: BeginTearingDown for /Game/ThirdPersonCPP/Maps/UEDPIE_0_Game_Level
+[2022.02.05-20.32.29:444][ 41]LogWorld: UWorld::CleanupWorld for Game_Level, bSessionEnded=true, bCleanupResources=true
+[2022.02.05-20.32.29:451][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.05-20.32.29:457][ 41]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.05-20.32.29:463][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.05-20.32.29:492][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.05-20.32.29:493][ 41]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.05-20.32.29:494][ 41]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.05-20.32.29:503][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2022.02.05-20.32.29:560][ 42]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2022.02.05-20.37.01:945][413]LogSlate: Window 'BP_Doll' being destroyed
+[2022.02.05-20.37.01:950][413]LogSlate: Window 'BP_Doll' being destroyed
+[2022.02.05-20.37.01:958][413]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.02.05-20.37.01:958][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
