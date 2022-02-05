@@ -1,3 +1,5 @@
 C:\Program Files (x86)\Epic Games\Unreal Engine\V27.2eal Engine\V27.2\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Development\DagMaloah\Definitions.DagMaloah.h
 C:\Program Files (x86)\Epic Games\Unreal Engine\V27.2eal Engine\V27.2\DagMaloah\DagMaloah\Source\DagMaloah\RaycastHandler.h
 E:\Program Files (x86)\Games\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+C:\Program Files (x86)\Epic Games\Unreal Engine\V27.2eal Engine\V27.2\DagMaloah\DagMaloah\Source\DagMaloah\AIDataAsset.h
+C:\Program Files (x86)\Epic Games\Unreal Engine\V27.2eal Engine\V27.2\DagMaloah\DagMaloah\Intermediate\Build\Win64\UE4Editor\Inc\DagMaloah\AIDataAsset.generated.h

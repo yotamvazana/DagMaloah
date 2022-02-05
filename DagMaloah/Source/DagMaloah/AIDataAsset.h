@@ -15,10 +15,13 @@ class DAGMALOAH_API UAIDataAsset : public UDataAsset
     GENERATED_BODY()
 public:
 
-    UFUNCTION(BlueprintType)
-        UStaticMesh* GetMesh() { return _mesh; }
+  
     UFUNCTION(BlueprintCallable)
-        float GetRandomMovementSpeed() { return FMath::RandRange(_minMovementSpeed, _maxMovementSpeed); }
+        float GetRandomMovementSpeed() { 
+  
+        return FMath::RandRange(_minMovementSpeed, _maxMovementSpeed);
+      
+        }
 
     UFUNCTION(BlueprintCallable)
         float GetRandomRayAngleCheck() { return FMath::RandRange(_minTurningAngleRange, _maxTurningAngleRange); }
@@ -28,6 +31,9 @@ public:
 
     UFUNCTION(BlueprintCallable)
         int GetRandomDeathChance() { return FMath::RandRange(_minDeathChance, _maxDeathChance); }
+
+    UPROPERTY(EditAnywhere)
+        FString Name;
 private:
     UPROPERTY(EditAnywhere)
         float _minMovementSpeed;
@@ -48,8 +54,4 @@ private:
         int _maxDeathChance;
     UPROPERTY(EditAnywhere)
         int _minDeathChance;
-
-
-    UPROPERTY(EditAnywhere)
-        UStaticMesh* _mesh;
 };

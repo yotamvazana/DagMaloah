@@ -68,9 +68,10 @@ void EmptyLinkFunctionForGeneratedCodeDollClass() {}
 	DEFINE_FUNCTION(ADollClass::execRayTestFromDoll)
 	{
 		P_GET_OBJECT(AActor,Z_Param_actorToCheck);
+		P_GET_UBOOL(Z_Param__toShowRaycast);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		*(bool*)Z_Param__Result=P_THIS->RayTestFromDoll(Z_Param_actorToCheck);
+		*(bool*)Z_Param__Result=P_THIS->RayTestFromDoll(Z_Param_actorToCheck,Z_Param__toShowRaycast);
 		P_NATIVE_END;
 	}
 	void ADollClass::StaticRegisterNativesADollClass()
@@ -87,9 +88,12 @@ void EmptyLinkFunctionForGeneratedCodeDollClass() {}
 		struct DollClass_eventRayTestFromDoll_Parms
 		{
 			AActor* actorToCheck;
+			bool _toShowRaycast;
 			bool ReturnValue;
 		};
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_actorToCheck;
+		static void NewProp__toShowRaycast_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp__toShowRaycast;
 		static void NewProp_ReturnValue_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -99,6 +103,11 @@ void EmptyLinkFunctionForGeneratedCodeDollClass() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ADollClass_RayTestFromDoll_Statics::NewProp_actorToCheck = { "actorToCheck", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(DollClass_eventRayTestFromDoll_Parms, actorToCheck), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_ADollClass_RayTestFromDoll_Statics::NewProp__toShowRaycast_SetBit(void* Obj)
+	{
+		((DollClass_eventRayTestFromDoll_Parms*)Obj)->_toShowRaycast = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_ADollClass_RayTestFromDoll_Statics::NewProp__toShowRaycast = { "_toShowRaycast", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(DollClass_eventRayTestFromDoll_Parms), &Z_Construct_UFunction_ADollClass_RayTestFromDoll_Statics::NewProp__toShowRaycast_SetBit, METADATA_PARAMS(nullptr, 0) };
 	void Z_Construct_UFunction_ADollClass_RayTestFromDoll_Statics::NewProp_ReturnValue_SetBit(void* Obj)
 	{
 		((DollClass_eventRayTestFromDoll_Parms*)Obj)->ReturnValue = 1;
@@ -106,6 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeDollClass() {}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_ADollClass_RayTestFromDoll_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(DollClass_eventRayTestFromDoll_Parms), &Z_Construct_UFunction_ADollClass_RayTestFromDoll_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ADollClass_RayTestFromDoll_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ADollClass_RayTestFromDoll_Statics::NewProp_actorToCheck,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ADollClass_RayTestFromDoll_Statics::NewProp__toShowRaycast,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ADollClass_RayTestFromDoll_Statics::NewProp_ReturnValue,
 	};
 #if WITH_METADATA
@@ -186,7 +196,7 @@ void EmptyLinkFunctionForGeneratedCodeDollClass() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_DagMaloah,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ADollClass_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ADollClass_RayTestFromDoll, "RayTestFromDoll" }, // 2770385814
+		{ &Z_Construct_UFunction_ADollClass_RayTestFromDoll, "RayTestFromDoll" }, // 3768092114
 		{ &Z_Construct_UFunction_ADollClass_TriggerLightChange, "TriggerLightChange" }, // 1728131021
 	};
 #if WITH_METADATA
@@ -237,7 +247,7 @@ void EmptyLinkFunctionForGeneratedCodeDollClass() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADollClass, 4251323170);
+	IMPLEMENT_CLASS(ADollClass, 903467447);
 	template<> DAGMALOAH_API UClass* StaticClass<ADollClass>()
 	{
 		return ADollClass::StaticClass();

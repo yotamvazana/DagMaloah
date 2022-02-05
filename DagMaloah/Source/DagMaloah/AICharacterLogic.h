@@ -40,7 +40,8 @@ private:
         ADollClass* _dollReference = nullptr;
     TMap< TEnumAsByte<StateTypeEnum>, BaseState* > _stateMap;
     BaseState* _currentState = nullptr;
-    bool isAlive;
+    bool _isAlive = false;
+    bool _showRaycast = false;
 
     //-----------------------------------------------------------------------------------------------
     // Functions
@@ -54,17 +55,30 @@ public:
     UFUNCTION(BlueprintImplementableEvent, Category = "Events")
         void OnAIWin();
 
+    UFUNCTION(BlueprintImplementableEvent, Category = "Events")
+        void OnInitAI();
     //-----------------------------------------------------------------------------------------------
     //Propeties
-    bool GetAlive() { return isAlive; }
+    bool GetAlive() { return _isAlive; }
     void SetAlive(bool isPlaying);
+    bool ToShowRayCast() { return _showRaycast; }
 
     ADollClass* GetDollRef() { return _dollReference; }
     AController* GetController() { return Controller; }
     UAIDataAsset* GetAIDataAsset() { return _data; }
-    RaycastHandler* GetRayCastHandler() { return _rayCastHandler; }
+
+    RaycastHandler* GetRayCastHandler();
     UFUNCTION(BlueprintCallable)
-        void SetDataAsset(UAIDataAsset* data) { _data = data; }
+        void SetDataAsset(UAIDataAsset* data) {
+       // if(_data)
+       //     UE_LOG(LogTemp, Warning, TEXT("My Previous Data Type is "), _data->Name)
+       //
+       // if (data)
+       //     UE_LOG(LogTemp, Warning, TEXT("Setting Data Asset! $%d"), data->Name)
+       // else
+       //     UE_LOG(LogTemp, Warning, TEXT("Data Is Null!"))
+        _data = data;
+    }
     UFUNCTION(BlueprintCallable)
         void SetDollReference(ADollClass* dollRef) { _dollReference = dollRef; }
 
@@ -72,7 +86,8 @@ public:
     //-----------------------------------------------------------------------------------------------
     //Fucntions
     bool IsDollSeeingMe();
-
+    UFUNCTION(BlueprintCallable)
+        void OnInitAIEvent();
     UFUNCTION(BlueprintCallable)
         void MoveToState(TEnumAsByte<StateTypeEnum> state);
 

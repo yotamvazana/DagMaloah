@@ -27,7 +27,7 @@ public:
 
 private:
 	bool _lightState;
-
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -40,7 +40,7 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	UFUNCTION(BlueprintCallable, Category = "Doll")
-		bool RayTestFromDoll(AActor* actorToCheck);
+		bool RayTestFromDoll(AActor* actorToCheck, bool _toShowRaycast);
 
 	UFUNCTION(BlueprintCallable, Category = "Doll")
      void TriggerLightChange(bool isRed);

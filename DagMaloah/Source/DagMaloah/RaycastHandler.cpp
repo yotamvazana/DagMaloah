@@ -2,7 +2,13 @@
 
 
 #include "RaycastHandler.h"
+#include "AIDataAsset.h"
 
+RaycastHandler::RaycastHandler(UAIDataAsset* data)
+{
+	_angle = data->GetRandomRayAngleCheck();
+	_rayDistance = data->GetRandomRayDistanceCheck();
+}
 RaycastHandler::RaycastHandler()
 {
 }
@@ -16,7 +22,7 @@ RaycastHandler::~RaycastHandler()
 /// </summary>
 /// <param name="raycastShooter"></param>
 /// <returns></returns>
-FHitResult RaycastHandler::ShootRaycast(AController* raycastShooter) {
+FHitResult RaycastHandler::ShootRaycast(AController* raycastShooter, bool& toShowDebug) {
 
 	if (raycastShooter)
 	{
@@ -25,7 +31,7 @@ FHitResult RaycastHandler::ShootRaycast(AController* raycastShooter) {
 		raycastShooter->GetPlayerViewPoint(rayLocation, rayRotation);
 		//UE_LOG(LogTemp, Warning, TEXT("Check %d"), _rayDistance)
 
-		return ShootRay(raycastShooter, rayLocation, rayRotation, _rayDistance);
+		return ShootRay(raycastShooter, rayLocation, rayRotation, _rayDistance, toShowDebug);
 	}
 	UE_LOG(LogTemp, Warning, TEXT("UAIMovementHandler::ShootRaycast - AController is null!"))
 		return FHitResult();
@@ -42,12 +48,12 @@ FHitResult RaycastHandler::ShootRaycast(AController* raycastShooter) {
 /// <param name="Angle">Angle</param>
 /// <param name="maxAngle">Max angle to search for</param>
 /// <returns>Rotation toward location\</returns>
-FRotator RaycastHandler::CheckSurrounding(AController* raycastShooter, FVector startPos, FRotator startingRotaiton, bool toCheckForMiss, float& Angle, float maxAngle)
+FRotator RaycastHandler::CheckSurrounding(AController* raycastShooter, FVector startPos, FRotator startingRotaiton, bool toCheckForMiss, float& Angle, bool& toShowDebug, float maxAngle)
 {
 
 	FRotator newRotaion = FRotator(0, startingRotaiton.Yaw + Angle, 0);
 
-	FHitResult result = ShootRay(raycastShooter, startPos, newRotaion, _rayDistance);
+	FHitResult result = ShootRay(raycastShooter, startPos, newRotaion, _rayDistance, toShowDebug);
 	if (result.bBlockingHit == toCheckForMiss)
 	{
 		//full circle
@@ -68,7 +74,7 @@ FRotator RaycastHandler::CheckSurrounding(AController* raycastShooter, FVector s
 			Angle -= _angle;
 		}
 		//	UE_LOG(LogTemp, Warning, TEXT("Hit! Next Angle Is %d"), Angle)
-		return CheckSurrounding(raycastShooter, startPos, newRotaion, toCheckForMiss, Angle);
+		return CheckSurrounding(raycastShooter, startPos, newRotaion, toCheckForMiss, Angle, toShowDebug);
 	}
 
 
@@ -82,15 +88,21 @@ FRotator RaycastHandler::CheckSurrounding(AController* raycastShooter, FVector s
 /// <param name="rayRotation"></param>
 /// <param name="distance"></param>
 /// <returns>Hitting result</returns>
-FHitResult RaycastHandler::ShootRay(AController* raycastShooter, FVector rayLocation, FRotator rayRotation, float distance) {
+FHitResult RaycastHandler::ShootRay(AController* raycastShooter, FVector rayLocation, FRotator rayRotation, float distance,bool& toShowDebug) 
+{
+	rayRotation.Normalize();
 	FVector endTrace = rayLocation + rayRotation.Vector() * distance;
-	FCollisionQueryParams traceParams(SCENE_QUERY_STAT(ShootRay), true, raycastShooter->GetInstigator());
+	FCollisionQueryParams traceParams(SCENE_QUERY_STAT(ShootRay), true, raycastShooter);
 	FHitResult hit(ForceInit);
 	raycastShooter->GetWorld()->LineTraceSingleByChannel(hit, rayLocation, endTrace, ECC_Visibility, traceParams);
+
+	if (toShowDebug) {
 	DrawDebugLine(raycastShooter->GetWorld(), rayLocation, endTrace, FColor::Red, false, 0.3f, distance);
+	}
+	
+
 
 	return hit;
-	//return FHitResult();
 }
 
 /// <summary>
@@ -100,14 +112,14 @@ FHitResult RaycastHandler::ShootRay(AController* raycastShooter, FVector rayLoca
 /// <param name="distance"></param>
 /// <param name="maxAngle"></param>
 /// <returns>Rotation toward hit object</returns>
-FRotator RaycastHandler::GetBlockedDirection(AController* raycastShooter, float distance, float maxAngle)
+FRotator RaycastHandler::GetBlockedDirection(AController* raycastShooter, float distance, float maxAngle, bool& toShowDebug)
 {
 	FRotator rayRotation;
 	FVector rayLocation;
 	raycastShooter->GetPlayerViewPoint(rayLocation, rayRotation);
 	float startingValue = 0;
 
-	FRotator blockedDirection = CheckSurrounding(raycastShooter, rayLocation, rayRotation, false, startingValue, maxAngle);
+	FRotator blockedDirection = CheckSurrounding(raycastShooter, rayLocation, rayRotation, false, startingValue, toShowDebug, maxAngle);
 	return blockedDirection;
 }
 /// <summary>
@@ -115,12 +127,12 @@ FRotator RaycastHandler::GetBlockedDirection(AController* raycastShooter, float 
 /// </summary>
 /// <param name="AI"></param>
 /// <returns></returns>
-FRotator RaycastHandler::GetEmptyDirection(AController* AI) {
+FRotator RaycastHandler::GetEmptyDirection(AController* AI, bool& toShowDebug) {
 
 	FRotator rayRotation;
 	FVector rayLocation;
 	AI->GetPlayerViewPoint(rayLocation, rayRotation);
 	float startingValue = 0;
-	FRotator angleToRotateTo = CheckSurrounding(AI, rayLocation, rayRotation, true, startingValue);
+	FRotator angleToRotateTo = CheckSurrounding(AI, rayLocation, rayRotation, true, startingValue, toShowDebug);
 	return angleToRotateTo;
 }

@@ -8,7 +8,6 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UStaticMesh;
 #ifdef DAGMALOAH_AIDataAsset_generated_h
 #error "AIDataAsset.generated.h already included, missing '#pragma once' in AIDataAsset.h"
 #endif
@@ -20,8 +19,7 @@ class UStaticMesh;
 	DECLARE_FUNCTION(execGetRandomDeathChance); \
 	DECLARE_FUNCTION(execGetRandomRayDistanceCheck); \
 	DECLARE_FUNCTION(execGetRandomRayAngleCheck); \
-	DECLARE_FUNCTION(execGetRandomMovementSpeed); \
-	DECLARE_FUNCTION(execGetMesh);
+	DECLARE_FUNCTION(execGetRandomMovementSpeed);
 
 
 #define DagMaloah_Source_DagMaloah_AIDataAsset_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
@@ -29,8 +27,7 @@ class UStaticMesh;
 	DECLARE_FUNCTION(execGetRandomDeathChance); \
 	DECLARE_FUNCTION(execGetRandomRayDistanceCheck); \
 	DECLARE_FUNCTION(execGetRandomRayAngleCheck); \
-	DECLARE_FUNCTION(execGetRandomMovementSpeed); \
-	DECLARE_FUNCTION(execGetMesh);
+	DECLARE_FUNCTION(execGetRandomMovementSpeed);
 
 
 #define DagMaloah_Source_DagMaloah_AIDataAsset_h_15_INCLASS_NO_PURE_DECLS \
@@ -85,8 +82,7 @@ public: \
 	FORCEINLINE static uint32 __PPO___minRayDistanceRange() { return STRUCT_OFFSET(UAIDataAsset, _minRayDistanceRange); } \
 	FORCEINLINE static uint32 __PPO___maxRayDistanceRange() { return STRUCT_OFFSET(UAIDataAsset, _maxRayDistanceRange); } \
 	FORCEINLINE static uint32 __PPO___maxDeathChance() { return STRUCT_OFFSET(UAIDataAsset, _maxDeathChance); } \
-	FORCEINLINE static uint32 __PPO___minDeathChance() { return STRUCT_OFFSET(UAIDataAsset, _minDeathChance); } \
-	FORCEINLINE static uint32 __PPO___mesh() { return STRUCT_OFFSET(UAIDataAsset, _mesh); }
+	FORCEINLINE static uint32 __PPO___minDeathChance() { return STRUCT_OFFSET(UAIDataAsset, _minDeathChance); }
 
 
 #define DagMaloah_Source_DagMaloah_AIDataAsset_h_12_PROLOG

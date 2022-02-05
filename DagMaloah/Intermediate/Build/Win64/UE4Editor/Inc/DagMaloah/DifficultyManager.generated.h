@@ -18,16 +18,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
  \
 	DECLARE_FUNCTION(execHardDifficulty); \
 	DECLARE_FUNCTION(execMediumDifficulty); \
-	DECLARE_FUNCTION(execEasyDifficulty);
+	DECLARE_FUNCTION(execEasyDifficulty); \
+	DECLARE_FUNCTION(execStartGame);
 
 
 #define DagMaloah_Source_DagMaloah_DifficultyManager_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execHardDifficulty); \
 	DECLARE_FUNCTION(execMediumDifficulty); \
-	DECLARE_FUNCTION(execEasyDifficulty);
+	DECLARE_FUNCTION(execEasyDifficulty); \
+	DECLARE_FUNCTION(execStartGame);
 
 
+#define DagMaloah_Source_DagMaloah_DifficultyManager_h_18_EVENT_PARMS
+#define DagMaloah_Source_DagMaloah_DifficultyManager_h_18_CALLBACK_WRAPPERS
 #define DagMaloah_Source_DagMaloah_DifficultyManager_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesADifficultyManager(); \
@@ -71,13 +75,17 @@ public: \
 
 
 #define DagMaloah_Source_DagMaloah_DifficultyManager_h_18_PRIVATE_PROPERTY_OFFSET
-#define DagMaloah_Source_DagMaloah_DifficultyManager_h_15_PROLOG
+#define DagMaloah_Source_DagMaloah_DifficultyManager_h_15_PROLOG \
+	DagMaloah_Source_DagMaloah_DifficultyManager_h_18_EVENT_PARMS
+
+
 #define DagMaloah_Source_DagMaloah_DifficultyManager_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	DagMaloah_Source_DagMaloah_DifficultyManager_h_18_PRIVATE_PROPERTY_OFFSET \
 	DagMaloah_Source_DagMaloah_DifficultyManager_h_18_SPARSE_DATA \
 	DagMaloah_Source_DagMaloah_DifficultyManager_h_18_RPC_WRAPPERS \
+	DagMaloah_Source_DagMaloah_DifficultyManager_h_18_CALLBACK_WRAPPERS \
 	DagMaloah_Source_DagMaloah_DifficultyManager_h_18_INCLASS \
 	DagMaloah_Source_DagMaloah_DifficultyManager_h_18_STANDARD_CONSTRUCTORS \
 public: \
@@ -90,6 +98,7 @@ public: \
 	DagMaloah_Source_DagMaloah_DifficultyManager_h_18_PRIVATE_PROPERTY_OFFSET \
 	DagMaloah_Source_DagMaloah_DifficultyManager_h_18_SPARSE_DATA \
 	DagMaloah_Source_DagMaloah_DifficultyManager_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	DagMaloah_Source_DagMaloah_DifficultyManager_h_18_CALLBACK_WRAPPERS \
 	DagMaloah_Source_DagMaloah_DifficultyManager_h_18_INCLASS_NO_PURE_DECLS \
 	DagMaloah_Source_DagMaloah_DifficultyManager_h_18_ENHANCED_CONSTRUCTORS \
 private: \

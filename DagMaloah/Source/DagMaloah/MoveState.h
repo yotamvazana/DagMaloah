@@ -22,8 +22,8 @@ public:
 protected:
     //-----------------------------------------------------------------------------------------------
     //Fields
-    float _speed;
-    float _maxDelay = 0.3f;
+    float _speed = 0;
+    float _maxDelay = 0.2f;
     float _delayCounter = 0.f;
     RaycastHandler* _raycastShooted;
 
@@ -40,5 +40,7 @@ public:
     // MasterClass Functions
     void OnStateEnter()override;
     void OnState(float tickTime)override;
+
+    void MoveLogic(AAICharacterLogic* AI, float tickTime);
 
 };

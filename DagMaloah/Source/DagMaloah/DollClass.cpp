@@ -32,7 +32,7 @@ void ADollClass::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 }
 
 
-bool ADollClass::RayTestFromDoll(AActor* actorToCheck)
+bool ADollClass::RayTestFromDoll(AActor* actorToCheck, bool _toShowRaycast)
 {
 	FVector start = GetActorLocation();
 	FVector Forward = ((actorToCheck->GetActorLocation() + FVector(0, 0, -300)) - start);
@@ -43,22 +43,14 @@ bool ADollClass::RayTestFromDoll(AActor* actorToCheck)
 	if (GetWorld())
 	{
 		bool actorHit = GetWorld()->LineTraceSingleByChannel(hit, start, end, ECC_Pawn, FCollisionQueryParams(), FCollisionResponseParams());
-		DrawDebugLine(GetWorld(), start, end, FColor::Red, false, 0.1, 0, 5);
-		if (actorHit && hit.GetActor()) {
-			//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, hit.GetActor()->GetFName().ToString());
-			if (hit.GetActor() == actorToCheck)
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
-
-		}
-		else
+		if (actorHit) 
 		{
-			return false;
+			bool isHit = hit.GetActor() && hit.GetActor() == actorToCheck;
+
+			if (_toShowRaycast)
+				DrawDebugLine(GetWorld(), start, end, !isHit ? FColor::Green : FColor::Red, false, 0.1, 0, 5);
+
+			return isHit;
 		}
 	}
 	return false;

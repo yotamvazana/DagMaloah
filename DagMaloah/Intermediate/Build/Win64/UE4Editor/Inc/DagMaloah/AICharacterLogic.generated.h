@@ -19,6 +19,7 @@ class UAIDataAsset;
 #define DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execMoveToState); \
+	DECLARE_FUNCTION(execOnInitAIEvent); \
 	DECLARE_FUNCTION(execSetDollReference); \
 	DECLARE_FUNCTION(execSetDataAsset);
 
@@ -26,6 +27,7 @@ class UAIDataAsset;
 #define DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execMoveToState); \
+	DECLARE_FUNCTION(execOnInitAIEvent); \
 	DECLARE_FUNCTION(execSetDollReference); \
 	DECLARE_FUNCTION(execSetDataAsset);
 

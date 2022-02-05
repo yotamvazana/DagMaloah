@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 	DAGMALOAH_API UClass* Z_Construct_UClass_UAIDataAsset();
 	ENGINE_API UClass* Z_Construct_UClass_UDataAsset();
 	UPackage* Z_Construct_UPackage__Script_DagMaloah();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMesh_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(UAIDataAsset::execGetRandomDeathChance)
 	{
@@ -47,57 +46,16 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 		*(float*)Z_Param__Result=P_THIS->GetRandomMovementSpeed();
 		P_NATIVE_END;
 	}
-	DEFINE_FUNCTION(UAIDataAsset::execGetMesh)
-	{
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		*(UStaticMesh**)Z_Param__Result=P_THIS->GetMesh();
-		P_NATIVE_END;
-	}
 	void UAIDataAsset::StaticRegisterNativesUAIDataAsset()
 	{
 		UClass* Class = UAIDataAsset::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "GetMesh", &UAIDataAsset::execGetMesh },
 			{ "GetRandomDeathChance", &UAIDataAsset::execGetRandomDeathChance },
 			{ "GetRandomMovementSpeed", &UAIDataAsset::execGetRandomMovementSpeed },
 			{ "GetRandomRayAngleCheck", &UAIDataAsset::execGetRandomRayAngleCheck },
 			{ "GetRandomRayDistanceCheck", &UAIDataAsset::execGetRandomRayDistanceCheck },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_UAIDataAsset_GetMesh_Statics
-	{
-		struct AIDataAsset_eventGetMesh_Parms
-		{
-			UStaticMesh* ReturnValue;
-		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UAIDataAsset_GetMesh_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIDataAsset_eventGetMesh_Parms, ReturnValue), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UAIDataAsset_GetMesh_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UAIDataAsset_GetMesh_Statics::NewProp_ReturnValue,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UAIDataAsset_GetMesh_Statics::Function_MetaDataParams[] = {
-		{ "BlueprintType", "true" },
-		{ "ModuleRelativePath", "AIDataAsset.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UAIDataAsset_GetMesh_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UAIDataAsset, nullptr, "GetMesh", nullptr, nullptr, sizeof(AIDataAsset_eventGetMesh_Parms), Z_Construct_UFunction_UAIDataAsset_GetMesh_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UAIDataAsset_GetMesh_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UAIDataAsset_GetMesh_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UAIDataAsset_GetMesh_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UAIDataAsset_GetMesh()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UAIDataAsset_GetMesh_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_UAIDataAsset_GetRandomDeathChance_Statics
 	{
@@ -239,6 +197,10 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Name_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_Name;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__minMovementSpeed_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__minMovementSpeed;
@@ -270,10 +232,6 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__minDeathChance_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp__minDeathChance;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__mesh_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp__mesh;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -283,7 +241,6 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_DagMaloah,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UAIDataAsset_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UAIDataAsset_GetMesh, "GetMesh" }, // 1828418123
 		{ &Z_Construct_UFunction_UAIDataAsset_GetRandomDeathChance, "GetRandomDeathChance" }, // 1816155411
 		{ &Z_Construct_UFunction_UAIDataAsset_GetRandomMovementSpeed, "GetRandomMovementSpeed" }, // 444665502
 		{ &Z_Construct_UFunction_UAIDataAsset_GetRandomRayAngleCheck, "GetRandomRayAngleCheck" }, // 902034722
@@ -297,6 +254,13 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 		{ "ModuleRelativePath", "AIDataAsset.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAIDataAsset_Statics::NewProp_Name_MetaData[] = {
+		{ "Category", "AIDataAsset" },
+		{ "ModuleRelativePath", "AIDataAsset.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UAIDataAsset_Statics::NewProp_Name = { "Name", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAIDataAsset, Name), METADATA_PARAMS(Z_Construct_UClass_UAIDataAsset_Statics::NewProp_Name_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAIDataAsset_Statics::NewProp_Name_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minMovementSpeed_MetaData[] = {
 		{ "Category", "AIDataAsset" },
@@ -353,14 +317,8 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minDeathChance = { "_minDeathChance", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAIDataAsset, _minDeathChance), METADATA_PARAMS(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minDeathChance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minDeathChance_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UAIDataAsset_Statics::NewProp__mesh_MetaData[] = {
-		{ "Category", "AIDataAsset" },
-		{ "ModuleRelativePath", "AIDataAsset.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UAIDataAsset_Statics::NewProp__mesh = { "_mesh", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UAIDataAsset, _mesh), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__mesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UAIDataAsset_Statics::NewProp__mesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UAIDataAsset_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAIDataAsset_Statics::NewProp_Name,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minMovementSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAIDataAsset_Statics::NewProp__maxMovementSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minTurningAngleRange,
@@ -369,7 +327,6 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAIDataAsset_Statics::NewProp__maxRayDistanceRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAIDataAsset_Statics::NewProp__maxDeathChance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAIDataAsset_Statics::NewProp__minDeathChance,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UAIDataAsset_Statics::NewProp__mesh,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UAIDataAsset_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UAIDataAsset>::IsAbstract,
@@ -398,7 +355,7 @@ void EmptyLinkFunctionForGeneratedCodeAIDataAsset() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UAIDataAsset, 1039283603);
+	IMPLEMENT_CLASS(UAIDataAsset, 3413635776);
 	template<> DAGMALOAH_API UClass* StaticClass<UAIDataAsset>()
 	{
 		return UAIDataAsset::StaticClass();

@@ -29,9 +29,11 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-
+	UFUNCTION(BlueprintCallable, Category = "My Functions")
+		void StartGame() { OnGameStart(); }
 public:
-
+	UFUNCTION(BlueprintImplementableEvent, Category = "Events")
+		void OnGameStart();
 	UFUNCTION(BlueprintCallable, Category = "My Functions")
 		void EasyDifficulty(TEnumAsByte<Difficulty>& Diff);
 	UFUNCTION(BlueprintCallable, Category = "My Functions")

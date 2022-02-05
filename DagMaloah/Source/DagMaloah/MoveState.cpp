@@ -12,6 +12,7 @@ MoveState::MoveState() : BaseState(nullptr)
 
 MoveState::MoveState(AAICharacterLogic* AICharacterLogic) : BaseState(AICharacterLogic)
 {
+
 }
 
 MoveState::~MoveState()
@@ -25,9 +26,10 @@ void MoveState::MoveForward(float deltaTime)
     if (GetCharacterLogic())
     {
         FRotationMatrix rotMatrixx = FRotationMatrix(GetYawRotation());
-        const FVector direction = rotMatrixx.GetUnitAxis(EAxis::X);
+        FVector direction = rotMatrixx.GetUnitAxis(EAxis::X);
+        direction.Normalize();
         GetCharacterLogic()->AddMovementInput(direction, _speed * deltaTime);
-        //UE_LOG(LogTemp, Warning, TEXT("Actor Was Moved!"))
+       // UE_LOG(LogTemp, Warning, TEXT("Actor Speed is %d!"), _speed)
     }
 }
 void MoveState::RotateTowards(FRotator rotation)
@@ -39,24 +41,38 @@ void MoveState::OnStateEnter()
 {
     _speed = GetDataAsset()->GetRandomMovementSpeed();
     _raycastShooted = GetCharacterLogic()->GetRayCastHandler();
-
 }
 
 void MoveState::OnState(float tickTime)
 {
     //    UE_LOG(LogTemp, Warning, TEXT("NULLLLLLLLLLLLL!"))
 
+    AAICharacterLogic* AI = GetCharacterLogic();
+    bool isDollSeeingMe = AI->IsDollSeeingMe();
+    bool isRedLight = AI->GetDollRef()->GetIsRedLight();
 
+
+       
+    if(!isRedLight || (isRedLight && !isDollSeeingMe)) // green light || red light && doll dont see me -> continue moving
+       MoveLogic(AI, tickTime);
+    else if (isDollSeeingMe && isRedLight) //Is Red Light && doll see me -> to switch state to decistion when doll 
+        AI->MoveToState(StateTypeEnum::Decision_State);
+
+}
+
+void MoveState::MoveLogic(AAICharacterLogic* AI, float tickTime)
+{
     //Calculate rotation toward end position
-    FVector myPos = GetCharacterLogic()->GetActorLocation();
-    FVector finalPos = GetCharacterLogic()->GetWinDestination();
+    FVector myPos = AI->GetActorLocation();
+    FVector finalPos = AI->GetWinDestination();
+   
     FVector destination = finalPos - myPos;
     destination.Normalize();
     FRotator rotation = FRotator(0, UKismetMathLibrary::MakeRotFromX(destination).Yaw, 0);
 
-
+    bool toShowRaycast = AI->ToShowRayCast();
     // check if AI is blocked 
-    if (_raycastShooted && _raycastShooted->ShootRay(GetController(), myPos, rotation, _raycastShooted->GetRayDistance()).bBlockingHit)
+    if (_raycastShooted && _raycastShooted->ShootRay(GetController(), myPos, rotation, _raycastShooted->GetRayDistance(), toShowRaycast).bBlockingHit)
     {
         PathBlocked(rotation, tickTime);
     }
@@ -64,9 +80,8 @@ void MoveState::OnState(float tickTime)
     {
         PathClear(rotation, tickTime);
     }
-    MoveForward(tickTime);
     RotateTowards(rotation);
-
+    MoveForward(tickTime);
 }
 
 FRotator MoveState::PathBlocked(FRotator& defaultRotation, float tickTime)
@@ -75,7 +90,8 @@ FRotator MoveState::PathBlocked(FRotator& defaultRotation, float tickTime)
 
     if (_delayCounter >= _maxDelay)
     {
-        defaultRotation = _raycastShooted->GetEmptyDirection(GetController());
+        bool toShowRaycast =GetCharacterLogic()->ToShowRayCast();
+        defaultRotation = _raycastShooted->GetEmptyDirection(GetController(),toShowRaycast);
         UE_LOG(LogTemp, Warning, TEXT("AI Blocked!"))
 
     }

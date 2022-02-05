@@ -25,19 +25,25 @@ void DecisionState::OnStateEnter()
     if we are losing the he will continue move forward and die
     else we will stop and remain another round
     */
+    AAICharacterLogic* AI = GetCharacterLogic();
+    if (AI->IsDollSeeingMe() == false)
+    {
+        AI->MoveToState(StateTypeEnum::Move_Forward_State);
+        return;
+    }
+
 
 
     if (RollDeathChance())
     {
         UE_LOG(LogTemp, Warning, TEXT("AI Died!"));
-
-        GetCharacterLogic()->SetAlive(false);
+        AI->SetAlive(false);
 
     }
     else
     {
         UE_LOG(LogTemp, Warning, TEXT("AI Survived!"));
-        GetCharacterLogic()->MoveToState(StateTypeEnum::Standing_State);
+        AI->MoveToState(StateTypeEnum::Standing_State);
     }
 
 

@@ -5,7 +5,7 @@
 #include "Engine/World.h" 
 #include "DrawDebugHelpers.h" 
 
-
+class UAIDataAsset;
 class DAGMALOAH_API RaycastHandler
 {
 private:
@@ -13,23 +13,20 @@ private:
     float _angle;
     float _rayDistance;
 public:
+    RaycastHandler(UAIDataAsset* data);
     RaycastHandler();
 
     ~RaycastHandler();
 
     float GetRayDistance() { return _rayDistance; }
 
-    void SetAngle(float angle) { _angle = angle; }
-
-    void SetRayDistance(float distance) { _rayDistance = distance; }
-
-    FHitResult ShootRaycast(AController* character);
+    FHitResult ShootRaycast(AController* character, bool& toShowDebug);
 
 
-    FRotator GetEmptyDirection(AController* AI);
+    FRotator GetEmptyDirection(AController* AI, bool& toShowDebug);
 
-    FRotator CheckSurrounding(AController* raycastShooter, FVector startPos, FRotator startingRotaiton, bool toCheckForMiss, float& Angle, float maxAngle = 360.f);
+    FRotator CheckSurrounding(AController* raycastShooter, FVector startPos, FRotator startingRotaiton, bool toCheckForMiss, float& Angle, bool& toShowDebug, float maxAngle = 360.f);
 
-    FHitResult ShootRay(AController* raycastShooter, FVector rayLocation, FRotator rayRotation, float distance);
-    FRotator GetBlockedDirection(AController* raycastShooter, float distance, float maxAngle);
+    FHitResult ShootRay(AController* raycastShooter, FVector rayLocation, FRotator rayRotation, float distance, bool& toShowDebug);
+    FRotator GetBlockedDirection(AController* raycastShooter, float distance, float maxAngle, bool& toShowDebug);
 };

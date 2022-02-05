@@ -103,6 +103,18 @@ void EmptyLinkFunctionForGeneratedCodeDifficultyManager() {}
 		P_THIS->EasyDifficulty((TEnumAsByte<Difficulty>&)(Z_Param_Out_Diff));
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(ADifficultyManager::execStartGame)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->StartGame();
+		P_NATIVE_END;
+	}
+	static FName NAME_ADifficultyManager_OnGameStart = FName(TEXT("OnGameStart"));
+	void ADifficultyManager::OnGameStart()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ADifficultyManager_OnGameStart),NULL);
+	}
 	void ADifficultyManager::StaticRegisterNativesADifficultyManager()
 	{
 		UClass* Class = ADifficultyManager::StaticClass();
@@ -110,6 +122,7 @@ void EmptyLinkFunctionForGeneratedCodeDifficultyManager() {}
 			{ "EasyDifficulty", &ADifficultyManager::execEasyDifficulty },
 			{ "HardDifficulty", &ADifficultyManager::execHardDifficulty },
 			{ "MediumDifficulty", &ADifficultyManager::execMediumDifficulty },
+			{ "StartGame", &ADifficultyManager::execStartGame },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -212,6 +225,52 @@ void EmptyLinkFunctionForGeneratedCodeDifficultyManager() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ADifficultyManager_OnGameStart_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ADifficultyManager_OnGameStart_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Events" },
+		{ "ModuleRelativePath", "DifficultyManager.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ADifficultyManager_OnGameStart_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ADifficultyManager, nullptr, "OnGameStart", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ADifficultyManager_OnGameStart_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ADifficultyManager_OnGameStart_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ADifficultyManager_OnGameStart()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ADifficultyManager_OnGameStart_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ADifficultyManager_StartGame_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ADifficultyManager_StartGame_Statics::Function_MetaDataParams[] = {
+		{ "Category", "My Functions" },
+		{ "ModuleRelativePath", "DifficultyManager.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ADifficultyManager_StartGame_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ADifficultyManager, nullptr, "StartGame", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ADifficultyManager_StartGame_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ADifficultyManager_StartGame_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ADifficultyManager_StartGame()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ADifficultyManager_StartGame_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ADifficultyManager_NoRegister()
 	{
 		return ADifficultyManager::StaticClass();
@@ -234,6 +293,8 @@ void EmptyLinkFunctionForGeneratedCodeDifficultyManager() {}
 		{ &Z_Construct_UFunction_ADifficultyManager_EasyDifficulty, "EasyDifficulty" }, // 148572784
 		{ &Z_Construct_UFunction_ADifficultyManager_HardDifficulty, "HardDifficulty" }, // 3177635357
 		{ &Z_Construct_UFunction_ADifficultyManager_MediumDifficulty, "MediumDifficulty" }, // 3263677954
+		{ &Z_Construct_UFunction_ADifficultyManager_OnGameStart, "OnGameStart" }, // 782214515
+		{ &Z_Construct_UFunction_ADifficultyManager_StartGame, "StartGame" }, // 4274771596
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADifficultyManager_Statics::Class_MetaDataParams[] = {
@@ -268,7 +329,7 @@ void EmptyLinkFunctionForGeneratedCodeDifficultyManager() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADifficultyManager, 2447982197);
+	IMPLEMENT_CLASS(ADifficultyManager, 442387731);
 	template<> DAGMALOAH_API UClass* StaticClass<ADifficultyManager>()
 	{
 		return ADifficultyManager::StaticClass();

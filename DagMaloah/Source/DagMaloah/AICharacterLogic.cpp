@@ -18,8 +18,8 @@ AAICharacterLogic::AAICharacterLogic()
 // Called when the game starts or when spawned
 void AAICharacterLogic::BeginPlay()
 {
-	Super::BeginPlay();
 	DestroyMapElements();
+	Super::BeginPlay();
 	InitAiParameters();
 
 
@@ -39,12 +39,14 @@ void AAICharacterLogic::DestroyMapElements()
 	_rayCastHandler = nullptr;
 	_currentState = nullptr;
 	_stateMap.Reset();
+	_isAlive = false;
 }
 
 
 void AAICharacterLogic::InitAiParameters()
 {
-
+	_rayCastHandler = new RaycastHandler(_data);
+	
 	_stateMap.Add(StateTypeEnum::Standing_State, new StandingState(this));
 	_stateMap.Add(StateTypeEnum::Move_Forward_State, new MoveState(this));
 	_stateMap.Add(StateTypeEnum::Decision_State, new  DecisionState(this));
@@ -56,9 +58,8 @@ void AAICharacterLogic::InitAiParameters()
 		UE_LOG(LogTemp, Warning, TEXT("Data Is Null!"))
 			return;
 	}
-	_rayCastHandler = new RaycastHandler();
-	_rayCastHandler->SetRayDistance(_data->GetRandomRayDistanceCheck());
-	_rayCastHandler->SetAngle(_data->GetRandomRayAngleCheck());
+
+	
 
 	SetAlive(true);
 	_currentState = nullptr;
@@ -67,6 +68,7 @@ void AAICharacterLogic::InitAiParameters()
 void AAICharacterLogic::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	
 	if ( !GetAlive() || !DeltaTime)
 		return;
 
@@ -95,25 +97,38 @@ void AAICharacterLogic::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 
 void AAICharacterLogic::SetAlive(bool isPlaying)
 {
-	isAlive = isPlaying;
-	if (!isAlive)
+	_isAlive = isPlaying;
+	if (!_isAlive)
 		OnAIDeath();
+}
+
+RaycastHandler* AAICharacterLogic::GetRayCastHandler()
+{
+	//if (_rayCastHandler == nullptr)
+	//	_rayCastHandler = new RaycastHandler(_data);
+
+	return _rayCastHandler;
 }
 
 FVector AAICharacterLogic::GetWinDestination()
 {
-	/*
-	DrawDebugLine(
-		GetWorld(),GetTransform().GetLocation(),
-		FVector(GetTransform().GetLocation().X,_dollReference->GetTransform().GetLocation().Y,_dollReference->GetTransform().GetLocation().Z),
-		FColor::Green,
-		false,
-		0.1f,
-		FVector::Dist(GetTransform().GetLocation(),FVector(GetTransform().GetLocation().X,_dollReference->GetTransform().GetLocation().Y,_dollReference->GetTransform().GetLocation().Z))
-	);
-	*/
+	// creating a point based on the current actor's X position and the doll's YZ position 
+	//adding offset so it will pass the doll line
+	float yWinOffset = 800.f;
 	FVector dollPos = _dollReference->GetTransform().GetLocation();
 	dollPos.X = GetTransform().GetLocation().X;
+	dollPos.Y += yWinOffset;
+	if (ToShowRayCast()) {
+	DrawDebugLine(
+		GetWorld(),GetTransform().GetLocation(),
+		dollPos,
+		FColor::Green,
+		false,
+		0.5f,
+		FVector::Dist(GetTransform().GetLocation(), dollPos)
+	);
+	}
+	
 	return dollPos;
 }
 
@@ -130,7 +145,9 @@ bool AAICharacterLogic::IsDollSeeingMe()
 	}
 	FVector dollPosition = GetDollRef()->GetDollTransform().GetLocation();
 	FVector myPosition = GetTransform().GetLocation();
-	FVector headPositionOffset = FVector(0, 0, -300);
+	FVector headPositionOffset = FVector(0, 0, 300.f);
+
+
 	dollPosition += headPositionOffset;
 	FVector direction = dollPosition - myPosition;
 	direction.Normalize();
@@ -144,14 +161,23 @@ bool AAICharacterLogic::IsDollSeeingMe()
 	{
 		FCollisionQueryParams traceParams(SCENE_QUERY_STAT(IsDollSeeingMe), true, GetInstigator());
 		//bool actorHit = GetWorld()->LineTraceSingleByChannel(hit, dollPosition, end, ECC_Pawn, traceParams, FCollisionResponseParams());
-		bool actorHit = GetWorld()->LineTraceSingleByChannel(hit, dollPosition, myPosition, ECC_Visibility, traceParams, FCollisionResponseParams());
-		DrawDebugLine(GetWorld(), dollPosition, myPosition, FColor::Red, false, 0.1, 0, 5);
+		bool actorHit = GetWorld()->LineTraceSingleByChannel(hit,myPosition , dollPosition, ECC_Visibility, traceParams, FCollisionResponseParams());
+		if (ToShowRayCast())
+			DrawDebugLine(GetWorld(), dollPosition, myPosition, FColor::Red, false, 0.1, 0, 5);
+
 		if (actorHit && hit.GetActor()) {
-			//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, hit.GetActor()->GetFName().ToString());
-			return (hit.GetActor() == (AActor*)this);
+		//	GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, hit.GetActor()->GetFName().ToString());
+			return (hit.GetActor() == (AActor*)GetDollRef());
 		}
 	}
 	return false;
+}
+
+void AAICharacterLogic::OnInitAIEvent()
+{
+	OnInitAI();
+	DestroyMapElements();
+	InitAiParameters();
 }
 
 
@@ -161,7 +187,7 @@ bool AAICharacterLogic::IsDollSeeingMe()
 /// <param name="state"></param>
 void AAICharacterLogic::MoveToState(TEnumAsByte<StateTypeEnum> state)
 {
-	if (GetAlive() == false)
+	if (GetAlive() == false || _stateMap.Num() == 0 )
 		return;
 	//Exiting previous state and entering the next state
 	if ((_currentState != nullptr))
