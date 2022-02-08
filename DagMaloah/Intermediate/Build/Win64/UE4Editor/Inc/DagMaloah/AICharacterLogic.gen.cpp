@@ -87,6 +87,13 @@ void EmptyLinkFunctionForGeneratedCodeAICharacterLogic() {}
 		}
 		return ReturnEnum;
 	}
+	DEFINE_FUNCTION(AAICharacterLogic::execUploadData)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->UploadData();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AAICharacterLogic::execMoveToState)
 	{
 		P_GET_PROPERTY(FByteProperty,Z_Param_state);
@@ -141,6 +148,7 @@ void EmptyLinkFunctionForGeneratedCodeAICharacterLogic() {}
 			{ "OnInitAIEvent", &AAICharacterLogic::execOnInitAIEvent },
 			{ "SetDataAsset", &AAICharacterLogic::execSetDataAsset },
 			{ "SetDollReference", &AAICharacterLogic::execSetDollReference },
+			{ "UploadData", &AAICharacterLogic::execUploadData },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -333,6 +341,28 @@ void EmptyLinkFunctionForGeneratedCodeAICharacterLogic() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AAICharacterLogic_UploadData_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AAICharacterLogic_UploadData_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "AICharacterLogic.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AAICharacterLogic_UploadData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AAICharacterLogic, nullptr, "UploadData", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AAICharacterLogic_UploadData_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AAICharacterLogic_UploadData_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AAICharacterLogic_UploadData()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AAICharacterLogic_UploadData_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AAICharacterLogic_NoRegister()
 	{
 		return AAICharacterLogic::StaticClass();
@@ -368,6 +398,7 @@ void EmptyLinkFunctionForGeneratedCodeAICharacterLogic() {}
 		{ &Z_Construct_UFunction_AAICharacterLogic_OnInitAIEvent, "OnInitAIEvent" }, // 924276310
 		{ &Z_Construct_UFunction_AAICharacterLogic_SetDataAsset, "SetDataAsset" }, // 3416276646
 		{ &Z_Construct_UFunction_AAICharacterLogic_SetDollReference, "SetDollReference" }, // 8026096
+		{ &Z_Construct_UFunction_AAICharacterLogic_UploadData, "UploadData" }, // 790256729
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAICharacterLogic_Statics::Class_MetaDataParams[] = {
@@ -423,7 +454,7 @@ void EmptyLinkFunctionForGeneratedCodeAICharacterLogic() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAICharacterLogic, 1275984105);
+	IMPLEMENT_CLASS(AAICharacterLogic, 2413960267);
 	template<> DAGMALOAH_API UClass* StaticClass<AAICharacterLogic>()
 	{
 		return AAICharacterLogic::StaticClass();

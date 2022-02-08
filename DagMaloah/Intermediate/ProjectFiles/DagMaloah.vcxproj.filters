@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\DagMaloah.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A4A49E7C-29BD-415B-AE67-A24E7DFD1F8F}</UniqueIdentifier>
+      <UniqueIdentifier>{3B74C2FD-B913-415A-9568-48CD27430498}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\DagMaloah.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{CBA7A1EE-EAC2-4C1F-83B7-EBE5F930306C}</UniqueIdentifier>
+      <UniqueIdentifier>{50BC18C4-9CA9-4619-95D1-91FB7C773601}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\DagMaloah">
-      <UniqueIdentifier>{3C739840-BD79-484A-840C-4A37692D78F9}</UniqueIdentifier>
+      <UniqueIdentifier>{9DBBC902-188A-457C-B83B-186991A28E7A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\DagMaloah\AICharacterLogic.cpp">
       <Filter>Source\DagMaloah</Filter>
@@ -48,6 +48,12 @@
       <Filter>Source\DagMaloah</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\DagMaloah\BaseState.h">
+      <Filter>Source\DagMaloah</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\DagMaloah\CSVHandler.cpp">
+      <Filter>Source\DagMaloah</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\DagMaloah\CSVHandler.h">
       <Filter>Source\DagMaloah</Filter>
     </ClInclude>
     <None Include="..\..\Source\DagMaloah\DagMaloah.Build.cs">

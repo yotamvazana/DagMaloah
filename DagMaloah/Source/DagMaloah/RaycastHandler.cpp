@@ -50,17 +50,17 @@ FHitResult RaycastHandler::ShootRaycast(AController* raycastShooter, bool& toSho
 /// <returns>Rotation toward location\</returns>
 FRotator RaycastHandler::CheckSurrounding(AController* raycastShooter, FVector startPos, FRotator startingRotaiton, bool toCheckForMiss, float& Angle, bool& toShowDebug, float maxAngle)
 {
-
 	FRotator newRotaion = FRotator(0, startingRotaiton.Yaw + Angle, 0);
 
 	FHitResult result = ShootRay(raycastShooter, startPos, newRotaion, _rayDistance, toShowDebug);
+
 	if (result.bBlockingHit == toCheckForMiss)
 	{
 		//full circle
 		if (FMath::Abs(Angle) >= maxAngle) {
 			return startingRotaiton;
 		}
-
+		//switch angle based on the previous side
 		if (Angle <= 0.f)
 		{
 			// check left

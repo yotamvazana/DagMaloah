@@ -8,6 +8,8 @@
 #include "DecisionState.h"
 #include "DeathState.h"
 #include "WinState.h"
+#include "CSVHandler.h"
+int AAICharacterLogic::AICount = 1; 
 // Sets default values
 AAICharacterLogic::AAICharacterLogic()
 {
@@ -21,8 +23,11 @@ void AAICharacterLogic::BeginPlay()
 	DestroyMapElements();
 	Super::BeginPlay();
 	InitAiParameters();
-
-
+	
+	_csvData.ID = AAICharacterLogic::AICount;
+	_csvData.isPlayer = false;
+	AAICharacterLogic::AICount++;
+	
 }
 void AAICharacterLogic::BeginDestroy() {
 	DestroyMapElements();	
@@ -40,13 +45,15 @@ void AAICharacterLogic::DestroyMapElements()
 	_currentState = nullptr;
 	_stateMap.Reset();
 	_isAlive = false;
+
 }
 
 
 void AAICharacterLogic::InitAiParameters()
 {
+	// assign raycast handler
 	_rayCastHandler = new RaycastHandler(_data);
-	
+	// set states map
 	_stateMap.Add(StateTypeEnum::Standing_State, new StandingState(this));
 	_stateMap.Add(StateTypeEnum::Move_Forward_State, new MoveState(this));
 	_stateMap.Add(StateTypeEnum::Decision_State, new  DecisionState(this));
@@ -59,7 +66,10 @@ void AAICharacterLogic::InitAiParameters()
 			return;
 	}
 
-	
+	//reset parameters
+	_csvData.isDead = false;
+	_csvData.isWon = false;
+	_csvData.time = 0;
 
 	SetAlive(true);
 	_currentState = nullptr;
@@ -76,13 +86,15 @@ void AAICharacterLogic::Tick(float DeltaTime)
 	if (FVector::Dist(GetWinDestination(), GetTransform().GetLocation()) <= disOffsetCondition)
 	{
 		MoveToState(StateTypeEnum::Winning_State);
-
+		_csvData.isWon = true;
 	}
 	else {
 
 		if ((_currentState != nullptr))
 			_currentState->OnState(DeltaTime);
 	}
+
+	_csvData.time += DeltaTime;
 }
 
 // Called to bind functionality to input
@@ -98,18 +110,18 @@ void AAICharacterLogic::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 void AAICharacterLogic::SetAlive(bool isPlaying)
 {
 	_isAlive = isPlaying;
-	if (!_isAlive)
+	if (!_isAlive) {
+		_csvData.isDead = true;
 		OnAIDeath();
+	} 
 }
 
-RaycastHandler* AAICharacterLogic::GetRayCastHandler()
-{
-	//if (_rayCastHandler == nullptr)
-	//	_rayCastHandler = new RaycastHandler(_data);
 
-	return _rayCastHandler;
-}
 
+/// <summary>
+/// create win destination point based on the current position of the ai and the doll
+/// </summary>
+/// <returns></returns>
 FVector AAICharacterLogic::GetWinDestination()
 {
 	// creating a point based on the current actor's X position and the doll's YZ position 
@@ -143,30 +155,35 @@ bool AAICharacterLogic::IsDollSeeingMe()
 		UE_LOG(LogTemp, Warning, TEXT("Doll Is Null!"))
 			return false;
 	}
-	FVector dollPosition = GetDollRef()->GetDollTransform().GetLocation();
+	//my position
 	FVector myPosition = GetTransform().GetLocation();
+
+	// doll position
+	FVector dollPosition = GetDollRef()->GetDollTransform().GetLocation();
 	FVector headPositionOffset = FVector(0, 0, 300.f);
-
-
 	dollPosition += headPositionOffset;
+
+	// get distance and direction
+	float distance = FVector::Dist(dollPosition, myPosition);
 	FVector direction = dollPosition - myPosition;
 	direction.Normalize();
-	float distance = FVector::Dist(dollPosition, myPosition);
-	//FVector Forward = (myPosition + headPositionOffset) -dollPosition;
-	//Forward.Normalize();
-	//dollPosition = FVector(dollPosition.X + (Forward.X * 100), dollPosition.Y + (Forward.Y * 100), dollPosition.Z + (Forward.Z * 100) + 300);
-	//FVector end = dollPosition + (Forward * 10000);
+
 	FHitResult hit;
+	//check if the current world is valid
 	if (GetWorld())
 	{
 		FCollisionQueryParams traceParams(SCENE_QUERY_STAT(IsDollSeeingMe), true, GetInstigator());
-		//bool actorHit = GetWorld()->LineTraceSingleByChannel(hit, dollPosition, end, ECC_Pawn, traceParams, FCollisionResponseParams());
+	
 		bool actorHit = GetWorld()->LineTraceSingleByChannel(hit,myPosition , dollPosition, ECC_Visibility, traceParams, FCollisionResponseParams());
+	
 		if (ToShowRayCast())
 			DrawDebugLine(GetWorld(), dollPosition, myPosition, FColor::Red, false, 0.1, 0, 5);
-
-		if (actorHit && hit.GetActor()) {
+		//check if we hit something and if we hit an actor
+		if (actorHit && hit.GetActor()) 
+		{
 		//	GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, hit.GetActor()->GetFName().ToString());
+		
+			//retrun true if the path the ray pass through is clear between myself and the doll
 			return (hit.GetActor() == (AActor*)GetDollRef());
 		}
 	}
@@ -194,12 +211,16 @@ void AAICharacterLogic::MoveToState(TEnumAsByte<StateTypeEnum> state)
 		_currentState->OnStateExit();
 
 	_currentState = *_stateMap.Find(state);
-	//ValidateMapValues();
 
+	//Entering new state
 	if (_currentState != nullptr)
 		_currentState->OnStateEnter();
-	else
-		UE_LOG(LogTemp, Warning, TEXT("STATE IS NULL %d"), state)
 
-		UE_LOG(LogTemp, Warning, TEXT("Changing State %d"), state)
+
+	//	UE_LOG(LogTemp, Warning, TEXT("Changing State %d"), state)
+}
+
+void AAICharacterLogic::UploadData()
+{
+	CSVHandler::GetInstance().AssignData(_csvData);
 }

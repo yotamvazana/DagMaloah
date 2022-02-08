@@ -3,12 +3,13 @@
 #include "DagMaloahCharacter.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Camera/CameraComponent.h"
+
+#include "CSVHandler.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
-
 //////////////////////////////////////////////////////////////////////////
 // ADagMaloahCharacter
 
@@ -98,6 +99,22 @@ void ADagMaloahCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Lo
 		StopJumping();
 }
 
+void ADagMaloahCharacter::BeginPlay()
+{
+	_myData.ID = 0;
+	_myData.isPlayer = true;
+	_myData.isDead = false;
+	_myData.time = 0.f;
+	_myData.isWon = false;
+	Super::BeginPlay();
+}
+
+void ADagMaloahCharacter::Tick(float DeltaTime)
+{
+	_myData.time += DeltaTime;
+	Super::Tick(DeltaTime);
+}
+
 void ADagMaloahCharacter::TurnAtRate(float Rate)
 {
 	// calculate delta for this frame from the rate information
@@ -123,7 +140,10 @@ void ADagMaloahCharacter::MoveForward(float Value)
 		AddMovementInput(Direction, Value);
 	}
 }
-
+void ADagMaloahCharacter::UploadData()
+{
+	CSVHandler::GetInstance().AssignData(_myData);
+}
 void ADagMaloahCharacter::MoveRight(float Value)
 {
 	if ( (Controller != nullptr) && (Value != 0.0f) )
@@ -137,4 +157,6 @@ void ADagMaloahCharacter::MoveRight(float Value)
 		// add movement in that direction
 		AddMovementInput(Direction, Value);
 	}
+
+
 }

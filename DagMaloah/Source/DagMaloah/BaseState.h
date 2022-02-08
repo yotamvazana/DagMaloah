@@ -30,7 +30,7 @@ protected:
 public:
     //-----------------------------------------------------------------------------------------------
     //Functions
-    virtual    void OnState(float time) {}
+    virtual void OnState(float time) {}
     virtual void OnStateEnter() { }
     virtual void OnStateExit() { }
 };

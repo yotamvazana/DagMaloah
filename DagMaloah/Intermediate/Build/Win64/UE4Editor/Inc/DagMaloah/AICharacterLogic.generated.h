@@ -15,26 +15,28 @@ class UAIDataAsset;
 #endif
 #define DAGMALOAH_AICharacterLogic_generated_h
 
-#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_SPARSE_DATA
-#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_RPC_WRAPPERS \
+#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_SPARSE_DATA
+#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execUploadData); \
 	DECLARE_FUNCTION(execMoveToState); \
 	DECLARE_FUNCTION(execOnInitAIEvent); \
 	DECLARE_FUNCTION(execSetDollReference); \
 	DECLARE_FUNCTION(execSetDataAsset);
 
 
-#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execUploadData); \
 	DECLARE_FUNCTION(execMoveToState); \
 	DECLARE_FUNCTION(execOnInitAIEvent); \
 	DECLARE_FUNCTION(execSetDollReference); \
 	DECLARE_FUNCTION(execSetDataAsset);
 
 
-#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_EVENT_PARMS
-#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_CALLBACK_WRAPPERS
-#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_INCLASS_NO_PURE_DECLS \
+#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_EVENT_PARMS
+#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_CALLBACK_WRAPPERS
+#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAICharacterLogic(); \
 	friend struct Z_Construct_UClass_AAICharacterLogic_Statics; \
@@ -43,7 +45,7 @@ public: \
 	DECLARE_SERIALIZER(AAICharacterLogic)
 
 
-#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_INCLASS \
+#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_INCLASS \
 private: \
 	static void StaticRegisterNativesAAICharacterLogic(); \
 	friend struct Z_Construct_UClass_AAICharacterLogic_Statics; \
@@ -52,7 +54,7 @@ public: \
 	DECLARE_SERIALIZER(AAICharacterLogic)
 
 
-#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_STANDARD_CONSTRUCTORS \
+#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AAICharacterLogic(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAICharacterLogic) \
@@ -65,7 +67,7 @@ private: \
 public:
 
 
-#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_ENHANCED_CONSTRUCTORS \
+#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAICharacterLogic(AAICharacterLogic&&); \
@@ -76,37 +78,37 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAICharacterLogic)
 
 
-#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_PRIVATE_PROPERTY_OFFSET \
+#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO___data() { return STRUCT_OFFSET(AAICharacterLogic, _data); } \
 	FORCEINLINE static uint32 __PPO___dollReference() { return STRUCT_OFFSET(AAICharacterLogic, _dollReference); }
 
 
-#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_22_PROLOG \
-	DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_EVENT_PARMS
+#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_31_PROLOG \
+	DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_EVENT_PARMS
 
 
-#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_GENERATED_BODY_LEGACY \
+#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_PRIVATE_PROPERTY_OFFSET \
-	DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_SPARSE_DATA \
-	DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_RPC_WRAPPERS \
-	DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_CALLBACK_WRAPPERS \
-	DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_INCLASS \
-	DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_STANDARD_CONSTRUCTORS \
+	DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_PRIVATE_PROPERTY_OFFSET \
+	DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_SPARSE_DATA \
+	DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_RPC_WRAPPERS \
+	DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_CALLBACK_WRAPPERS \
+	DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_INCLASS \
+	DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_GENERATED_BODY \
+#define DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_PRIVATE_PROPERTY_OFFSET \
-	DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_SPARSE_DATA \
-	DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
-	DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_CALLBACK_WRAPPERS \
-	DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_INCLASS_NO_PURE_DECLS \
-	DagMaloah_Source_DagMaloah_AICharacterLogic_h_25_ENHANCED_CONSTRUCTORS \
+	DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_PRIVATE_PROPERTY_OFFSET \
+	DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_SPARSE_DATA \
+	DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_RPC_WRAPPERS_NO_PURE_DECLS \
+	DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_CALLBACK_WRAPPERS \
+	DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_INCLASS_NO_PURE_DECLS \
+	DagMaloah_Source_DagMaloah_AICharacterLogic_h_34_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

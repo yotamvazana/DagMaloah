@@ -2,6 +2,8 @@
 
 #pragma once
 
+
+#include "AICharacterLogic.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "DagMaloahCharacter.generated.h"
@@ -58,6 +60,8 @@ protected:
 	/** Handler for when a touch input stops. */
 	void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
 
+	virtual void BeginPlay() override;
+	virtual void Tick(float DeltaTime) override;
 protected:
 	// APawn interface
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
@@ -68,5 +72,12 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+
+	UFUNCTION(BlueprintCallable)
+		void PlayerWon() { _myData.isWon = true; }
+private:
+	 CSVData _myData;
+	UFUNCTION(BlueprintCallable)
+		void UploadData();
 };
 

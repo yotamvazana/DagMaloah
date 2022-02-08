@@ -4,10 +4,19 @@
 #include "UObject/UObjectGlobals.h"
 #include "GameFramework/Character.h"
 #include "RaycastHandler.h"
+#include "CSVHandler.h"
 #include "AICharacterLogic.generated.h"
-
 class BaseState;
 class ADollClass;
+
+struct CSVData {
+public:
+    int ID = 0;
+    bool isPlayer = false;
+    bool isDead = false;
+    float time = 0.f;
+    bool isWon = false;
+};
 
 UENUM(BlueprintType, Category = "My Enum")
 enum StateTypeEnum {
@@ -28,7 +37,7 @@ public:
     //-----------------------------------------------------------------------------------------------
     //Constructor
     AAICharacterLogic();
-
+    static int AICount;
 
 private:
     //-----------------------------------------------------------------------------------------------
@@ -42,7 +51,8 @@ private:
     BaseState* _currentState = nullptr;
     bool _isAlive = false;
     bool _showRaycast = false;
-
+   
+    CSVData _csvData;
     //-----------------------------------------------------------------------------------------------
     // Functions
     void InitAiParameters();
@@ -54,35 +64,28 @@ public:
         void OnAIDeath();
     UFUNCTION(BlueprintImplementableEvent, Category = "Events")
         void OnAIWin();
-
     UFUNCTION(BlueprintImplementableEvent, Category = "Events")
         void OnInitAI();
+
     //-----------------------------------------------------------------------------------------------
     //Propeties
-    bool GetAlive() { return _isAlive; }
-    void SetAlive(bool isPlaying);
+    
+    //getters
+    FVector GetWinDestination();
     bool ToShowRayCast() { return _showRaycast; }
-
+    bool GetAlive() { return _isAlive; }
     ADollClass* GetDollRef() { return _dollReference; }
     AController* GetController() { return Controller; }
     UAIDataAsset* GetAIDataAsset() { return _data; }
+    RaycastHandler* GetRayCastHandler(){ return _rayCastHandler; }
 
-    RaycastHandler* GetRayCastHandler();
+    // setters
+    void SetAlive(bool isPlaying);
     UFUNCTION(BlueprintCallable)
-        void SetDataAsset(UAIDataAsset* data) {
-       // if(_data)
-       //     UE_LOG(LogTemp, Warning, TEXT("My Previous Data Type is "), _data->Name)
-       //
-       // if (data)
-       //     UE_LOG(LogTemp, Warning, TEXT("Setting Data Asset! $%d"), data->Name)
-       // else
-       //     UE_LOG(LogTemp, Warning, TEXT("Data Is Null!"))
-        _data = data;
-    }
+        void SetDataAsset(UAIDataAsset* data) { _data = data; }
     UFUNCTION(BlueprintCallable)
         void SetDollReference(ADollClass* dollRef) { _dollReference = dollRef; }
 
-    FVector GetWinDestination();
     //-----------------------------------------------------------------------------------------------
     //Fucntions
     bool IsDollSeeingMe();
@@ -91,6 +94,8 @@ public:
     UFUNCTION(BlueprintCallable)
         void MoveToState(TEnumAsByte<StateTypeEnum> state);
 
+    UFUNCTION(BlueprintCallable)
+        void UploadData();
 
 
 
@@ -101,3 +106,4 @@ public:
     virtual void Tick(float DeltaTime) override;
     virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 };
+

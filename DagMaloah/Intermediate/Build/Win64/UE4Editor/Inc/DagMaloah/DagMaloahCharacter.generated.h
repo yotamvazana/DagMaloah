@@ -13,10 +13,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define DAGMALOAH_DagMaloahCharacter_generated_h
 
-#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_SPARSE_DATA
-#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_RPC_WRAPPERS
-#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_INCLASS_NO_PURE_DECLS \
+#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_SPARSE_DATA
+#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execUploadData); \
+	DECLARE_FUNCTION(execPlayerWon);
+
+
+#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execUploadData); \
+	DECLARE_FUNCTION(execPlayerWon);
+
+
+#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesADagMaloahCharacter(); \
 	friend struct Z_Construct_UClass_ADagMaloahCharacter_Statics; \
@@ -25,7 +35,7 @@ public: \
 	DECLARE_SERIALIZER(ADagMaloahCharacter)
 
 
-#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_INCLASS \
+#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesADagMaloahCharacter(); \
 	friend struct Z_Construct_UClass_ADagMaloahCharacter_Statics; \
@@ -34,7 +44,7 @@ public: \
 	DECLARE_SERIALIZER(ADagMaloahCharacter)
 
 
-#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_STANDARD_CONSTRUCTORS \
+#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ADagMaloahCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ADagMaloahCharacter) \
@@ -47,7 +57,7 @@ private: \
 public:
 
 
-#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_ENHANCED_CONSTRUCTORS \
+#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ADagMaloahCharacter(ADagMaloahCharacter&&); \
@@ -58,32 +68,32 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ADagMaloahCharacter)
 
 
-#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(ADagMaloahCharacter, CameraBoom); } \
 	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(ADagMaloahCharacter, FollowCamera); }
 
 
-#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_9_PROLOG
-#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_GENERATED_BODY_LEGACY \
+#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_11_PROLOG
+#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_SPARSE_DATA \
-	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_RPC_WRAPPERS \
-	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_INCLASS \
-	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_STANDARD_CONSTRUCTORS \
+	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_SPARSE_DATA \
+	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_RPC_WRAPPERS \
+	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_INCLASS \
+	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_GENERATED_BODY \
+#define DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
-	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_SPARSE_DATA \
-	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_INCLASS_NO_PURE_DECLS \
-	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_12_ENHANCED_CONSTRUCTORS \
+	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_SPARSE_DATA \
+	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_INCLASS_NO_PURE_DECLS \
+	DagMaloah_Source_DagMaloah_DagMaloahCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
